@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pezzi di Fango</title>
+<meta name="description" content="Live riot map for Milano and Paris: affected streets, damaged and looted shops, arrests, damage and causes, with sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Layout: map-first. Two city maps share the opening screen, everything below is the evidence behind the red. */
+:root {
+  --bg: #eceef0;
+  --surface: #ffffff;
+  --surface-2: #f5f6f7;
+  --ink: #13171d;
+  --muted: #5a6370;
+  --line: #d5d9de;
+  --red: #d3221a;
+  --red-soft: rgba(211, 34, 26, .12);
+  --amber: #c97800;
+  --char: #2a2a2a;
+  --blue: #2457c5;
+  --ok: #2f7d4f;
+
+  --f-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --f-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --radius: 6px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1115; --surface: #161a20; --surface-2: #1c2129; --ink: #e6e9ed; --muted: #97a0ac;
+    --line: #2a313b; --red: #ff4d40; --red-soft: rgba(255, 77, 64, .14); --amber: #f0a020; --char: #d8d8d8;
+    --blue: #6f9bff; --ok: #58c487; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1115; --surface: #161a20; --surface-2: #1c2129; --ink: #e6e9ed; --muted: #97a0ac;
+  --line: #2a313b; --red: #ff4d40; --red-soft: rgba(255, 77, 64, .14); --amber: #f0a020; --char: #d8d8d8;
+  --blue: #6f9bff; --ok: #58c487; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 15px/1.55 var(--f-body);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 3px; }
+.wrap {
+  max-width: 1440px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+
+/* ---------- Top bar ---------- */
+.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 1000;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.top .wrap { display: flex; align-items: center; gap: 20px; padding-block: 10px; flex-wrap: wrap; }
+.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.wordmark {
+  font: 900 30px/1 var(--f-display); letter-spacing: .01em; text-transform: uppercase;
+}
+.wordmark .to { font-weight: 700; color: var(--muted); font-size: .7em; margin: 0 .12em; }
+.wordmark .pieces { color: var(--red); position: relative; }
+/* the "pieces" word is literally cracked */
+.wordmark .pieces span { display: inline-block; }
+.wordmark .pieces span:nth-child(2) { transform: translateY(2px) rotate(4deg); }
+.wordmark .pieces span:nth-child(3) { transform: translateY(-1px) rotate(-5deg); }
+.wordmark .pieces span:nth-child(5) { transform: translate(1px, 3px) rotate(7deg); }
+.tag { color: var(--muted); font-size: 12.5px; }
+nav.sections { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.sections a {
+  text-decoration: none; font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 99px; color: var(--muted);
+  transition: background-color 150ms ease, color 150ms ease;
+}
+@media (hover: hover) and (pointer: fine) { nav.sections a:hover { background: var(--surface); color: var(--ink); } }
+
+/* ---------- Status strip ---------- */
+.status { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-block: 14px 12px; }
+.chip {
+  display: flex; gap: 12px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 10px 14px; min-width: 0;
+}
+.pulse { width: 10px; height: 10px; border-radius: 50%; flex: none; margin-top: 6px; position: relative; background: var(--amber); }
+.pulse[data-level="active"] { background: var(--red); }
+.pulse[data-level="calm"] { background: var(--ok); }
+.pulse::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; background: inherit;
+  animation: ping 2.4s var(--ease-out) infinite;
+}
+@keyframes ping { from { transform: scale(1); opacity: .6; } to { transform: scale(3); opacity: 0; } }
+.chip b { font-weight: 700; }
+.chip .lvl { font: 600 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; padding: 3px 6px; border-radius: 3px; background: var(--surface-2); margin-left: 6px; vertical-align: 2px; }
+.chip p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.chip .since { font-size: 12px; color: var(--muted); }
+
+/* ---------- Maps ---------- */
+.maps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.mapcard { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.maphead { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.maphead h2 { font: 900 34px/1 var(--f-display); text-transform: uppercase; letter-spacing: .01em; }
+.maphead h2 small { font: 500 12px/1 var(--f-body); color: var(--muted); text-transform: none; letter-spacing: 0; margin-left: 8px; vertical-align: 6px; }
+.toggles { display: flex; gap: 6px; flex-wrap: wrap; }
+.tog {
+  font: 600 12px/1 var(--f-body); border: 1px solid var(--line); background: var(--surface-2); color: var(--muted);
+  padding: 7px 10px; border-radius: 99px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  transition: transform 140ms var(--ease-out), background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.tog:active { transform: scale(0.97); }
+.tog[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); background: var(--surface); }
+.tog i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.map { height: min(64vh, 620px); min-height: 380px; background: var(--surface-2); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; padding: 9px 14px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+.sw.zone { border-radius: 2px; background: var(--red); opacity: .55; }
+.sw.zone.lo { background: var(--amber); }
+.sw.looted { background: var(--red); }
+.sw.damaged { background: var(--amber); }
+.sw.burned { background: var(--char); box-shadow: 0 0 0 2px var(--red) inset; }
+.sw.march { background: var(--blue); }
+
+/* Avoid list */
+.avoid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+.avoid ol { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); min-width: 0; }
+.avoid li + li { border-top: 1px solid var(--line); }
+.avoid button {
+  all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 54px minmax(0, 1fr) auto; gap: 12px; align-items: baseline;
+  padding: 10px 14px; cursor: pointer; transition: background-color 150ms ease;
+}
+@media (hover: hover) and (pointer: fine) { .avoid button:hover { background: var(--surface-2); } }
+.avoid button:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
+.sev { font: 600 10.5px/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: 4px 0; text-align: center; border-radius: 3px; }
+.sev[data-s="3"] { background: var(--red); color: #fff; }
+.sev[data-s="2"] { background: var(--red-soft); color: var(--red); }
+.sev[data-s="1"] { background: var(--surface-2); color: var(--amber); }
+.avoid .nm { font-weight: 600; }
+.avoid .ds { display: block; color: var(--muted); font-size: 13px; }
+.avoid .dy { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.avoid .weak { color: var(--amber); font-size: 11px; font-weight: 600; margin-left: 6px; }
+.listhead { font: 600 11px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 14px 14px 8px; }
+
+/* ---------- Sections ---------- */
+section.block { padding-block: 48px 8px; scroll-margin-top: 70px; }
+.sechead { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.sechead h2 { font: 900 clamp(30px, 4vw, 44px)/1 var(--f-display); text-transform: uppercase; letter-spacing: .01em; }
+.sechead p { margin: 0; color: var(--muted); max-width: 62ch; font-size: 14px; }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; min-width: 0; }
+.panel h3 { font: 900 24px/1 var(--f-display); text-transform: uppercase; margin-bottom: 4px; }
+.panel .ev { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.stat { background: var(--surface); padding: 12px; min-width: 0; }
+.stat .k { font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.stat .v { font: 900 30px/1.05 var(--f-display); margin: 6px 0 4px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.stat .v.na { color: var(--muted); font-size: 20px; }
+.stat .d { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+.cite { font: 500 11px/1 var(--f-mono); color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted); margin-right: 6px; white-space: nowrap; }
+.cite.weak { color: var(--amber); border-color: var(--amber); }
+@media (hover: hover) and (pointer: fine) { .cite:hover { color: var(--ink); } }
+.srcs { display: block; margin-top: 6px; }
+
+/* Timeline */
+.tl { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 0; }
+.tl li { display: grid; grid-template-columns: 118px 14px minmax(0, 1fr); gap: 10px; padding-bottom: 12px; position: relative; }
+.tl .t { font: 500 12px/1.5 var(--f-mono); color: var(--muted); text-align: right; }
+.tl .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 5px; background: var(--blue); position: relative; z-index: 1; }
+.tl li::before { content: ""; position: absolute; left: 132px; top: 12px; bottom: -2px; width: 2px; background: var(--line); }
+.tl li:last-child::before { display: none; }
+.tl [data-p="tension"] .dot { background: var(--amber); }
+.tl [data-p="pieces"] .dot { background: var(--red); }
+.tl [data-p="after"] .dot { background: var(--muted); }
+.tl p { margin: 0; font-size: 14px; }
+.phases { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.phases span { display: inline-flex; gap: 6px; align-items: center; }
+
+/* Shops table */
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 14px; }
+th { text-align: left; font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--surface-2); }
+td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td .sub { display: block; color: var(--muted); font-size: 12.5px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font: 600 11px/1 var(--f-mono); letter-spacing: .05em; text-transform: uppercase; padding: 5px 8px; border-radius: 99px; white-space: nowrap; }
+.pill[data-s="looted"] { background: var(--red); color: #fff; }
+.pill[data-s="damaged"] { background: color-mix(in srgb, var(--amber) 18%, transparent); color: var(--amber); }
+.pill[data-s="burned"] { background: var(--char); color: var(--surface); }
+.disp { color: var(--amber); font-size: 11px; font-weight: 600; display: block; margin-top: 4px; }
+.locbtn { all: unset; cursor: pointer; font-size: 12px; font-weight: 600; color: var(--red); white-space: nowrap; }
+.locbtn:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+.locbtn[disabled] { color: var(--muted); cursor: default; font-weight: 400; }
+.counts { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; font-size: 13px; color: var(--muted); }
+.counts b { color: var(--ink); font-family: var(--f-mono); }
+
+/* Ages */
+.agebar { margin-top: 14px; }
+.agebar .lbl { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; margin-bottom: 6px; }
+.agebar .lbl b { font-family: var(--f-mono); }
+.bar { height: 22px; display: flex; border-radius: 3px; overflow: hidden; background: var(--surface-2); }
+.bar .minor { background: var(--red); }
+.bar .adult { background: color-mix(in srgb, var(--ink) 30%, transparent); }
+.bar div { transform-origin: left; animation: grow 700ms var(--ease-out) both; }
+@keyframes grow { from { transform: scaleX(0.001); } }
+.agekey { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 8px; }
+.agekey span { display: inline-flex; align-items: center; gap: 6px; }
+.agekey i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.note { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
+
+/* Causes */
+.causetally { display: grid; gap: 8px; }
+.ct { display: grid; grid-template-columns: 170px minmax(0, 1fr) 92px; gap: 12px; align-items: center; font-size: 13.5px; }
+.ct .track { height: 14px; display: flex; gap: 2px; }
+.ct .seg { height: 100%; border-radius: 2px; }
+.ct .seg.m { background: var(--red); }
+.ct .seg.p { background: var(--blue); }
+.ct .n { font: 500 12px/1 var(--f-mono); color: var(--muted); text-align: right; }
+.reports { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 12px; margin-top: 20px; }
+.report { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.report header { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.report .outlet { font-weight: 700; }
+.report .cty { font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.report p { margin: 0; font-size: 14px; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tags span { font-size: 11.5px; padding: 3px 8px; border-radius: 99px; background: var(--surface-2); color: var(--muted); }
+.report a.read { font-size: 13px; font-weight: 600; color: var(--red); text-decoration: none; margin-top: auto; }
+
+/* Cams */
+.cams { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 12px; }
+.cam {
+  display: flex; flex-direction: column; gap: 8px; text-decoration: none; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px; position: relative; min-width: 0;
+  transition: transform 160ms var(--ease-out), border-color 150ms ease;
+}
+.cam:active { transform: scale(0.98); }
+@media (hover: hover) and (pointer: fine) { .cam:hover { border-color: var(--ink); } }
+.cam .rec { font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; color: var(--red); display: inline-flex; align-items: center; gap: 6px; }
+.cam .rec::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--red); animation: blink 1.6s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+.cam .nm { font: 900 24px/1 var(--f-display); text-transform: uppercase; }
+.cam p { margin: 0; color: var(--muted); font-size: 13px; }
+.cam .meta { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); margin-top: auto; padding-top: 6px; }
+.cam .aff { color: var(--red); font-weight: 600; }
+.livelinks { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+.livelinks a { font-size: 13px; padding: 8px 12px; border-radius: 99px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; }
+.camgroup h3 { font: 900 22px/1 var(--f-display); text-transform: uppercase; margin: 22px 0 10px; }
+
+/* Folds */
+.folds { display: grid; gap: 8px; padding-block: 12px 0; }
+.fold { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); scroll-margin-top: 70px; }
+.fold > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 14px 16px;
+  border-radius: var(--radius); transition: background-color 150ms ease;
+}
+.fold > summary::-webkit-details-marker { display: none; }
+@media (hover: hover) and (pointer: fine) { .fold > summary:hover { background: var(--surface-2); } }
+.fold > summary:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
+.fh { display: flex; align-items: baseline; gap: 6px 16px; flex-wrap: wrap; min-width: 0; flex: 1; }
+.ft { font: 900 26px/1 var(--f-display); text-transform: uppercase; letter-spacing: .01em; }
+.teaser { font: 500 12.5px/1.4 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.teaser b { color: var(--red); font-weight: 600; }
+.chev { width: 10px; height: 10px; flex: none; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg) translate(-2px, -2px); transition: transform 200ms var(--ease-out); }
+.fold[open] > summary .chev { transform: rotate(225deg) translate(-2px, -2px); }
+.fold[open] > summary { border-bottom: 1px solid var(--line); border-radius: var(--radius) var(--radius) 0 0; }
+.fbody { padding: 16px; display: grid; gap: 14px; }
+.fold[open] .fbody { animation: unfold 220ms var(--ease-out); }
+@keyframes unfold { from { opacity: 0; transform: translateY(-4px); } }
+.fbody .intro { margin: 0; color: var(--muted); font-size: 14px; max-width: 70ch; }
+.fbody .avoid { margin-top: 0; }
+.fbody .tablebox, .fbody .panel, .fbody ol { background: var(--surface-2); }
+.fbody .stat { background: var(--surface-2); }
+.camgroup h3 { margin-top: 4px; }
+@media (prefers-reduced-motion: reduce) { .fold[open] .fbody { animation: none; } .chev { transition: none; } }
+
+/* Rag-doll corner */
+.pupazzo { padding-block: 28px 0; }
+.pz { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.pz-copy { padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pz-copy h2 { font: 900 30px/1 var(--f-display); text-transform: uppercase; }
+.pz-copy p { margin: 0; color: var(--muted); font-size: 14px; }
+.pz-count { display: flex; gap: 22px; margin-top: auto; padding-top: 8px; }
+.pz-count div { display: grid; }
+.pz-count b { font: 900 40px/1 var(--f-display); font-variant-numeric: tabular-nums; color: var(--red); }
+.pz-count span { font: 600 10.5px/1.4 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.pz-quip { font: 600 14px/1.3 var(--f-body); color: var(--ink); min-height: 1.3em; }
+.stage {
+  all: unset; box-sizing: border-box; display: block; width: 100%; cursor: pointer; position: relative;
+  background:
+    linear-gradient(to top, color-mix(in srgb, var(--ink) 9%, transparent) 0 14%, transparent 14%),
+    repeating-linear-gradient(90deg, transparent 0 46px, color-mix(in srgb, var(--ink) 4%, transparent) 46px 48px),
+    var(--surface-2);
+  -webkit-tap-highlight-color: transparent; touch-action: manipulation; user-select: none;
+}
+.stage:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
+.stage svg { display: block; width: 100%; height: auto; max-height: 300px; }
+.stage .hint { position: absolute; left: 12px; top: 10px; font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+#pz-arm { transform-box: view-box; transform-origin: 246px 104px; transform: rotate(150deg); }
+#pz-doll { transform-box: view-box; transform-origin: 140px 204px; }
+#pz-box { transform-box: view-box; transform-origin: 84px 145px; }
+#pz-sbam, #pz-stars { transform-box: view-box; opacity: 0; }
+#pz-sbam { transform-origin: 196px 112px; }
+#pz-stars { transform-origin: 138px 40px; }
+@media (hover: hover) and (pointer: fine) { .stage:hover #pz-doll { animation: wobble 900ms ease-in-out infinite; } }
+@keyframes wobble { 50% { transform: rotate(-2deg); } }
+@media (max-width: 760px) { .pz { grid-template-columns: minmax(0, 1fr); } .pz-copy { order: 2; } }
+@media (prefers-reduced-motion: reduce) { .stage:hover #pz-doll { animation: none; } }
+
+/* Footer */
+footer { padding-block: 56px 40px; color: var(--muted); font-size: 13px; }
+footer .cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; border-top: 1px solid var(--line); padding-top: 20px; }
+footer h4 { color: var(--ink); margin: 0 0 6px; font-size: 13px; }
+footer p { margin: 0 0 8px; }
+.emerg { font: 900 28px/1 var(--f-display); color: var(--red); }
+
+/* Leaflet theming */
+.leaflet-container { font: 13px/1.45 var(--f-body); background: var(--surface-2); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--ink); border-radius: var(--radius); box-shadow: 0 6px 24px rgba(0,0,0,.18); }
+.leaflet-popup-content { margin: 12px 14px; min-width: 200px; }
+.leaflet-popup-content h4 { margin: 0 0 4px; font: 900 20px/1.05 var(--f-display); text-transform: uppercase; }
+.leaflet-popup-content p { margin: 4px 0; }
+.leaflet-popup-content .pm { font: 500 11px/1.3 var(--f-mono); color: var(--muted); }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted) !important; }
+.leaflet-control-attribution a { color: var(--muted) !important; }
+.leaflet-bar a { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.cluster-ic { background: var(--red); color: #fff; font: 700 13px/28px var(--f-mono); width: 28px; height: 28px; border-radius: 50%; text-align: center; box-shadow: 0 0 0 4px var(--red-soft); }
+/* Quiet the busy OSM style so the red reads first; invert it for dark mode */
+.leaflet-tile-pane { filter: grayscale(.85) contrast(.95) brightness(1.04); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile-pane { filter: grayscale(1) invert(1) brightness(.82) contrast(.9); } }
+:root[data-theme="dark"] .leaflet-tile-pane { filter: grayscale(1) invert(1) brightness(.82) contrast(.9); }
+.zone-pulse { animation: zp 2.8s ease-in-out infinite; }
+@keyframes zp { 50% { fill-opacity: .34; } }
+
+.toast {
+  position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 99px; font-size: 13px; z-index: 2000;
+  transition: opacity 200ms ease, transform 200ms var(--ease-out);
+}
+.toast[hidden] { display: block !important; opacity: 0; transform: translate(-50%, 8px); pointer-events: none; }
+
+@media (max-width: 900px) {
+  .status, .maps, .avoid, .two { grid-template-columns: minmax(0, 1fr); }
+  .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  footer .cols { grid-template-columns: minmax(0, 1fr); }
+  nav.sections { margin-left: 0; }
+  .map { height: 58vh; }
+}
+@media (max-width: 520px) {
+  .wordmark { font-size: 26px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tl li { grid-template-columns: 82px 14px minmax(0, 1fr); }
+  .tl li::before { left: 96px; }
+  .ct { grid-template-columns: 110px minmax(0, 1fr) 70px; }
+  .avoid button { grid-template-columns: 46px minmax(0, 1fr); }
+  .avoid .dy { grid-column: 2; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pulse::after, .zone-pulse, .cam .rec::before { animation: none; }
+  .bar div { animation: none; }
+  .tog, .cam { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#map" aria-label="Pezzi di Fango, back to the map">
+      <span class="wordmark"><span class="pieces"><span>P</span><span>e</span><span>z</span><span>z</span><span>i</span></span><span class="to">di</span>Fango</span>
+    </a>
+    <span class="tag">Quando il corteo diventa saccheggio · Milano &amp; Paris</span>
+    <nav class="sections" aria-label="Sections">
+      <a href="#map">Map</a>
+      <a href="#where">Areas</a>
+      <a href="#numbers">Numbers</a>
+      <a href="#shops">Shops</a>
+      <a href="#arrests">Arrests</a>
+      <a href="#causes">Causes</a>
+      <a href="#live">Live cams</a>
+    </nav>
+  </div>
+</header>
+
+<main id="map">
+  <div class="wrap">
+    <div class="status" id="status" aria-live="polite"></div>
+
+    <div class="maps">
+      <article class="mapcard" data-city="milano">
+        <div class="maphead">
+          <h2>Milano<small id="milano-sub"></small></h2>
+          <div class="toggles" role="group" aria-label="Milano map layers"></div>
+        </div>
+        <div class="map" id="map-milano" role="region" aria-label="Map of affected areas in Milano"></div>
+        <div class="legend"></div>
+      </article>
+      <article class="mapcard" data-city="paris">
+        <div class="maphead">
+          <h2>Paris<small id="paris-sub"></small></h2>
+          <div class="toggles" role="group" aria-label="Paris map layers"></div>
+        </div>
+        <div class="map" id="map-paris" role="region" aria-label="Map of affected areas in Paris"></div>
+        <div class="legend"></div>
+      </article>
+    </div>
+  </div>
+
+  <div class="wrap folds">
+    <details class="fold" id="where">
+      <summary><span class="fh"><span class="ft">Where it hit</span><span class="teaser" id="t-where"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">Every affected street and square, worst first. Tap one to jump to it on the map.</p>
+        <div class="avoid">
+          <ol id="avoid-milano" aria-label="Milano areas to avoid"></ol>
+          <ol id="avoid-paris" aria-label="Paris areas to avoid"></ol>
+        </div>
+      </div>
+    </details>
+
+    <details class="fold" id="numbers">
+      <summary><span class="fh"><span class="ft">Numbers &amp; timeline</span><span class="teaser" id="t-numbers"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">The headline numbers for each city and how each day turned. Every figure links to the report it comes from. Where nobody has published a number, we say so.</p>
+        <div class="two" id="numbers-grid"></div>
+      </div>
+    </details>
+
+    <details class="fold" id="shops">
+      <summary><span class="fh"><span class="ft">Shops hit</span><span class="teaser" id="t-shops"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <div class="filters" role="group" aria-label="Filter shops">
+          <button class="tog" data-f="city" data-v="all" aria-pressed="true">Both cities</button>
+          <button class="tog" data-f="city" data-v="milano" aria-pressed="false">Milano</button>
+          <button class="tog" data-f="city" data-v="paris" aria-pressed="false">Paris</button>
+          <button class="tog" data-f="status" data-v="looted" aria-pressed="false"><i style="background:var(--red)"></i>Looted</button>
+          <button class="tog" data-f="status" data-v="damaged" aria-pressed="false"><i style="background:var(--amber)"></i>Damaged</button>
+          <button class="tog" data-f="status" data-v="burned" aria-pressed="false"><i style="background:var(--char)"></i>Burned</button>
+        </div>
+        <div class="tablebox">
+          <table>
+            <thead><tr><th>Business</th><th>City</th><th>Where</th><th>What happened</th><th>Day</th><th>Source</th><th></th></tr></thead>
+            <tbody id="shop-rows"></tbody>
+          </table>
+        </div>
+        <div class="counts" id="shop-counts"></div>
+      </div>
+    </details>
+
+    <details class="fold" id="arrests">
+      <summary><span class="fh"><span class="ft">Arrests &amp; ages</span><span class="teaser" id="t-arrests"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">Police and prosecutors have only split those held into minors and adults. No age bands or names are published here, and we don't add any.</p>
+        <div class="two" id="ages-grid"></div>
+      </div>
+    </details>
+
+    <details class="fold" id="causes">
+      <summary><span class="fh"><span class="ft">Why it happened</span><span class="teaser" id="t-causes"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">What the major outlets give as the causes. The bars count how many of the reports we read name each cause. That shows what coverage stresses, not what is true.</p>
+        <div class="panel">
+          <div class="causetally" id="tally"></div>
+          <div class="agekey" style="margin-top:14px"><span><i style="background:var(--red)"></i>Milano reports</span><span><i style="background:var(--blue)"></i>Paris reports</span></div>
+        </div>
+        <div class="reports" id="reports"></div>
+      </div>
+    </details>
+
+    <details class="fold" id="live">
+      <summary><span class="fh"><span class="ft">Watch it live</span><span class="teaser" id="t-live"></span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">Public webcams on or near the affected squares. Camera owners block embedding, so each one opens on the provider's site. Paris has no public camera on République, so we link to live streams instead.</p>
+        <div id="cams"></div>
+      </div>
+    </details>
+  </div>
+  <section class="wrap pupazzo" aria-labelledby="pz-title">
+    <div class="pz">
+      <div class="pz-copy">
+        <h2 id="pz-title">Giustizia di pezza</h2>
+        <p>A rag-doll looter, still holding his stolen shoebox. Click him and the officer hands out a cartoon spank. Nobody real gets hurt here.</p>
+        <p class="pz-quip" id="pz-quip" aria-live="polite">“Le ho trovate per terra, giuro.”</p>
+        <div class="pz-count">
+          <div><b id="pz-n">0</b><span>Sculacciate</span></div>
+          <div><b id="pz-box-n">0</b><span>Scatole restituite</span></div>
+        </div>
+      </div>
+      <button class="stage" id="pz-stage" type="button" aria-label="Spank the rag-doll looter">
+        <span class="hint">Click the doll</span>
+        <svg viewBox="0 0 360 230" aria-hidden="true">
+          <defs>
+            <pattern id="pz-burlap" width="4" height="4" patternUnits="userSpaceOnUse">
+              <rect width="4" height="4" fill="#c9a77a"/><path d="M0 2h4M2 0v4" stroke="#b8946a" stroke-width=".7"/>
+            </pattern>
+          </defs>
+          <ellipse cx="140" cy="206" rx="46" ry="6" fill="#000" opacity=".12"/>
+          <ellipse cx="262" cy="206" rx="40" ry="6" fill="#000" opacity=".12"/>
+
+          <!-- the rag doll -->
+          <g id="pz-doll">
+            <!-- legs: patched tracksuit -->
+            <rect x="121" y="158" width="16" height="42" rx="7" fill="#3d4654"/>
+            <rect x="143" y="158" width="16" height="42" rx="7" fill="#3d4654"/>
+            <path d="M129 162v34M151 162v34" stroke="#f2f2f2" stroke-width="2" stroke-dasharray="4 3"/>
+            <ellipse cx="127" cy="202" rx="13" ry="6" fill="#f4f4f4" stroke="#222" stroke-width="1.5"/>
+            <ellipse cx="153" cy="202" rx="13" ry="6" fill="#f4f4f4" stroke="#222" stroke-width="1.5"/>
+            <!-- seat of the trousers (target) -->
+            <path d="M150 150q22 0 22 16q0 10-14 12h-10z" fill="#4a5564"/>
+            <rect x="156" y="158" width="11" height="10" fill="#c0392b" opacity=".9"/>
+            <path d="M156 158h11v10h-11z" fill="none" stroke="#f5e6c8" stroke-width="1" stroke-dasharray="2 2"/>
+            <!-- hoodie body -->
+            <rect x="110" y="98" width="62" height="66" rx="20" fill="#24282f"/>
+            <path d="M118 132h46" stroke="#3a404a" stroke-width="10" stroke-linecap="round"/>
+            <rect x="148" y="108" width="14" height="13" rx="2" fill="url(#pz-burlap)"/>
+            <path d="M148 108h14v13h-14z" fill="none" stroke="#7a5b3a" stroke-width="1" stroke-dasharray="2 2"/>
+            <path d="M141 100v60" stroke="#59616d" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <!-- hood behind the head -->
+            <circle cx="138" cy="74" r="34" fill="#2c3139"/>
+            <!-- head (burlap) under balaclava -->
+            <circle cx="138" cy="76" r="27" fill="url(#pz-burlap)"/>
+            <circle cx="138" cy="76" r="26" fill="#121417"/>
+            <rect x="117" y="66" width="42" height="15" rx="7.5" fill="url(#pz-burlap)"/>
+            <!-- button eyes -->
+            <g fill="#e04e3a" stroke="#7a1c12" stroke-width="1"><circle cx="129" cy="73.5" r="5.5"/><circle cx="148" cy="73.5" r="5.5"/></g>
+            <g fill="#7a1c12"><circle cx="127.5" cy="72" r="1"/><circle cx="130.5" cy="75" r="1"/><circle cx="146.5" cy="72" r="1"/><circle cx="149.5" cy="75" r="1"/></g>
+            <!-- stitched mouth hole -->
+            <ellipse cx="138" cy="91" rx="6" ry="3.5" fill="url(#pz-burlap)"/>
+            <path d="M133 91h10" stroke="#7a1c12" stroke-width="1.2" stroke-dasharray="2 1.5"/>
+            <!-- arm + stolen shoebox -->
+            <g id="pz-box">
+              <rect x="58" y="128" width="50" height="32" rx="2" fill="#e8742a" stroke="#8a3d0e" stroke-width="1.5"/>
+              <rect x="56" y="124" width="54" height="8" rx="2" fill="#f08a3e" stroke="#8a3d0e" stroke-width="1.5"/>
+              <text x="78" y="149" text-anchor="middle" font-family="Big Shoulders Display, Arial Narrow, sans-serif" font-weight="900" font-size="11" fill="#fff">SCARPE</text>
+              <path d="M118 132l10 -6" stroke="#ddd" stroke-width="1"/><rect x="125" y="119" width="12" height="8" rx="1.5" fill="#fff" stroke="#999" transform="rotate(-25 131 123)"/>
+            </g>
+            <rect x="104" y="110" width="15" height="34" rx="7.5" fill="#24282f" transform="rotate(18 111 112)"/>
+            <circle cx="104" cy="141" r="7" fill="url(#pz-burlap)"/>
+          </g>
+
+          <!-- the officer -->
+          <g id="pz-cop">
+            <rect x="244" y="150" width="17" height="50" rx="6" fill="#1c2a4a"/>
+            <rect x="264" y="150" width="17" height="50" rx="6" fill="#1c2a4a"/>
+            <path d="M252 156v40M272 156v40" stroke="#c0392b" stroke-width="2.5"/>
+            <ellipse cx="249" cy="202" rx="13" ry="6" fill="#111"/>
+            <ellipse cx="275" cy="202" rx="13" ry="6" fill="#111"/>
+            <rect x="234" y="90" width="56" height="68" rx="14" fill="#22355e"/>
+            <rect x="234" y="140" width="56" height="8" fill="#111"/>
+            <rect x="258" y="140" width="9" height="8" fill="#d4af37"/>
+            <path d="M276 104l3 6 6 .5-4.5 4 1.5 6-6-3-6 3 1.5-6-4.5-4 6-.5z" fill="#d4af37"/>
+            <circle cx="262" cy="68" r="22" fill="#f0c9a0"/>
+            <circle cx="249" cy="66" r="2.2" fill="#222"/>
+            <path d="M240 78q8 -6 16 0" stroke="#5a3a22" stroke-width="5" stroke-linecap="round" fill="none"/>
+            <path d="M246 60q4 -3 8 0" stroke="#5a3a22" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <rect x="238" y="40" width="50" height="18" rx="5" fill="#1c2a4a"/>
+            <path d="M226 57q14 -6 36 -1v4h-36z" fill="#111"/>
+            <rect x="238" y="52" width="50" height="4" fill="#d4af37"/>
+            <circle cx="262" cy="47" r="4" fill="#d4af37"/>
+            <!-- swinging arm, pivots at the shoulder -->
+            <g id="pz-arm">
+              <rect x="238" y="100" width="17" height="70" rx="8.5" fill="#22355e"/>
+              <rect x="238" y="160" width="17" height="6" fill="#c9d3e8"/>
+              <ellipse cx="246.5" cy="180" rx="13" ry="11" fill="#f0c9a0" stroke="#c99a70" stroke-width="1.2"/>
+            </g>
+          </g>
+
+          <!-- impact -->
+          <g id="pz-sbam">
+            <path d="M196 84l8 16 17-8-6 17 18 4-16 9 9 15-17-4-3 18-10-14-13 12 1-18-18 2 12-13-14-11 18-3-5-17 15 8z" fill="#ffd23f" stroke="#d3221a" stroke-width="2"/>
+            <text x="196" y="118" text-anchor="middle" font-family="Big Shoulders Display, Impact, sans-serif" font-weight="900" font-size="17" fill="#d3221a">SBAM!</text>
+          </g>
+          <g id="pz-stars" fill="#ffd23f" stroke="#c98a00" stroke-width="1">
+            <path d="M118 36l2.5 5 5.5.8-4 3.8 1 5.4-5-2.6-5 2.6 1-5.4-4-3.8 5.5-.8z"/>
+            <path d="M156 30l2 4 4.5.6-3.2 3 .8 4.4-4.1-2.1-4.1 2.1.8-4.4-3.2-3 4.5-.6z"/>
+            <path d="M138 22l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z"/>
+          </g>
+        </svg>
+      </button>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="cols">
+    <div>
+      <h4>In danger right now?</h4>
+      <p class="emerg">Call 112</p>
+      <p>Works in Italy and France from any phone. This site is not an emergency service and can be minutes or hours behind events.</p>
+    </div>
+    <div>
+      <h4>How we build the map</h4>
+      <p>Red areas and pins come only from named news reports. Pins sit on the street or square, not the exact shop door. Amber-marked sources are single or weaker sources.</p>
+      <p id="checked"></p>
+    </div>
+    <div>
+      <h4>Updating it</h4>
+      <p>All incidents live in <span class="mono">data.js</span>. The open page re-reads that file every 60 seconds, so new zones, shops and numbers appear without a reload.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data.js"></script>
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const isDark = () => matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.dataset.theme !== "light" || document.documentElement.dataset.theme === "dark";
+  const fmt = n => typeof n === "number" ? n.toLocaleString("en-GB") : n;
+  const CITIES = ["milano", "paris"];
+  let D = window.P2P_DATA;
+  let lastJSON = JSON.stringify(D);
+
+  const cites = (keys = []) => keys.map(k => {
+    const s = D.SOURCES[k]; if (!s) return "";
+    return `<a class="cite${s.weak ? " weak" : ""}" href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)} (${esc(s.date)})">${esc(s.outlet)}</a>`;
+  }).join("");
+  const sevLabel = s => ({ 3: "Avoid", 2: "Hit", 1: "Low" }[s]);
+  const ago = iso => {
+    const h = Math.round((Date.now() - new Date(iso)) / 36e5);
+    if (h < 1) return "under an hour ago";
+    if (h < 48) return `${h} h ago`;
+    return `${Math.round(h / 24)} days ago`;
+  };
+
+  /* ---------- Status ---------- */
+  function renderStatus() {
+    $("#status").innerHTML = CITIES.map(c => {
+      const C = D.cities[c], s = C.status;
+      return `<div class="chip"><span class="pulse" data-level="${esc(s.level)}" aria-hidden="true"></span>
+        <div style="min-width:0"><b>${esc(C.name)}</b><span class="lvl">${esc(s.label)}</span>
+        <span class="since"> · last incident ${esc(ago(C.lastIncident))}</span><p>${esc(s.note)}</p></div></div>`;
+    }).join("");
+    const when = new Date(D.checkedAt).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" });
+    $("#checked").textContent = `Data last checked ${when}.`;
+    CITIES.forEach(c => $(`#${c}-sub`).textContent = D.cities[c].zones.length + " areas hit");
+  }
+
+  /* ---------- Maps ---------- */
+  const maps = {};
+  function tileURL() {
+    return "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+  }
+  function makeMap(c) {
+    const C = D.cities[c];
+    const m = L.map(`map-${c}`, { zoomControl: true, scrollWheelZoom: false, tap: true }).setView(C.center, C.zoom);
+    const tiles = L.tileLayer(tileURL(), {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(m);
+    m.on("focus", () => m.scrollWheelZoom.enable());
+    m.on("blur", () => m.scrollWheelZoom.disable());
+    const layers = { zones: L.layerGroup().addTo(m), shops: L.layerGroup().addTo(m), info: L.layerGroup().addTo(m) };
+    maps[c] = { map: m, tiles, layers, index: {} };
+  }
+
+  function popup(title, body, src, extra = "") {
+    return `<h4>${esc(title)}</h4>${extra}<p>${esc(body || "")}</p><p class="pm">${cites(src)}</p>`;
+  }
+
+  function drawCity(c) {
+    const C = D.cities[c], M = maps[c];
+    Object.values(M.layers).forEach(l => l.clearLayers());
+    M.index = {};
+    const red = css("--red"), amber = css("--amber"), blue = css("--blue"), char = css("--char"), surf = css("--surface");
+
+    C.zones.forEach((z, i) => {
+      const col = z.sev === 1 ? amber : red;
+      const op = { 3: .3, 2: .2, 1: .16 }[z.sev];
+      const dash = z.weak ? "6 6" : null;
+      const extra = `<p class="pm">${esc(sevLabel(z.sev).toUpperCase())} · ${esc(z.days)}${z.weak ? " · weak source" : ""}</p>`;
+      let lyr;
+      if (z.kind === "circle") {
+        lyr = L.circle(z.at, { radius: z.r, color: col, weight: z.sev === 3 ? 2 : 1.5, fillColor: col, fillOpacity: op, dashArray: dash, className: z.sev === 3 ? "zone-pulse" : "" });
+      } else {
+        lyr = L.polyline(z.path, { color: col, weight: z.sev === 3 ? 11 : 8, opacity: z.sev === 3 ? .6 : .45, lineCap: "round", dashArray: dash ? "2 14" : null });
+      }
+      lyr.bindPopup(popup(z.name, z.what, z.src, extra)).addTo(M.layers.zones);
+      M.index["z" + i] = lyr;
+    });
+
+    C.shops.forEach((s, i) => {
+      if (!s.at) return;
+      const fill = s.status === "looted" ? red : s.status === "burned" ? char : amber;
+      const mk = L.circleMarker(s.at, { radius: 7, color: s.status === "burned" ? red : surf, weight: 2, fillColor: fill, fillOpacity: 1 });
+      const extra = `<p class="pm">${esc(s.status.toUpperCase())}${s.disputed ? " (sources differ)" : ""} · ${esc(s.day)} · ${esc(s.where)}${s.approx ? " (street-level)" : ""}</p>`;
+      mk.bindPopup(popup(s.name, s.what || s.type, s.src, extra)).addTo(M.layers.shops);
+      M.index["s" + i] = mk;
+    });
+
+    if (C.cluster) {
+      const unplaced = C.shops.filter(s => !s.at && s.where.includes("République"));
+      const ic = L.divIcon({ className: "", html: `<div class="cluster-ic">${unplaced.length}</div>`, iconSize: [28, 28], iconAnchor: [14, 14] });
+      const mk = L.marker(C.cluster.at, { icon: ic, keyboard: true, title: C.cluster.name });
+      mk.bindPopup(`<h4>${esc(C.cluster.name)}</h4><p>${unplaced.map(s => esc(s.name)).join(", ")}.</p><p class="pm">Exact addresses not reported · ${cites(["afp"])}</p>`).addTo(M.layers.shops);
+      M.index.cluster = mk;
+    }
+
+    (C.points || []).forEach(p => {
+      const col = p.kind === "march" ? blue : css("--muted");
+      L.circleMarker(p.at, { radius: 6, color: surf, weight: 2, fillColor: col, fillOpacity: 1 })
+        .bindPopup(popup(p.name, p.what, p.src)).addTo(M.layers.info);
+    });
+    if (C.marchLink) L.polyline(C.marchLink, { color: blue, weight: 2, dashArray: "1 8", lineCap: "round" }).bindPopup(popup("Peaceful march", "Start and end points only. The route itself was not published.", ["aj"])).addTo(M.layers.info);
+  }
+
+  function buildMapChrome(c) {
+    const card = $(`.mapcard[data-city="${c}"]`);
+    const M = maps[c];
+    const defs = [["zones", "Areas", "var(--red)"], ["shops", "Shops", "var(--amber)"], ["info", c === "paris" ? "March & notes" : "Notes", "var(--blue)"]];
+    $(".toggles", card).innerHTML = defs.map(([k, l, col]) => `<button class="tog" data-layer="${k}" aria-pressed="true"><i style="background:${col}"></i>${l}</button>`).join("");
+    $(".toggles", card).addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      const on = b.getAttribute("aria-pressed") !== "true";
+      b.setAttribute("aria-pressed", on);
+      const l = M.layers[b.dataset.layer];
+      on ? l.addTo(M.map) : M.map.removeLayer(l);
+    });
+    $(".legend", card).innerHTML = `
+      <span><i class="sw zone"></i>Affected area</span><span><i class="sw zone lo"></i>Lighter / passed through</span>
+      <span><i class="sw looted"></i>Looted</span><span><i class="sw damaged"></i>Damaged</span>
+      ${c === "paris" ? '<span><i class="sw burned"></i>Burned</span><span><i class="sw march"></i>Peaceful march</span>' : '<span><i class="sw march" style="background:var(--muted)"></i>Note</span>'}
+      <span>Dashed = weak source</span>`;
+  }
+
+  function flyTo(c, key) {
+    const M = maps[c], lyr = M.index[key];
+    if (!lyr) return;
+    $(`#map-${c}`).scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+    const target = lyr.getBounds ? lyr.getBounds() : L.latLngBounds([lyr.getLatLng(), lyr.getLatLng()]);
+    M.map.flyToBounds(target, { maxZoom: 17, padding: [40, 40], duration: .6 });
+    setTimeout(() => lyr.openPopup(), 650);
+  }
+
+  function renderAvoid() {
+    CITIES.forEach(c => {
+      const C = D.cities[c];
+      const items = C.zones.map((z, i) => ({ z, i })).sort((a, b) => b.z.sev - a.z.sev);
+      $(`#avoid-${c}`).innerHTML = `<div class="listhead">${esc(C.name)} · where it hit, worst first</div>` + items.map(({ z, i }) =>
+        `<li><button data-city="${c}" data-key="z${i}"><span class="sev" data-s="${z.sev}">${sevLabel(z.sev)}</span>
+          <span><span class="nm">${esc(z.name)}</span>${z.weak ? '<span class="weak">weak source</span>' : ""}<span class="ds">${esc(z.what)}</span></span>
+          <span class="dy">${esc(z.days)}</span></button></li>`).join("");
+    });
+  }
+
+  /* ---------- Numbers + timeline ---------- */
+  function renderNumbers() {
+    const K = [["crowd", "Crowd"], ["arrests", "Arrests"], ["detained", "Held / in custody"], ["injured", "Injured"], ["damage", "Damage"], ["shops", "Named shops hit"]];
+    $("#numbers-grid").innerHTML = CITIES.map(c => {
+      const C = D.cities[c];
+      const stats = K.map(([k, l]) => {
+        const s = C.stats[k];
+        const v = s.value == null ? `<div class="v na">Not published</div>` : `<div class="v">${esc(fmt(s.value))}</div>`;
+        return `<div class="stat"><div class="k">${l}</div>${v}<div class="d">${esc(s.detail)}<span class="srcs">${cites(s.src)}</span></div></div>`;
+      }).join("");
+      const tl = C.timeline.map(e => `<li data-p="${e.phase}"><span class="t">${esc(e.t)}</span><span class="dot" aria-hidden="true"></span><p>${esc(e.text)} ${cites(e.src)}</p></li>`).join("");
+      return `<div class="panel"><h3>${esc(C.name)}</h3><p class="ev">${esc(C.event)}</p><div class="stats">${stats}</div>
+        <div class="phases"><span><i class="sw march"></i>Peaceful</span><span><i class="sw damaged"></i>Tension</span><span><i class="sw looted"></i>Violence &amp; looting</span><span><i class="sw" style="background:var(--muted)"></i>Aftermath</span></div>
+        <ol class="tl">${tl}</ol></div>`;
+    }).join("");
+  }
+
+  /* ---------- Shops ---------- */
+  const filt = { city: "all", status: null };
+  function renderShops() {
+    const rows = [];
+    CITIES.forEach(c => D.cities[c].shops.forEach((s, i) => rows.push({ ...s, c, i })));
+    const vis = rows.filter(r => (filt.city === "all" || r.c === filt.city) && (!filt.status || r.status === filt.status));
+    $("#shop-rows").innerHTML = vis.map(r => {
+      const key = r.at ? `s${r.i}` : (r.where.includes("République") ? "cluster" : null);
+      return `<tr><td><b>${esc(r.name)}</b><span class="sub">${esc(r.type)}</span></td>
+        <td>${esc(D.cities[r.c].name)}</td><td>${esc(r.where)}</td>
+        <td><span class="pill" data-s="${r.status}">${r.status}</span>${r.disputed ? '<span class="disp">Sources differ</span>' : ""}${r.what ? `<span class="sub" style="margin-top:4px">${esc(r.what)}</span>` : ""}</td>
+        <td class="mono" style="white-space:nowrap">${esc(r.day)}</td><td>${cites(r.src)}</td>
+        <td>${key ? `<button class="locbtn" data-city="${r.c}" data-key="${key}">Show on map</button>` : '<button class="locbtn" disabled>No location</button>'}</td></tr>`;
+    }).join("") || `<tr><td colspan="7" style="color:var(--muted)">No shops match these filters.</td></tr>`;
+    const n = st => rows.filter(r => r.status === st && (filt.city === "all" || r.c === filt.city)).length;
+    $("#shop-counts").innerHTML = `<span><b>${n("looted")}</b> looted</span><span><b>${n("damaged")}</b> damaged</span><span><b>${n("burned")}</b> burned</span><span>Rows marked “sources differ” are counted as looted.</span>`;
+  }
+  document.querySelector("#shops .filters").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    const f = b.dataset.f, v = b.dataset.v;
+    if (f === "city") filt.city = v; else filt.status = filt.status === v ? null : v;
+    document.querySelectorAll("#shops .filters button").forEach(x => {
+      x.setAttribute("aria-pressed", x.dataset.f === "city" ? x.dataset.v === filt.city : x.dataset.v === filt.status);
+    });
+    renderShops();
+  });
+
+  /* ---------- Ages ---------- */
+  function renderAges() {
+    $("#ages-grid").innerHTML = CITIES.map(c => {
+      const C = D.cities[c], A = C.ages;
+      const bars = A.groups.map(g => {
+        const pct = g.minorsPct ?? Math.round(g.minors / g.total * 100);
+        const minors = g.minors ?? Math.round(g.total * pct / 100);
+        return `<div class="agebar"><div class="lbl"><span>${esc(g.label)}</span><b>${pct}% minors</b></div>
+          <div class="bar" role="img" aria-label="${pct}% minors, ${100 - pct}% adults"><div class="minor" style="width:${pct}%"></div><div class="adult" style="width:${100 - pct}%"></div></div>
+          <div class="lbl" style="margin-top:6px;color:var(--muted)"><span class="mono">${g.minorsPct ? "≈" : ""}${fmt(minors)} under 18 of ${fmt(g.total)}</span><span>${cites(g.src)}</span></div></div>`;
+      }).join("");
+      return `<div class="panel"><h3>${esc(C.name)}</h3>
+        <div class="stats" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+          <div class="stat"><div class="k">Arrested</div><div class="v">${esc(fmt(C.stats.arrests.value))}</div><div class="d">${esc(C.stats.arrests.detail)}</div></div>
+          <div class="stat"><div class="k">Held / in custody</div><div class="v">${esc(fmt(C.stats.detained.value))}</div><div class="d">${esc(C.stats.detained.detail)}</div></div>
+        </div>
+        ${bars}
+        <div class="agekey"><span><i style="background:var(--red)"></i>Under 18</span><span><i style="background:color-mix(in srgb,var(--ink) 30%,transparent)"></i>18 and over</span></div>
+        <p class="note">${esc(A.note)}</p></div>`;
+    }).join("");
+  }
+
+  /* ---------- Causes ---------- */
+  function renderCauses() {
+    const T = D.causes.tags, R = D.causes.reports;
+    const rows = Object.keys(T).map(k => ({ k, m: R.filter(r => r.city === "milano" && r.tags.includes(k)).length, p: R.filter(r => r.city === "paris" && r.tags.includes(k)).length }))
+      .map(r => ({ ...r, n: r.m + r.p })).filter(r => r.n).sort((a, b) => b.n - a.n);
+    const max = R.length;
+    $("#tally").innerHTML = rows.map(r => `<div class="ct"><span>${esc(T[r.k])}</span>
+      <span class="track" aria-hidden="true">${r.m ? `<span class="seg m" style="width:${r.m / max * 100}%"></span>` : ""}${r.p ? `<span class="seg p" style="width:${r.p / max * 100}%"></span>` : ""}</span>
+      <span class="n">${r.n} of ${max}</span></div>`).join("");
+    $("#reports").innerHTML = R.map(r => {
+      const s = D.SOURCES[r.src];
+      return `<article class="report"><header><span class="outlet">${esc(s.outlet)}</span><span class="cty">${esc(D.cities[r.city].name)} · ${esc(s.date)}</span></header>
+        <p>${esc(r.summary)}</p><div class="tags">${r.tags.map(t => `<span>${esc(T[t])}</span>`).join("")}</div>
+        <a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">Read the report →</a></article>`;
+    }).join("");
+  }
+
+  /* ---------- Cams ---------- */
+  function renderCams() {
+    $("#cams").innerHTML = CITIES.map(c => `<div class="camgroup"><h3>${esc(D.cities[c].name)}</h3><div class="cams">` +
+      D.cams.filter(x => x.city === c).map(x => `<a class="cam" href="${esc(x.url)}" target="_blank" rel="noopener">
+        <span class="rec">LIVE</span><span class="nm">${esc(x.name)}</span><p>${esc(x.note)}</p>
+        <span class="meta"><span>${esc(x.provider)} ↗</span>${x.affected ? '<span class="aff">Affected area</span>' : ""}</span></a>`).join("") +
+      `</div><div class="livelinks">` + D.live.filter(x => x.city === c).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)} ↗</a>`).join("") + `</div></div>`).join("");
+  }
+
+  /* ---------- Wiring ---------- */
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-key][data-city]");
+    if (b && !b.disabled) flyTo(b.dataset.city, b.dataset.key);
+  });
+
+  /* One-line summaries shown on each closed fold */
+  function renderTeasers() {
+    const M = D.cities.milano, P = D.cities.paris;
+    const hot = c => D.cities[c].zones.filter(z => z.sev === 3).length;
+    const shops = CITIES.flatMap(c => D.cities[c].shops);
+    const n = st => shops.filter(s => s.status === st).length;
+    const top = Object.entries(D.causes.tags).map(([k, l]) => [l, D.causes.reports.filter(r => r.tags.includes(k)).length]).sort((a, b) => b[1] - a[1]).slice(0, 2).map(x => x[0]);
+    const T = {
+      where: `<b>${hot("milano") + hot("paris")}</b> no-go areas · ${M.zones.length + P.zones.length} affected in total`,
+      numbers: `Milano <b>${esc(M.stats.damage.value)}</b> damage · Paris <b>${esc(fmt(P.stats.crowd.value))}</b> marched`,
+      shops: `<b>${n("looted")}</b> looted · ${n("damaged")} damaged · ${n("burned")} burned`,
+      arrests: `Milano <b>${esc(fmt(M.stats.arrests.value))}</b> · Paris <b>${esc(fmt(P.stats.arrests.value))}</b> · mostly minors`,
+      causes: `Top: ${top.map(esc).join(", ")} · ${D.causes.reports.length} outlets`,
+      live: `<b>${D.cams.length}</b> cameras · Piazza Duomo live`
+    };
+    Object.entries(T).forEach(([k, v]) => { const el = $("#t-" + k); if (el) el.innerHTML = v; });
+  }
+  function openFold(id) {
+    const d = document.getElementById(id);
+    if (d && d.tagName === "DETAILS") d.open = true;
+  }
+  document.querySelector("nav.sections").addEventListener("click", e => {
+    const a = e.target.closest("a"); if (a) openFold(a.getAttribute("href").slice(1));
+  });
+  if (location.hash) openFold(location.hash.slice(1));
+  document.querySelectorAll(".fold").forEach(d => d.addEventListener("toggle", () => CITIES.forEach(c => maps[c] && maps[c].map.invalidateSize())));
+
+  function renderAll() {
+    renderStatus(); renderTeasers(); renderAvoid(); renderNumbers(); renderShops(); renderAges(); renderCauses(); renderCams();
+    CITIES.forEach(drawCity);
+  }
+
+  CITIES.forEach(c => { makeMap(c); buildMapChrome(c); });
+  renderAll();
+
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    CITIES.forEach(c => { maps[c].tiles.setUrl(tileURL()); drawCity(c); });
+  });
+
+  /* Live refresh: re-read data.js every 60 s (works from a server or straight from disk). */
+  const toast = $("#toast");
+  function say(msg) { toast.textContent = msg; toast.hidden = false; clearTimeout(say.t); say.t = setTimeout(() => toast.hidden = true, 3200); }
+  function poll() {
+    const s = document.createElement("script");
+    s.src = "data.js?t=" + Date.now();
+    s.onload = () => {
+      s.remove();
+      const j = JSON.stringify(window.P2P_DATA);
+      if (j !== lastJSON) { lastJSON = j; D = window.P2P_DATA; renderAll(); say("New information added to the map"); }
+    };
+    s.onerror = () => s.remove();
+    document.body.appendChild(s);
+  }
+  setInterval(() => { if (!document.hidden) poll(); }, 60000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) poll(); });
+  /* ---------- Giustizia di pezza ---------- */
+  (() => {
+    const stage = $("#pz-stage"); if (!stage || !stage.animate) return;
+    const arm = $("#pz-arm"), doll = $("#pz-doll"), box = $("#pz-box"), sbam = $("#pz-sbam"), stars = $("#pz-stars");
+    const quips = ["Ahia!", "Era già aperto!", "Le ho trovate per terra, giuro.", "Volevo solo provarle!", "Chiamo mia madre!", "Ok ok, le riporto!", "Non ero io, era il mio gemello.", "Ma è saldo!", "Scontrino? Quale scontrino?"];
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let n = 0, returned = 0, hasBox = true, qi = 2;
+    const T = 520;
+    stage.addEventListener("click", () => {
+      n++; $("#pz-n").textContent = n;
+      qi = (qi + 1 + Math.floor(Math.random() * (quips.length - 1))) % quips.length;
+      $("#pz-quip").textContent = "“" + quips[qi] + "”";
+      [arm, doll, sbam, stars].forEach(el => el.getAnimations().forEach(a => a.cancel()));
+      if (reduce) {
+        sbam.animate([{ opacity: 1 }, { opacity: 1, offset: .7 }, { opacity: 0 }], { duration: 700 });
+      } else {
+        // wind up, whack, recover (impact lands at 34%)
+        arm.animate([
+          { transform: "rotate(150deg)" },
+          { transform: "rotate(172deg)", offset: .2, easing: "cubic-bezier(.5,0,.9,.4)" },
+          { transform: "rotate(52deg)", offset: .34 },
+          { transform: "rotate(58deg)", offset: .48, easing: "cubic-bezier(.23,1,.32,1)" },
+          { transform: "rotate(150deg)" }
+        ], { duration: T });
+        doll.animate([
+          { transform: "none" },
+          { transform: "none", offset: .34 },
+          { transform: "translate(-4px,-22px) rotate(-9deg)", offset: .52, easing: "ease-in" },
+          { transform: "translate(-2px,0) scale(1.06,.92)", offset: .72, easing: "ease-out" },
+          { transform: "none" }
+        ], { duration: T + 120 });
+        sbam.animate([
+          { opacity: 0, transform: "scale(.6)" },
+          { opacity: 0, transform: "scale(.6)", offset: .33 },
+          { opacity: 1, transform: "scale(1.1) rotate(-6deg)", offset: .42, easing: "cubic-bezier(.23,1,.32,1)" },
+          { opacity: 1, transform: "scale(1) rotate(-4deg)", offset: .75 },
+          { opacity: 0, transform: "scale(.95) rotate(-4deg)" }
+        ], { duration: T + 260 });
+        stars.animate([
+          { opacity: 0, transform: "rotate(0)" },
+          { opacity: 0, offset: .4 },
+          { opacity: 1, transform: "rotate(25deg)", offset: .55 },
+          { opacity: 0, transform: "rotate(70deg)" }
+        ], { duration: T + 420 });
+      }
+      // every fifth spank the shoebox goes back to the shop, then he grabs another one
+      if (n % 5 === 0 && hasBox) {
+        hasBox = false; returned++; $("#pz-box-n").textContent = returned;
+        $("#pz-quip").textContent = "“Va bene, va bene… restituita.”";
+        box.animate([{ transform: "none", opacity: 1 }, { transform: "translate(-60px,-40px) rotate(-200deg)", opacity: 0 }],
+          { duration: reduce ? 1 : 600, delay: reduce ? 0 : 200, easing: "cubic-bezier(.33,0,.67,1)", fill: "forwards" });
+        setTimeout(() => {
+          box.getAnimations().forEach(a => a.cancel());
+          box.animate([{ transform: "translateY(-30px)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: reduce ? 1 : 260, easing: "cubic-bezier(.23,1,.32,1)" });
+          hasBox = true;
+        }, 2200);
+      }
+    });
+  })();
+
+  setInterval(renderStatus, 300000);
+})();
+</script>
+</body>
+</html>
