@@ -13,7 +13,7 @@
     not the exact shop door.
 */
 window.P2P_DATA = {
-  checkedAt: "2026-10-19T09:00:00+02:00",
+  checkedAt: "2026-10-19T22:15:00+02:00",
 
   SOURCES: {
     ilpost:   { outlet: "Il Post",        title: "Cosa è successo a Milano in due giorni di saccheggi e disordini", date: "2026-10-19", url: "https://www.ilpost.it/2026/10/19/milano-devastazioni-saccheggi-scontri-negozi-polizia-manifestazione/" },
@@ -27,6 +27,10 @@ window.P2P_DATA = {
     afp:      { outlet: "AFP via Yahoo",  title: "17 octobre : des pillages en marge des cortèges ont visé la grande distribution", date: "2026-10-18", url: "https://fr.news.yahoo.com/sport/17-octobre-pillages-marge-cort%C3%A8ges-071119570.html" },
     npr:      { outlet: "NPR",            title: "Macron vows to hold accountable those who 'sought to bring down the Republic'", date: "2026-10-17", url: "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france" },
     justice:  { outlet: "Ministère de la Justice", title: "Communiqué — Mouvement lycéen (bilan au 9 octobre)", date: "2026-10-09", url: "https://www.justice.gouv.fr/sites/default/files/2026-10/CP%20-%20Mouvement%20lyc%C3%A9en%20-%2009102026.pdf" },
+    ansa19:   { outlet: "ANSA",           title: "Chiudono i negozi del lusso a Milano. I pm: 'Una rara violenza'", date: "2026-10-19", url: "https://www.ansa.it/sito/notizie/cronaca/2026/10/19/chiudono-i-negozi-del-lusso-a-milano.-i-pm-una-rara-violenza_0d0d286f-7f8f-420a-9737-2566da0ba8a2.html" },
+    fi19:     { outlet: "franceinfo",     title: "Des couvre-feux partiels mis en place lundi soir à Paris, Lyon, Lille et Nice", date: "2026-10-19", url: "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/des-couvre-feux-partiels-mis-en-place-a-paris-lyon-lille-et-nice_8244511.html" },
+    lp350:    { outlet: "Le Parisien",    title: "Violences à Paris : 350 interpellations à Paris dimanche et dans la nuit", date: "2026-10-19", url: "https://www.leparisien.fr/paris-75/violences-a-paris-350-interpellations-a-paris-dimanche-et-dans-la-nuit-des-deferements-attendus-ce-lundi-19-10-2026-FBOFK535CNFHHDZR57C23BFEW4.php" },
+    lp1000:   { outlet: "Le Parisien",    title: "Violences à Paris : plus de 1 000 interpellations sur tout le week-end", date: "2026-10-19", url: "https://www.leparisien.fr/paris-75/violences-a-paris-plus-de-1-000-interpellations-sur-tout-le-week-end-des-comparutions-immediates-ce-lundi-19-10-2026-TOLNZYLH2VG47JMWJRYWTYAW2I.php" },
     kohen:    { outlet: "Kohen Avocats (law-firm blog)", title: "Dégâts à Paris après la manifestation du 17 octobre", date: "2026-10-18", url: "https://kohenavocats.fr/2026/10/18/degats-paris-manifestation-17-octobre-vitrine-brisee-commerce-pille-indemnisation-2026/", weak: true }
   },
 
@@ -34,25 +38,26 @@ window.P2P_DATA = {
     milano: {
       name: "Milano",
       center: [45.4668, 9.1880], zoom: 15,
-      status: { level: "watch", label: "Monitoring", note: "No new incidents in our data since the evening of Sun 18 Oct. Two nights in a row hit the centre, so treat weekend evenings around the Duomo as high risk." },
-      lastIncident: "2026-10-18T21:00:00+02:00",
+      status: { level: "watch", label: "Tense", note: "Mon 19 Oct: pushing and insults at a rally in Piazza Duomo, heavy police checks in the square. Luxury boutiques on Via Montenapoleone stayed shut. The mayor expects more trouble, so avoid the centre in the evening." },
+      lastIncident: "2026-10-19T18:00:00+02:00",
       event: "“Italia in piazza” against the cost of living, Sat 17 Oct; looting raids by youth groups, Sun 18 Oct",
 
       stats: {
         crowd:      { value: "Hundreds", detail: "Both days. Reports give no headcount; on Sunday youths moved in groups of 10–20.", src: ["ilpost", "sky"] },
-        arrests:    { value: 28, detail: "Arrests over the two days, plus 197 people identified.", src: ["ansa"] },
+        arrests:    { value: "≈50", detail: "Arrests over the weekend (ANSA, Mon 19 Oct). An earlier count was 28 arrests and 197 people identified. Charges include devastation and looting, which carry 8 to 15 years.", src: ["ansa19", "ansa"] },
         detained:   { value: "270+", detail: "72 stopped on Sat, more than 200 taken to the Questura on Sun.", src: ["ilpost", "sky"] },
         injured:    { value: null, detail: "No official total. A senior officer, Angelo De Simone (55), was hit on the head by a cobblestone.", src: ["sky", "ilpost"] },
-        damage:     { value: "€500,000+", detail: "First Confcommercio estimate for shops and bars. The city says it will compensate owners.", src: ["ansa"] },
+        damage:     { value: "€1M+", detail: "Smashed windows, broken fittings and stolen goods, not counting lost sales. Provisional and expected to rise. The first estimate on Sunday was €500,000.", src: ["ansa19", "ansa"] },
         shops:      { value: 13, detail: "Named businesses hit (listed below), plus about 10 more windows, tram shelters, outdoor seating and motorbikes.", src: ["ilpost", "sky"] }
       },
 
       ages: {
         groups: [
+          { label: "Whole weekend · arrested (as of Mon 19 Oct)", total: 50, minors: 39, approx: true, src: ["ansa19"] },
           { label: "Sat 17 Oct · arrested", total: 12, minors: 5, src: ["ilpost"] },
           { label: "Sun 18 Oct · taken to the Questura", total: 160, minorsPct: 80, src: ["sky", "ilpost"] }
         ],
-        note: "Police describe almost all of those held as “very young”. Sunday's group was mainly Italian-born and second-generation youths from the city's outskirts and the surrounding province. No age bands beyond minor / adult have been published.",
+        note: "Police describe almost all of those held as “very young”. Sunday's group was mainly Italian-born and second-generation youths from the city's outskirts and the surrounding province. Of about 50 arrested, the 11 adults are all aged 18 to 24; everyone else is under 18.",
         src: ["ilpost", "sky"]
       },
 
@@ -71,6 +76,7 @@ window.P2P_DATA = {
         { name: "Moscova · Largo La Foppa · Corso Garibaldi", kind: "line", path: [[45.4728, 9.1842], [45.4762, 9.1846], [45.4787, 9.1851], [45.4779, 9.1905]], sev: 2, days: "Sun", what: "Groups moved north into Brera and Moscova.", src: ["ilpost", "sky"] },
         { name: "Cinque Vie · Via Meravigli", kind: "line", path: [[45.4628, 9.1835], [45.4645, 9.1838], [45.4655, 9.1813]], sev: 1, days: "Sun", what: "Dispersal route.", src: ["ilpost", "sky"] },
         { name: "Piazzale Cadorna", kind: "circle", at: [45.4680, 9.1760], r: 70, sev: 1, days: "Sun", what: "Named in the live coverage as an area groups reached.", src: ["sky"] },
+        { name: "Via Montenapoleone", kind: "line", path: [[45.4660, 9.1958], [45.4676, 9.1945], [45.4697, 9.1924]], sev: 1, days: "Mon 19", what: "Hermès, Chanel, Pomellato and other luxury boutiques stayed closed for fear of more looting. Some windows were broken.", src: ["ansa19"] },
         { name: "Cimitero Monumentale", kind: "circle", at: [45.4855, 9.1795], r: 90, sev: 1, days: "Sat", what: "Part of Saturday's march went this way.", src: ["ilpost"] }
       ],
 
@@ -111,14 +117,14 @@ window.P2P_DATA = {
     paris: {
       name: "Paris",
       center: [48.8680, 2.3420], zoom: 13,
-      status: { level: "watch", label: "Monitoring", note: "No new incidents in our data since Sat 17 Oct. The student movement has been going since mid-September, so more marches are likely." },
-      lastIncident: "2026-10-17T23:00:00+02:00",
-      event: "National day of action against the cost of living, Sat 17 Oct, on top of a month of high-school protests",
+      status: { level: "active", label: "Curfew tonight", note: "Mon 19 Oct, 23:00–06:00: curfew for everyone around Place de la République and Les Halles (residents, workers, shopkeepers and emergency services exempt). Protests banned in several sectors from 20:00. New clashes and looting hit Paris on Sunday night." },
+      lastIncident: "2026-10-19T02:00:00+02:00",
+      event: "National day of action against the cost of living, Sat 17 Oct, then a second night of looting on Sun 18 Oct",
 
       stats: {
         crowd:      { value: "≈110,000", detail: "Paris march. Nationally 550,000 (Interior Ministry) or 800,000 (CGT). Unauthorised groups of several hundred to 1,000+.", src: ["ap", "f24"] },
-        arrests:    { value: 855, detail: "Paris region. About 1,800 nationwide.", src: ["ap", "aj"] },
-        detained:   { value: 557, detail: "Still in custody in Paris, per the Paris prosecutor.", src: ["f24"] },
+        arrests:    { value: "1,000+", detail: "Paris, whole weekend: 855 on Saturday, then 350 on Sunday and overnight. About 1,800 nationwide on Saturday alone.", src: ["lp1000", "ap", "lp350", "aj"] },
+        detained:   { value: 557, detail: "Still in custody in Paris after Saturday, per the Paris prosecutor. Fast-track trials began on Monday.", src: ["f24", "lp1000"] },
         injured:    { value: 15, detail: "13 police and gendarmes plus 2 firefighters in Paris. More than 500 nationwide. One marcher died of a heart attack; police do not link it to the violence.", src: ["ap", "f24"] },
         damage:     { value: "Hundreds of millions €", detail: "Retail federation figure, nationwide. No Paris-only figure yet. About 1,500 businesses hit nationwide.", src: ["f24", "afp"] },
         shops:      { value: 10, detail: "Named businesses hit (listed below). TF1-LCI counts about 615 shops looted or vandalised.", src: ["afp"] }
@@ -128,12 +134,13 @@ window.P2P_DATA = {
         groups: [
           { label: "High-school movement, all France · in custody to 9 Oct", total: 6877, minors: 5890, src: ["justice"] }
         ],
-        note: "Ages of the 855 arrested on 17 Oct have not been published. The figure shown is the Justice Ministry's count for the whole high-school movement before that day. It shows who has been arrested so far, not who was arrested on the 17th.",
+        note: "Ages of the 1,000+ arrested over the weekend have not been published. The figure shown is the Justice Ministry's count for the whole high-school movement before that day. It shows who has been arrested so far, not who was arrested on the 17th.",
         src: ["justice"]
       },
 
       zones: [
-        { name: "Place de la République", kind: "circle", at: [48.8674, 2.3636], r: 260, sev: 3, days: "Sat 17", what: "Epicentre. Cobblestones pulled up, shop fronts shattered, newsstand burned, Marianne statue covered in graffiti. At least eight chain stores looted around the square.", src: ["ap", "aj", "afp"] },
+        { name: "Place de la République", kind: "circle", at: [48.8674, 2.3636], r: 260, sev: 3, days: "Sat 17", what: "Epicentre. Cobblestones pulled up, shop fronts shattered, newsstand burned, Marianne statue covered in graffiti. At least eight chain stores looted around the square. Curfew 23:00–06:00 on Mon 19 Oct.", src: ["ap", "aj", "afp", "fi19"] },
+        { name: "Les Halles (curfew sector)", kind: "circle", at: [48.8622, 2.3470], r: 330, sev: 3, days: "Mon 19", what: "Curfew 23:00–06:00 for everyone except residents, workers, shopkeepers and emergency services. The exact boundary was published only as a map image, so this circle is approximate.", src: ["fi19"] },
         { name: "Grands Boulevards", kind: "line", path: [[48.8679, 2.3628], [48.8693, 2.3560], [48.8704, 2.3482], [48.8713, 2.3420], [48.8716, 2.3365]], sev: 2, days: "Sat 17", what: "Dozens of shops smashed and looted. Single source, with no street numbers given.", src: ["kohen"], weak: true },
         { name: "Le Marais · Paris Centre", kind: "circle", at: [48.8592, 2.3590], r: 520, sev: 2, days: "Sat 17", what: "AFP says the Paris Centre sector was “hit twice” by rioters. A law-firm blog says dozens of shops were looted in the Marais.", src: ["afp", "kohen"] },
         { name: "Champs-Élysées and side streets", kind: "line", path: [[48.8738, 2.2950], [48.8710, 2.3010], [48.8686, 2.3075], [48.8660, 2.3125]], sev: 1, days: "Sat 17", what: "Shops looted, according to a single low-reliability source. Not confirmed by the major outlets we checked.", src: ["kohen"], weak: true }
@@ -166,7 +173,9 @@ window.P2P_DATA = {
         { t: "Sat 17 · afternoon", phase: "peace", text: "About 110,000 march in Paris. One march runs from the 10th arrondissement town hall to Place de Clichy without trouble.", src: ["ap", "aj"] },
         { t: "Sat 17 · late afternoon", phase: "pieces", text: "Masked groups go for public buildings, then a second wave arrives “to steal and loot”. Stores around République are emptied and a Kawasaki dealership is set on fire.", src: ["ap", "afp"] },
         { t: "Sat 17 · night", phase: "after", text: "855 arrested in the Paris region. 13 officers and 2 firefighters injured.", src: ["ap"] },
-        { t: "Sun 18", phase: "after", text: "557 still in custody. Macron vows to hold accountable those who “sought to bring down the Republic”.", src: ["f24", "npr"] }
+        { t: "Sun 18", phase: "after", text: "557 still in custody. Macron vows to hold accountable those who “sought to bring down the Republic”.", src: ["f24", "npr"] },
+        { t: "Sun 18 · night", phase: "pieces", text: "A second night of clashes and looting in Paris. 350 more arrests on Sunday and overnight.", src: ["lp350", "fi19"] },
+        { t: "Mon 19", phase: "tension", text: "Curfew from 23:00 to 06:00 around République and Les Halles, and protests banned in several sectors from 20:00. Partial curfews also in Lyon, Lille and Nice.", src: ["fi19"] }
       ]
     }
   },

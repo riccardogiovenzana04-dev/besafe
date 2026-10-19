@@ -261,6 +261,23 @@ td .sub { display: block; color: var(--muted); font-size: 12.5px; }
 .livelinks a { font-size: 13px; padding: 8px 12px; border-radius: 99px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; }
 .camgroup h3 { font: 900 22px/1 var(--f-display); text-transform: uppercase; margin: 22px 0 10px; }
 
+/* Live headlines */
+.latest { display: flex; gap: 8px; align-items: baseline; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 13px; min-width: 0; }
+.latest .lbl { font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--red); white-space: nowrap; }
+.latest a { text-decoration: none; font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+@media (hover: hover) and (pointer: fine) { .latest a:hover { text-decoration: underline; } }
+.latest .when { color: var(--muted); white-space: nowrap; font-size: 12px; }
+.news { list-style: none; margin: 0; padding: 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius); }
+.news li + li { border-top: 1px solid var(--line); }
+.news a { display: grid; grid-template-columns: 76px minmax(0, 1fr) auto; gap: 4px 12px; padding: 10px 14px; text-decoration: none; align-items: baseline; transition: background-color 150ms ease; }
+@media (hover: hover) and (pointer: fine) { .news a:hover { background: var(--surface); } }
+.news .city { font: 600 10.5px/1.4 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.news .t { font-weight: 600; }
+.news .o { color: var(--muted); font-size: 12.5px; white-space: nowrap; text-align: right; }
+.news .new { font: 700 10px/1 var(--f-mono); color: #fff; background: var(--red); padding: 3px 5px; border-radius: 3px; margin-right: 6px; vertical-align: 1px; }
+.news-empty { padding: 14px; color: var(--muted); }
+@media (max-width: 520px) { .news a { grid-template-columns: minmax(0, 1fr); } .news .o { text-align: left; } }
+
 /* Folds */
 .folds { display: grid; gap: 8px; padding-block: 12px 0; }
 .fold { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); scroll-margin-top: 70px; }
@@ -387,6 +404,7 @@ footer p { margin: 0 0 8px; }
     <span class="tag">Quando il corteo diventa saccheggio · Milano &amp; Paris</span>
     <nav class="sections" aria-label="Sections">
       <a href="#map">Map</a>
+      <a href="#news">News</a>
       <a href="#where">Areas</a>
       <a href="#numbers">Numbers</a>
       <a href="#shops">Shops</a>
@@ -422,6 +440,19 @@ footer p { margin: 0 0 8px; }
   </div>
 
   <div class="wrap folds">
+    <details class="fold" id="news">
+      <summary><span class="fh"><span class="ft">Latest reports</span><span class="teaser" id="t-news">Loading headlines…</span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="fbody">
+        <p class="intro">Headlines from ANSA, Sky TG24, MilanoToday, Il Giorno, Le Parisien, Le Monde, franceinfo, Le Figaro, France 24, Al Jazeera and BBC, collected automatically every 15 minutes. Headlines appear as each outlet published them. The map itself is updated by hand once facts are confirmed.</p>
+        <div class="filters" role="group" aria-label="Filter headlines">
+          <button class="tog" data-n="all" aria-pressed="true">Both cities</button>
+          <button class="tog" data-n="milano" aria-pressed="false">Milano</button>
+          <button class="tog" data-n="paris" aria-pressed="false">Paris</button>
+        </div>
+        <ol class="news" id="news-list"><li class="news-empty">Loading headlines…</li></ol>
+      </div>
+    </details>
+
     <details class="fold" id="where">
       <summary><span class="fh"><span class="ft">Where it hit</span><span class="teaser" id="t-where"></span></span><span class="chev" aria-hidden="true"></span></summary>
       <div class="fbody">
@@ -643,12 +674,51 @@ footer p { margin: 0 0 8px; }
   };
 
   /* ---------- Status ---------- */
+  /* ---------- Live headlines (news.json, refreshed by GitHub Actions) ---------- */
+  let NEWS = null, newsFilter = "all";
+  const seenNews = new Set(), freshNews = new Set();
+  function latestLine(c) {
+    const n = NEWS && NEWS.items.find(i => i.city === c);
+    if (!n) return "";
+    return `<div class="latest"><span class="lbl">Latest</span><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="when">${esc(n.outlet)} · ${esc(ago(n.published))}</span></div>`;
+  }
+  function renderNews() {
+    if (!NEWS) return;
+    const list = NEWS.items.filter(i => newsFilter === "all" || i.city === newsFilter);
+    $("#news-list").innerHTML = list.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">
+        <span class="city">${esc(D.cities[i.city].name)}</span>
+        <span class="t">${freshNews.has(i.url) ? '<span class="new">NEW</span>' : ""}${esc(i.title)}</span>
+        <span class="o">${esc(i.outlet)} · ${esc(ago(i.published))}</span></a></li>`).join("")
+      || `<li class="news-empty">No headlines about unrest in the last 7 days.</li>`;
+    const newest = NEWS.items[0];
+    $("#t-news").innerHTML = newest ? `<b>${NEWS.items.length}</b> headlines in 7 days · newest ${esc(ago(newest.published))}` : "No headlines in the last 7 days";
+  }
+  async function loadNews() {
+    try {
+      const r = await fetch("news.json?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) return;
+      const data = await r.json();
+      const first = NEWS === null;
+      let added = 0;
+      data.items.forEach(i => { if (!seenNews.has(i.url)) { seenNews.add(i.url); if (!first) { freshNews.add(i.url); added++; } } });
+      NEWS = data;
+      renderNews(); renderStatus();
+      if (added) say(added === 1 ? "1 new report just came in" : `${added} new reports just came in`);
+    } catch (e) { /* opened straight from disk or offline: keep what we have */ }
+  }
+  document.querySelector("#news .filters").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    newsFilter = b.dataset.n;
+    document.querySelectorAll("#news .filters button").forEach(x => x.setAttribute("aria-pressed", x.dataset.n === newsFilter));
+    renderNews();
+  });
+
   function renderStatus() {
     $("#status").innerHTML = CITIES.map(c => {
       const C = D.cities[c], s = C.status;
       return `<div class="chip"><span class="pulse" data-level="${esc(s.level)}" aria-hidden="true"></span>
         <div style="min-width:0"><b>${esc(C.name)}</b><span class="lvl">${esc(s.label)}</span>
-        <span class="since"> · last incident ${esc(ago(C.lastIncident))}</span><p>${esc(s.note)}</p></div></div>`;
+        <span class="since"> · last incident ${esc(ago(C.lastIncident))}</span><p>${esc(s.note)}</p>${latestLine(c)}</div></div>`;
     }).join("");
     const when = new Date(D.checkedAt).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" });
     $("#checked").textContent = `Data last checked ${when}.`;
@@ -913,8 +983,9 @@ footer p { margin: 0 0 8px; }
     s.onerror = () => s.remove();
     document.body.appendChild(s);
   }
-  setInterval(() => { if (!document.hidden) poll(); }, 60000);
-  document.addEventListener("visibilitychange", () => { if (!document.hidden) poll(); });
+  setInterval(() => { if (!document.hidden) { poll(); loadNews(); } }, 60000);
+  loadNews();
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) { poll(); loadNews(); } });
   /* ---------- Giustizia di pezza ---------- */
   (() => {
     const stage = $("#pz-stage"); if (!stage || !stage.animate) return;
