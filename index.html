@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pezzi di Fango</title>
+<title>BESAFE</title>
 <meta name="description" content="Live riot map for Milano and Paris: affected streets, damaged and looted shops, arrests, damage and causes, with sources.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -307,36 +307,63 @@ td .sub { display: block; color: var(--muted); font-size: 12.5px; }
 
 /* Rag-doll corner */
 .pupazzo { padding-block: 28px 0; }
-.pz { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
-.pz-copy { padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pz {
+  display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.3fr) minmax(0, .95fr); grid-template-areas: "copy stage board";
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+}
+.pz-copy { grid-area: copy; padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
 .pz-copy h2 { font: 900 30px/1 var(--f-display); text-transform: uppercase; }
 .pz-copy p { margin: 0; color: var(--muted); font-size: 14px; }
-.pz-count { display: flex; gap: 22px; margin-top: auto; padding-top: 8px; }
+.pz-count { display: flex; gap: 18px; flex-wrap: wrap; margin-top: auto; padding-top: 8px; }
 .pz-count div { display: grid; }
-.pz-count b { font: 900 40px/1 var(--f-display); font-variant-numeric: tabular-nums; color: var(--red); }
+.pz-count b { font: 900 36px/1 var(--f-display); font-variant-numeric: tabular-nums; color: var(--red); }
 .pz-count span { font: 600 10.5px/1.4 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
-.pz-quip { font: 600 14px/1.3 var(--f-body); color: var(--ink); min-height: 1.3em; }
+.pz-quip { font: 600 14px/1.35 var(--f-body); color: var(--ink) !important; min-height: 2.7em; }
+.pz-quip .who { display: block; font: 600 10.5px/1.6 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--red); }
 .stage {
-  all: unset; box-sizing: border-box; display: block; width: 100%; cursor: pointer; position: relative;
+  grid-area: stage; all: unset; box-sizing: border-box; display: block; width: 100%; cursor: pointer; position: relative; min-width: 0;
   background:
     linear-gradient(to top, color-mix(in srgb, var(--ink) 9%, transparent) 0 14%, transparent 14%),
     repeating-linear-gradient(90deg, transparent 0 46px, color-mix(in srgb, var(--ink) 4%, transparent) 46px 48px),
     var(--surface-2);
-  -webkit-tap-highlight-color: transparent; touch-action: manipulation; user-select: none;
+  -webkit-tap-highlight-color: transparent; touch-action: manipulation; user-select: none; -webkit-user-select: none;
 }
 .stage:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
-.stage svg { display: block; width: 100%; height: auto; max-height: 300px; }
+.stage svg { display: block; width: 100%; height: auto; max-height: 320px; }
 .stage .hint { position: absolute; left: 12px; top: 10px; font: 600 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
-#pz-arm { transform-box: view-box; transform-origin: 246px 104px; transform: rotate(150deg); }
-#pz-doll { transform-box: view-box; transform-origin: 140px 204px; }
-#pz-box { transform-box: view-box; transform-origin: 84px 145px; }
-#pz-sbam, #pz-stars { transform-box: view-box; opacity: 0; }
-#pz-sbam { transform-origin: 196px 112px; }
-#pz-stars { transform-origin: 138px 40px; }
-@media (hover: hover) and (pointer: fine) { .stage:hover #pz-doll { animation: wobble 900ms ease-in-out infinite; } }
-@keyframes wobble { 50% { transform: rotate(-2deg); } }
-@media (max-width: 760px) { .pz { grid-template-columns: minmax(0, 1fr); } .pz-copy { order: 2; } }
-@media (prefers-reduced-motion: reduce) { .stage:hover #pz-doll { animation: none; } }
+.pz-board { grid-area: board; border-left: 1px solid var(--line); padding: 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pz-board h3 { margin: 0; font: 900 24px/1 var(--f-display); text-transform: uppercase; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.pz-board h3 small { font: 500 11px/1 var(--f-mono); color: var(--muted); text-transform: none; }
+.lb { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.lb li { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: baseline; padding: 6px 8px; border-radius: 4px; font-size: 14px; }
+.lb li:nth-child(odd) { background: var(--surface-2); }
+.lb .r { font: 600 12px/1 var(--f-mono); color: var(--muted); }
+.lb li:first-child .r { color: var(--red); }
+.lb .nm { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb .sc { font: 600 13px/1.3 var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; }
+.lb .sc small { display: block; color: var(--muted); font-weight: 400; font-size: 11px; }
+.lb li.me { box-shadow: inset 0 0 0 2px var(--red); }
+.lb li.lb-empty { display: block; color: var(--muted); font-size: 13px; background: none; }
+.lb-me { margin: 0; font-size: 13px; color: var(--muted); }
+.lb-me b { color: var(--ink); font-family: var(--f-mono); font-weight: 600; }
+.nameform { display: flex; gap: 6px; margin-top: auto; }
+.nameform input {
+  flex: 1; min-width: 0; font: 500 16px/1.2 var(--f-body); padding: 8px 10px; border-radius: 6px;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--ink);
+}
+.nameform button {
+  font: 600 13px/1 var(--f-body); padding: 0 14px; border-radius: 6px; border: 0; background: var(--ink); color: var(--bg);
+  cursor: pointer; transition: transform 140ms var(--ease-out);
+}
+.nameform button:active { transform: scale(0.97); }
+.nameerr { margin: 0; font-size: 12px; color: var(--red); min-height: 1.2em; }
+@media (max-width: 1100px) {
+  .pz { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); grid-template-areas: "copy stage" "board board"; }
+  .pz-board { border-left: 0; border-top: 1px solid var(--line); }
+}
+@media (max-width: 760px) {
+  .pz { grid-template-columns: minmax(0, 1fr); grid-template-areas: "stage" "copy" "board"; }
+}
 
 /* Footer */
 footer { padding-block: 56px 40px; color: var(--muted); font-size: 13px; }
@@ -364,6 +391,7 @@ footer p { margin: 0 0 8px; }
 .zone-pulse { animation: zp 2.8s ease-in-out infinite; }
 @keyframes zp { 50% { fill-opacity: .34; } }
 
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .toast {
   position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
   background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 99px; font-size: 13px; z-index: 2000;
@@ -398,8 +426,8 @@ footer p { margin: 0 0 8px; }
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#map" aria-label="Pezzi di Fango, back to the map">
-      <span class="wordmark"><span class="pieces"><span>P</span><span>e</span><span>z</span><span>z</span><span>i</span></span><span class="to">di</span>Fango</span>
+    <a class="brand" href="#map" aria-label="BESAFE, back to the map">
+      <span class="wordmark">Be<span class="pieces">Safe</span></span>
     </a>
     <span class="tag">Quando il corteo diventa saccheggio · Milano &amp; Paris</span>
     <nav class="sections" aria-label="Sections">
@@ -525,11 +553,12 @@ footer p { margin: 0 0 8px; }
     <div class="pz">
       <div class="pz-copy">
         <h2 id="pz-title">Giustizia di pezza</h2>
-        <p>A rag-doll looter, still holding his stolen shoebox. Click him and the officer hands out a cartoon spank. Nobody real gets hurt here.</p>
-        <p class="pz-quip" id="pz-quip" aria-live="polite">“Le ho trovate per terra, giuro.”</p>
+        <p>A rag-doll looter, still holding his stolen shoebox. Click him and the officer hands out a cartoon spank. Every 50 spanks earns a 112 bonus. Nobody real gets hurt here.</p>
+        <p class="pz-quip" id="pz-quip" aria-live="polite"><span class="who">Ladro</span>“Le ho trovate per terra, giuro.”</p>
         <div class="pz-count">
           <div><b id="pz-n">0</b><span>Sculacciate</span></div>
-          <div><b id="pz-box-n">0</b><span>Scatole restituite</span></div>
+          <div><b id="pz-b">0</b><span>Bonus 112</span></div>
+          <div><b id="pz-p">0</b><span>Punti</span></div>
         </div>
       </div>
       <button class="stage" id="pz-stage" type="button" aria-label="Spank the rag-doll looter">
@@ -604,7 +633,7 @@ footer p { margin: 0 0 8px; }
             <rect x="238" y="52" width="50" height="4" fill="#d4af37"/>
             <circle cx="262" cy="47" r="4" fill="#d4af37"/>
             <!-- swinging arm, pivots at the shoulder -->
-            <g id="pz-arm">
+            <g id="pz-arm" transform="rotate(150 246 104)">
               <rect x="238" y="100" width="17" height="70" rx="8.5" fill="#22355e"/>
               <rect x="238" y="160" width="17" height="6" fill="#c9d3e8"/>
               <ellipse cx="246.5" cy="180" rx="13" ry="11" fill="#f0c9a0" stroke="#c99a70" stroke-width="1.2"/>
@@ -612,17 +641,41 @@ footer p { margin: 0 0 8px; }
           </g>
 
           <!-- impact -->
-          <g id="pz-sbam">
+          <g id="pz-sbam" opacity="0">
             <path d="M196 84l8 16 17-8-6 17 18 4-16 9 9 15-17-4-3 18-10-14-13 12 1-18-18 2 12-13-14-11 18-3-5-17 15 8z" fill="#ffd23f" stroke="#d3221a" stroke-width="2"/>
             <text x="196" y="118" text-anchor="middle" font-family="Big Shoulders Display, Impact, sans-serif" font-weight="900" font-size="17" fill="#d3221a">SBAM!</text>
           </g>
-          <g id="pz-stars" fill="#ffd23f" stroke="#c98a00" stroke-width="1">
+          <g id="pz-stars" opacity="0" fill="#ffd23f" stroke="#c98a00" stroke-width="1">
             <path d="M118 36l2.5 5 5.5.8-4 3.8 1 5.4-5-2.6-5 2.6 1-5.4-4-3.8 5.5-.8z"/>
             <path d="M156 30l2 4 4.5.6-3.2 3 .8 4.4-4.1-2.1-4.1 2.1.8-4.4-3.2-3 4.5-.6z"/>
             <path d="M138 22l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z"/>
           </g>
+          <!-- swoosh trail of the swing -->
+          <g id="pz-swoosh" opacity="0" fill="none" stroke-linecap="round" stroke-dasharray="3 7">
+            <path d="M213 47A66 66 0 0 0 194 145" stroke="#8a93a3" stroke-width="2.5"/>
+            <path d="M208 38A76 76 0 0 0 186 151" stroke="#8a93a3" stroke-width="3"/>
+            <path d="M203 29.5A86 86 0 0 0 178 157" stroke="#8a93a3" stroke-width="2.5"/>
+          </g>
+          <!-- 112 bonus: siren on the cap and a banner -->
+          <circle id="pz-sirb" cx="250" cy="35" r="6" fill="#3d7bff" opacity="0"/>
+          <circle id="pz-sirr" cx="274" cy="35" r="6" fill="#ff3b30" opacity="0"/>
+          <g id="pz-bonus" opacity="0">
+            <rect x="86" y="8" width="188" height="40" rx="8" fill="#2457c5" stroke="#fff" stroke-width="2"/>
+            <text x="180" y="35" text-anchor="middle" font-family="Big Shoulders Display, Impact, sans-serif" font-weight="900" font-size="22" fill="#fff">BONUS 112! +112</text>
+          </g>
         </svg>
       </button>
+      <aside class="pz-board" aria-labelledby="lb-title">
+        <h3 id="lb-title">Classifica <small id="lb-count"></small></h3>
+        <ol class="lb" id="lb"><li class="lb-empty">Caricamento classifica…</li></ol>
+        <p class="lb-me" id="lb-me"></p>
+        <form class="nameform" id="pz-nameform" autocomplete="off">
+          <label for="pz-name" class="sr">Il tuo nome in classifica</label>
+          <input id="pz-name" name="nickname" maxlength="16" placeholder="Il tuo nome" enterkeyhint="done">
+          <button type="submit">Salva</button>
+        </form>
+        <p class="nameerr" id="pz-nameerr" aria-live="polite"></p>
+      </aside>
     </div>
   </section>
 </main>
@@ -988,64 +1041,206 @@ footer p { margin: 0 0 8px; }
   document.addEventListener("visibilitychange", () => { if (!document.hidden) { poll(); loadNews(); } });
   /* ---------- Giustizia di pezza ---------- */
   (() => {
-    const stage = $("#pz-stage"); if (!stage || !stage.animate) return;
-    const arm = $("#pz-arm"), doll = $("#pz-doll"), box = $("#pz-box"), sbam = $("#pz-sbam"), stars = $("#pz-stars");
-    const quips = ["Ahia!", "Era già aperto!", "Le ho trovate per terra, giuro.", "Volevo solo provarle!", "Chiamo mia madre!", "Ok ok, le riporto!", "Non ero io, era il mio gemello.", "Ma è saldo!", "Scontrino? Quale scontrino?"];
+    const stage = $("#pz-stage"); if (!stage) return;
+    const el = n => document.getElementById("pz-" + n);
+    const arm = el("arm"), doll = el("doll"), box = el("box"), sbam = el("sbam"), stars = el("stars"),
+      swoosh = el("swoosh"), bonus = el("bonus"), sirB = el("sirb"), sirR = el("sirr");
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    let n = 0, returned = 0, hasBox = true, qi = 2;
-    const T = 520;
-    stage.addEventListener("click", () => {
-      n++; $("#pz-n").textContent = n;
-      qi = (qi + 1 + Math.floor(Math.random() * (quips.length - 1))) % quips.length;
-      $("#pz-quip").textContent = "“" + quips[qi] + "”";
-      [arm, doll, sbam, stars].forEach(el => el.getAnimations().forEach(a => a.cancel()));
-      if (reduce) {
-        sbam.animate([{ opacity: 1 }, { opacity: 1, offset: .7 }, { opacity: 0 }], { duration: 700 });
-      } else {
-        // wind up, whack, recover (impact lands at 34%)
-        arm.animate([
-          { transform: "rotate(150deg)" },
-          { transform: "rotate(172deg)", offset: .2, easing: "cubic-bezier(.5,0,.9,.4)" },
-          { transform: "rotate(52deg)", offset: .34 },
-          { transform: "rotate(58deg)", offset: .48, easing: "cubic-bezier(.23,1,.32,1)" },
-          { transform: "rotate(150deg)" }
-        ], { duration: T });
-        doll.animate([
-          { transform: "none" },
-          { transform: "none", offset: .34 },
-          { transform: "translate(-4px,-22px) rotate(-9deg)", offset: .52, easing: "ease-in" },
-          { transform: "translate(-2px,0) scale(1.06,.92)", offset: .72, easing: "ease-out" },
-          { transform: "none" }
-        ], { duration: T + 120 });
-        sbam.animate([
-          { opacity: 0, transform: "scale(.6)" },
-          { opacity: 0, transform: "scale(.6)", offset: .33 },
-          { opacity: 1, transform: "scale(1.1) rotate(-6deg)", offset: .42, easing: "cubic-bezier(.23,1,.32,1)" },
-          { opacity: 1, transform: "scale(1) rotate(-4deg)", offset: .75 },
-          { opacity: 0, transform: "scale(.95) rotate(-4deg)" }
-        ], { duration: T + 260 });
-        stars.animate([
-          { opacity: 0, transform: "rotate(0)" },
-          { opacity: 0, offset: .4 },
-          { opacity: 1, transform: "rotate(25deg)", offset: .55 },
-          { opacity: 0, transform: "rotate(70deg)" }
-        ], { duration: T + 420 });
-      }
-      // every fifth spank the shoebox goes back to the shop, then he grabs another one
-      if (n % 5 === 0 && hasBox) {
-        hasBox = false; returned++; $("#pz-box-n").textContent = returned;
-        $("#pz-quip").textContent = "“Va bene, va bene… restituita.”";
-        box.animate([{ transform: "none", opacity: 1 }, { transform: "translate(-60px,-40px) rotate(-200deg)", opacity: 0 }],
-          { duration: reduce ? 1 : 600, delay: reduce ? 0 : 200, easing: "cubic-bezier(.33,0,.67,1)", fill: "forwards" });
-        setTimeout(() => {
-          box.getAnimations().forEach(a => a.cancel());
-          box.animate([{ transform: "translateY(-30px)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: reduce ? 1 : 260, easing: "cubic-bezier(.23,1,.32,1)" });
-          hasBox = true;
-        }, 2200);
-      }
-    });
-  })();
+    const BONUS_EVERY = 50, BONUS_PTS = 112;
+    const score = s => s + Math.floor(s / BONUS_EVERY) * BONUS_PTS;
 
+    /* ----- lines ----- */
+    const THIEF = [
+      "Ahia!", "Era già aperto!", "Le ho trovate per terra, giuro.", "Volevo solo provarle!", "Chiamo mia madre!",
+      "Non ero io, era il mio gemello.", "Ma è saldo!", "Scontrino? Quale scontrino?", "Pensavo fosse il Black Friday!",
+      "Le stavo portando in lavanderia.", "È per un unboxing, sono un influencer!", "Il mio avvocato è su TikTok!",
+      "Ho la ricevuta… nel cuore.", "Erano in offerta 3x2!", "Ho sbagliato uscita della metro.",
+      "Volevo solo vedere se c'era la mia taglia.", "Me l'ha detto il gruppo WhatsApp!", "Non è furto, è reso anticipato.",
+      "Domani ho l'interrogazione, pietà!", "Pensavo fosse un flash mob!", "Ho solo fatto una storia su Instagram!",
+      "Il passamontagna? Ho freddo alle orecchie.", "Sono un rider, stavo consegnando!", "Scusi, dov'è l'uscita?",
+      "Non lo faccio più… fino a sabato.", "Ahi! Il mio sedere ha diritto a un avvocato!", "Ma sono di pezza, non vale!",
+      "La scatola era vuota, giuro… quasi.", "Le restituisco se mi lascia il coupon.", "Ho le prove: il cartellino dice 'prendimi'!",
+      "Chiedo il time-out!", "Mi stanno cadendo le cuciture!", "Era un test di sicurezza del negozio!", "Le scarpe mi hanno seguito da sole!"
+    ];
+    const COP = [
+      "Lo scontrino, prego.", "Taglia 42? Anche la multa.", "Sculacciata a norma di legge.", "Il passamontagna non va più di moda.",
+      "Le scarpe tornano in negozio, tu torni a casa.", "Mamma è già stata avvisata.", "Prossima fermata: Questura.",
+      "Mani in alto… e la scatola giù.", "Questa la mettiamo a verbale.", "Si chiama 'reso obbligatorio'.",
+      "Ventitré anni di servizio per questo momento.", "Il reso è gratuito, la sculacciata pure.", "Niente cashback per te."
+    ];
+    let lastLine = "";
+    function setQuip(who, text) { $("#pz-quip").innerHTML = `<span class="who">${esc(who)}</span>“${esc(text)}”`; lastLine = text; }
+    function quip() {
+      const fromCop = Math.random() < 0.3, list = fromCop ? COP : THIEF;
+      let line; do { line = list[Math.floor(Math.random() * list.length)]; } while (line === lastLine);
+      setQuip(fromCop ? "Agente" : "Ladro", line);
+    }
+
+    /* ----- motion: SVG transform attributes, so it plays the same in every browser (iOS Safari included) ----- */
+    const E = { lin: t => t, out: t => 1 - Math.pow(1 - t, 3), in: t => t * t * t, io: t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2 };
+    const track = f => ms => {
+      if (ms <= f[0][0]) return f[0][1];
+      for (let i = 1; i < f.length; i++) if (ms <= f[i][0]) {
+        const p = E[f[i][2] || "lin"]((ms - f[i - 1][0]) / (f[i][0] - f[i - 1][0])), a = f[i - 1][1], b = f[i][1];
+        return Array.isArray(a) ? a.map((v, k) => v + (b[k] - v) * p) : a + (b - a) * p;
+      }
+      return f[f.length - 1][1];
+    };
+    // one spank: wind up (slow), strike (fast, impact at 380 ms), hold, swing back
+    const T = {
+      arm: track([[0, 150], [260, 178, "out"], [380, 50, "in"], [520, 56, "out"], [860, 150, "io"]]),
+      doll: track([[0, [0, 0, 0, 1, 1]], [380, [0, 0, 0, 1, 1]], [560, [-4, -24, -10, 1, 1], "out"], [700, [-2, 0, 0, 1.07, .9], "in"], [860, [0, 0, 0, 1, 1], "out"]]),
+      sbam: track([[370, [0, .6, 0]], [450, [1, 1.15, -6], "out"], [760, [1, 1, -4]], [900, [0, .95, -4]]]),
+      stars: track([[420, [0, 0]], [560, [1, 25], "out"], [1000, [0, 70]]]),
+      swoosh: track([[280, 0], [380, .9], [580, 0, "out"]]),
+      boxOut: track([[0, [0, 0, 0, 1]], [200, [0, 0, 0, 1]], [800, [-60, -40, -200, 0], "io"]]),
+      boxIn: track([[0, [0, -30, 0, 0]], [260, [0, 0, 0, 1], "out"]]),
+      bonus: track([[0, [0, .7]], [160, [1, 1.08], "out"], [260, [1, 1]], [1500, [1, 1]], [1800, [0, 1]]])
+    };
+    let t0 = -1e9, boxAt = -1e9, bonusAt = -1e9, raf = 0, onScreen = true;
+    const at = (node, k, v) => node.setAttribute(k, v);
+    function frame(now) {
+      raf = 0;
+      const ms = now - t0;
+      at(arm, "transform", `rotate(${(ms < 900 ? T.arm(ms) : 150 + Math.sin(now / 420) * 5).toFixed(2)} 246 104)`);
+      const [dx, dy, r, sx, sy] = T.doll(ms);
+      at(doll, "transform", `translate(${dx} ${dy}) translate(140 204) rotate(${r}) scale(${sx} ${sy}) translate(-140 -204)`);
+      const [so, ss, sr] = T.sbam(ms);
+      at(sbam, "opacity", so); at(sbam, "transform", `translate(196 112) rotate(${sr}) scale(${ss}) translate(-196 -112)`);
+      const [to, tr] = T.stars(ms);
+      at(stars, "opacity", to); at(stars, "transform", `rotate(${tr} 138 40)`);
+      at(swoosh, "opacity", T.swoosh(ms));
+      // every fifth spank the shoebox flies back to the shop, then he grabs another
+      const bm = now - boxAt;
+      const bx = bm < 800 ? T.boxOut(bm) : bm < 2200 ? [0, 0, 0, 0] : T.boxIn(bm - 2200);
+      at(box, "transform", `translate(${bx[0]} ${bx[1]}) rotate(${bx[2]} 84 145)`); at(box, "opacity", bx[3]);
+      // 112 bonus: banner pops, siren flashes blue/red
+      const qm = now - bonusAt, on = qm < 1800;
+      const [bo, bs] = on ? T.bonus(qm) : [0, 1];
+      at(bonus, "opacity", bo); at(bonus, "transform", `translate(180 28) scale(${bs}) translate(-180 -28)`);
+      const flip = Math.floor(qm / 140) % 2;
+      at(sirB, "opacity", on ? (flip ? 1 : .25) : 0); at(sirR, "opacity", on ? (flip ? .25 : 1) : 0);
+      if (onScreen) wake();
+    }
+    // some in-app browsers stall animation frames; a timer keeps the swing going there
+    let guard = 0;
+    function wake() {
+      if (raf || !onScreen || reduce) return;
+      raf = requestAnimationFrame(frame);
+      clearTimeout(guard);
+      guard = setTimeout(() => { if (raf) { cancelAnimationFrame(raf); raf = 0; frame(performance.now()); } }, 60);
+    }
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(([e]) => { onScreen = e.isIntersecting; wake(); }).observe(stage);
+    }
+    wake();
+    // reduced motion: no swinging, just the SBAM and the bonus banner, shown still
+    let still;
+    function stillFlash(node, ms) { at(node, "opacity", 1); clearTimeout(still); still = setTimeout(() => at(node, "opacity", 0), ms); }
+
+    /* ----- your score (kept on this device, confirmed by the server) ----- */
+    const store = {
+      get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+      set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private mode */ } }
+    };
+    let id = store.get("besafe.id");
+    if (!id) {
+      id = window.crypto && crypto.randomUUID ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2, 12));
+      store.set("besafe.id", id);
+    }
+    let name = store.get("besafe.name") || "";
+    let confirmed = +store.get("besafe.spanks") || 0;   // total the server has accepted
+    let pending = +store.get("besafe.pending") || 0;    // clicks not sent yet
+    let inFlight = 0, rank = null;
+    const total = () => confirmed + inFlight + pending;
+    $("#pz-name").value = name;
+
+    function renderMe() {
+      const s = total(), next = BONUS_EVERY - (s % BONUS_EVERY);
+      $("#pz-n").textContent = fmt(s);
+      $("#pz-b").textContent = fmt(Math.floor(s / BONUS_EVERY));
+      $("#pz-p").textContent = fmt(score(s));
+      $("#lb-me").innerHTML = name
+        ? `Giochi come <b>${esc(name)}</b>${rank ? ` · sei <b>#${rank}</b>` : ""} · bonus 112 tra <b>${next}</b>`
+        : `Scegli un nome per entrare in classifica. Bonus 112 tra <b>${next}</b> sculacciate.`;
+    }
+
+    stage.addEventListener("click", () => {
+      pending++; store.set("besafe.pending", pending);
+      const s = total();
+      t0 = performance.now(); wake();
+      if (reduce) stillFlash(sbam, 700);
+      if (s % BONUS_EVERY === 0) {
+        bonusAt = performance.now();
+        if (reduce) stillFlash(bonus, 1800);
+        setQuip("Agente", `Chiamata al 112! Bonus +${BONUS_PTS} punti.`);
+      } else if (s % 5 === 0 && performance.now() - boxAt > 2500) {
+        boxAt = performance.now();
+        setQuip("Ladro", "Va bene, va bene… la riporto.");
+      } else quip();
+      renderMe();
+    });
+
+    /* ----- leaderboard (Vercel function + Redis) ----- */
+    async function flush() {
+      if (!name || !pending || inFlight) return;
+      const n = Math.min(pending, 30);
+      pending -= n; inFlight = n; store.set("besafe.pending", pending);
+      try {
+        const r = await fetch("/api/spank", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id, name, n }) });
+        if (!r.ok) throw new Error(String(r.status));
+        const j = await r.json();
+        confirmed = j.spanks; rank = j.rank; store.set("besafe.spanks", confirmed);
+      } catch (e) {
+        pending += n; store.set("besafe.pending", pending);   // try again on the next round
+      }
+      inFlight = 0; renderMe();
+    }
+    let boardOnScreen = true;
+    async function loadBoard() {
+      try {
+        const r = await fetch("/api/leaderboard?id=" + encodeURIComponent(id), { cache: "no-store" });
+        if (!r.ok) throw new Error(String(r.status));
+        const j = await r.json();
+        if (j.me) {
+          if (j.me.spanks > confirmed) { confirmed = j.me.spanks; store.set("besafe.spanks", confirmed); }
+          rank = j.me.rank;
+          if (!name && j.me.name) { name = j.me.name; store.set("besafe.name", name); $("#pz-name").value = name; }
+        }
+        $("#lb").innerHTML = j.top.length ? j.top.map((p, i) => `<li${p.me ? ' class="me"' : ""}>
+            <span class="r">${i + 1}</span><span class="nm">${esc(p.name)}</span>
+            <span class="sc">${fmt(p.score)} pt<small>${fmt(p.spanks)} sculacciate · ${fmt(Math.floor(p.spanks / BONUS_EVERY))}× 112</small></span></li>`).join("")
+          : `<li class="lb-empty">Nessuno in classifica. Il primo posto è libero.</li>`;
+        $("#lb-count").textContent = j.players === 1 ? "1 giocatore" : `${fmt(j.players)} giocatori`;
+      } catch (e) {
+        $("#lb").innerHTML = `<li class="lb-empty">Classifica non raggiungibile in questo momento. Le tue sculacciate restano salvate e partono appena torna.</li>`;
+      }
+      renderMe();
+    }
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(([e]) => { boardOnScreen = e.isIntersecting; if (boardOnScreen) loadBoard(); }).observe($("#lb"));
+    }
+    setInterval(flush, 2000);
+    setInterval(() => { if (boardOnScreen && !document.hidden) loadBoard(); }, 15000);
+
+    // nicknames: short, plain, and nothing offensive (the server checks again)
+    const BAD = /(cazz|merd|puttan|troia|stronz|vaffanc|negr|frocio|ricchion|finocch|terron|zingar|coglion|fuck|shit|nigg|fag|cunt|bitch|whore|pute|salope|connard|encul|nique|bougnoul|hitler|nazi|maranza|http|www)/;
+    const squash = v => v.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .replace(/0/g, "o").replace(/1/g, "i").replace(/3/g, "e").replace(/4/g, "a").replace(/5/g, "s").replace(/[ _.\-]/g, "");
+    $("#pz-nameform").addEventListener("submit", e => {
+      e.preventDefault();
+      const v = $("#pz-name").value.trim().replace(/\s+/g, " ");
+      const err = $("#pz-nameerr");
+      if (!/^[\p{L}\p{N} _.\-]{3,16}$/u.test(v)) { err.textContent = "Usa da 3 a 16 lettere o numeri."; return; }
+      if (BAD.test(squash(v))) { err.textContent = "Questo nome non va bene, scegline un altro."; return; }
+      err.textContent = ""; name = v; store.set("besafe.name", name);
+      renderMe(); flush().then(loadBoard);
+      say("Nome salvato");
+    });
+
+    renderMe();
+    loadBoard();
+  })();
   setInterval(renderStatus, 300000);
 })();
 </script>

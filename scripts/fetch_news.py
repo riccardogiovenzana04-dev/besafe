@@ -16,7 +16,7 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "news.json"
 KEEP_DAYS = 7
 PER_CITY = 40
-UA = "Mozilla/5.0 (compatible; PezziDiFango/1.0; +https://github.com/riccardogiovenzana04-dev/pezzi-di-fango)"
+UA = "Mozilla/5.0 (compatible; BESAFE/1.0; +https://github.com/riccardogiovenzana04-dev/besafe)"
 
 IT = r"scontr|saccheg|guerriglia|disordin|vetrine|devastaz|corteo|cortei|manifestaz|caro ?vita|black bloc|teppist|tafferugl|cariche|maranza|lacrimogen"
 FR = r"émeute|emeute|pillag|casseur|manifestation|manifestant|violences urbaines|black bloc|vie chère|mouvement lycéen|lycéens|blocage|lacrymog|interpellations"
