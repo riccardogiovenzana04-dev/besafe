@@ -1,12 +1,47 @@
 {
- "updatedAt": "2026-10-21T15:29:44+00:00",
+ "updatedAt": "2026-10-21T16:10:05+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "EN DIRECT, manifestations du 17 octobre : nouveaux couvre-feux mercredi soir ; Sébastien Lecornu recevra jeudi les maires de Paris, Marseille et Lyon",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/live/2026/10/21/en-direct-manifestations-du-17-octobre-nouveaux-couvre-feux-mercredi-soir-sebastien-lecornu-recevra-jeudi-les-maires-de-paris-marseille-et-lyon_6795855_3224.html",
+   "published": "2026-10-21T18:06:20+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "La préfecture de police interdit la manifestation des lycéens et étudiants franciliens prévue jeudi à Paris",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-prefecture-de-police-interdit-la-manifestation-des-lyceens-et-etudiants-franciliens-prevue-jeudi-a-paris_8247574.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-21T17:48:34+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Scontri a Milano, il più giovane identificato ha 11 anni",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/10/21/scontri-a-milano-il-piu-giovane-identificato-ha-11-anni_4e2a19cc-a8c4-42ff-82eb-9aeeda6ec26f.html",
+   "published": "2026-10-21T17:40:26+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Dopo gli scontri convocata dagli studenti un'assemblea aperta a Milano",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/10/21/dopo-gli-scontri-convocata-dagli-studenti-unassemblea-aperta-a-milano_4e650062-2c53-4916-a820-20cfe425d21d.html",
+   "published": "2026-10-21T17:39:27+02:00"
+  },
   {
    "city": "paris",
    "title": "Violences urbaines : un nouveau couvre-feu instauré mercredi soir dans plusieurs quartiers de Paris",
    "outlet": "Le Figaro",
    "url": "https://www.lefigaro.fr/actualite-france/violences-urbaines-un-nouveau-couvre-feu-instaure-mercredi-soir-dans-plusieurs-quartiers-de-paris-20261021",
-   "published": "2026-10-21T17:06:42+02:00"
+   "published": "2026-10-21T17:38:19+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation lycéenne : \"On a l'impression qu'ils se moquent tous de nous, qu'ils nous méprisent\", lance le président de l'organisation Les Lycéens !",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/mobilisation-lyceenne-on-a-l-impression-qu-ils-se-moquent-tous-de-nous-qu-ils-nous-meprisent-lance-le-president-de-l-organisation-les-lyceens_8247526.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-21T17:11:31+02:00"
   },
   {
    "city": "paris",
@@ -31,6 +66,167 @@
   },
   {
    "city": "paris",
+   "title": "Mobilisation du 17 octobre à Paris : décès, rumeurs, enquêtes… le point sur les quatre « drames » en marge des violences urbaines",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-17-octobre-a-paris-deces-rumeurs-enquetes-le-point-sur-les-quatre-drames-en-marge-des-violences-urbaines-21-10-2026-KGOEWQEVEFGGZLTVBYD2UYJUB4.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Le double du rythme habituel » : après les pillages de commerces, les serruriers, vitriers et agents de sécurité débordés",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-va-rester-defiguree-apres-les-pillages-de-commerces-les-serruriers-vitriers-et-agents-de-securites-debordes-21-10-2026-MGIXB6BDQVGLDHYVUAFLPNOW2U.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 24 octobre à Paris : parcours, Gilets jaunes, étudiants, syndicats… À quoi s’attendre samedi ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestations-du-24-octobre-a-paris-parcours-gilets-jaunes-etudiants-syndicats-a-quoi-sattendre-samedi-21-10-2026-QYKRGWXMBFDYJH2AWVOERBBQ3U.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Avec ces casseurs dans le hall, on pensait qu’on allait y passer » : Cloé se réfugie chez elle avec sa voisine de 80 ans",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/avec-ces-casseurs-dans-le-hall-on-pensait-quon-allait-y-passer-elle-se-refugie-chez-elle-avec-sa-voisine-de-80-ans-20-10-2026-DYBTYC43GZCJNJOR3VD47SUGEM.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "DIRECT. Violences du 17 octobre : « Les ''professionnels'' du pillage comme de la casse se font rarement interpeller... »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/direct-violences-du-17-octobre-qui-sont-les-casseurs-quel-dispositif-securitaire-samedi-prochain-les-couvre-feux-seront-ils-etendus-posez-nous-vos-questions-20-10-2026-ZSIQHFAM2NAR5G4Q75IJU6IWHE.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Rumeurs sur la mort d’un street médic à Paris : le manifestant de la place de la République toujours en vie, un témoin raconte la scène",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/rumeurs-sur-la-mort-dun-street-medic-a-paris-le-manifestant-de-la-place-de-la-republique-toujours-en-vie-un-temoin-raconte-la-scene-20-10-2026-MQCDQTHJHJHTTFZSFVFJTN7VPQ.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Il sert à que dalle » : à Paris, le couvre-feu mis en place après les pillages du 17 octobre respecté… mais contesté",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/il-sert-a-que-dalle-a-paris-le-couvre-feu-apres-mis-en-place-apres-les-pillages-du-17-octobre-respecte-mais-conteste-20-10-2026-77BUJVDWBVBALHJ7URFOJE6NVQ.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« C’est l’anarchie » : après deux nuits de pillages dans plusieurs quartiers de la capitale, les Parisiens pris d’angoisse",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/cest-lanarchie-apres-deux-nuits-de-pillages-dans-plusieurs-quartiers-de-la-capitale-les-parisiens-pris-dangoisse-19-10-2026-42VTTATFOVE37GUTQWVTUX2EVU.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Paris : après les pillages, des commerçants « traumatisés » et de premières mesures d’urgence",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-apres-les-pillages-des-commercants-traumatises-et-de-premieres-mesures-durgence-19-10-2026-O6SQ6ZNSNFBPXDKWLOR7ZBLMIQ.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Couvre-feu à Paris : secteurs, horaires, exceptions… ce que l’on sait du dispositif déployé face aux violences urbaines",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/couvre-feu-a-paris-secteurs-heures-personnes-ce-que-lon-sait-du-dispositif-deploye-face-aux-violences-urbaines-19-10-2026-LVGEYQYDN5DRNCBNCJEWKGDDUM.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Je n’ai pas envie de me retrouver au chômage à 60 ans » : à Paris, les commerçants inquiets pour leur emploi après les pillages",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/economie/emploi/je-nai-pas-envie-de-me-retrouver-au-chomage-a-60-ans-a-paris-les-commercants-inquiets-pour-leur-emploi-apres-les-pillages-19-10-2026-DNDE7MM2MJDAZHW47KMACCC6SU.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Violences urbaines à Paris : le jeune Hamza « La Douane » interpellé dimanche en marge des pillages",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/violences-urbaines-a-paris-le-jeune-hamza-la-douane-interpelle-dimanche-en-marge-des-pillages-19-10-2026-AA4ZXGQDNREIDCGI722AL7SEJY.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Un millier de vélos en libre-service détruits à Paris : pourquoi ne pas tous les retirer des rues en cas d’émeute ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/un-millier-de-velos-en-libre-service-detruits-a-paris-pourquoi-ne-pas-tous-les-retirer-des-rues-en-cas-demeute-19-10-2026-ROJ3WW3LW5GKZCJ3IH6QKMTFYY.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Complètement traumatisés » : deux policiers municipaux agressés dimanche soir à Paris en marge des pillages, une plainte déposée",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/completement-traumatises-deux-policiers-municipaux-agresses-dimanche-soir-a-paris-en-marge-des-pillages-une-plainte-deposee-19-10-2026-6GPJLF54GNARDIF5VGRPQF5LNU.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Violences à Paris : plus de 1 000 interpellations sur tout le week-end, des comparutions immédiates ce lundi",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/violences-a-paris-plus-de-1-000-interpellations-sur-tout-le-week-end-des-comparutions-immediates-ce-lundi-19-10-2026-TOLNZYLH2VG47JMWJRYWTYAW2I.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Paris : l’accès au Louvre bloqué par des manifestants « en soutien » au mouvement lycéen",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-lacces-au-louvre-bloque-par-des-manifestants-en-soutien-au-mouvement-lyceen-19-10-2026-SOWQ5J7FQFCGLLN6PGCGDDCHTM.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Violence du 17 octobre à Paris : des rassemblements organisés devant l’Hôtel de Ville et les mairies d’arrondissement pour dénoncer les pillages",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/violence-du-17-octobre-a-paris-des-rassemblements-organises-devant-lhotel-de-ville-et-les-mairies-darrondissement-pour-denoncer-les-pillages-19-10-2026-ZU2WZQT5CREUJEWFS7F2J4TXOM.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Violences à Paris : 350 interpellations à Paris dimanche et dans la nuit, des défèrements attendus ce lundi",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/violences-a-paris-350-interpellations-a-paris-dimanche-et-dans-la-nuit-des-deferements-attendus-ce-lundi-19-10-2026-FBOFK535CNFHHDZR57C23BFEW4.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Vigiles, battes de base-ball... Après les pillages à Paris, ces commerçants ont décidé de se défendre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/vigiles-battes-de-base-ball-apres-les-pillages-a-paris-ces-commercants-ont-decide-de-se-defendre-19-10-2026-B5JUKSOYFBFALAFUYJN57RWZL4.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Je sentais la mort » : Maria, 81 ans, a failli être asphyxiée par les gaz lacrymogènes dans son salon à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/je-sentais-la-mort-maria-81-ans-a-failli-etre-asphyxiee-par-les-gaz-lacrymogenes-dans-son-salon-a-paris-18-10-2026-NLNZTPCOBZCPTGMY6KZOJ66OIQ.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Les Gilets jaunes sont des enfants de chœur à côté » : Paris se réveille dévasté après les pillages et le chaos",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/les-gilets-jaunes-sont-des-enfants-de-choeur-a-cote-paris-se-reveille-devaste-apres-une-nuit-de-pillages-et-de-chaos-18-10-2026-ZABHNPXVAVHRNE5YSQNGFYW2KE.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "17 octobre à Paris : un manifestant succombe à un malaise, un « record » de 855 interpellations et plus de 500 gardes à vue",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-manifestant-succombe-a-un-malaise-un-record-de-855-interpellations-18-10-2026-REP7K3KCUVDFTLF7KFKQBIPHJM.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Incendies, destructions, pillages : au lendemain du 17 octobre, les images de Paris qui se réveille avec la gueule de bois",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pillages-et-destructions-au-lendemain-du-17-octobre-les-images-de-paris-qui-se-reveille-avec-la-gueule-de-bois-18-10-2026-NZ5SQVYUIREE5PN5FEZRD42EDE.php",
+   "published": "2026-10-21T16:10:05+00:00"
+  },
+  {
+   "city": "paris",
    "title": "La CGT appelle à \"généraliser la grève\" à partir du 5 novembre",
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/video-la-cgt-appelle-a-generaliser-la-greve-a-partir-du-5-novembre_8247280.html#xtor=RSS-3-[lestitres]",
@@ -45,178 +241,17 @@
   },
   {
    "city": "paris",
+   "title": "Non l’ambassade de Côte d’Ivoire à Paris n’a pas été incendiée par les manifestants du 17 octobre",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261021-non-l-ambassade-de-c%C3%B4te-d-ivoire-%C3%A0-paris-n-a-pas-%C3%A9t%C3%A9-incendi%C3%A9e-par-les-manifestants-du-17-octobre",
+   "published": "2026-10-21T15:57:18+00:00"
+  },
+  {
+   "city": "paris",
    "title": "Les syndicats de France Télévisions demandent le départ de Laurent Delahousse, la direction s’excuse",
    "outlet": "Le Figaro",
    "url": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/nous-aurions-du-etre-plus-clairs-les-excuses-de-france-televisions-apres-son-traitement-des-violences-du-17-octobre-20261020",
    "published": "2026-10-21T15:46:15+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 17 octobre à Paris : décès, rumeurs, enquêtes… le point sur les quatre « drames » en marge des violences urbaines",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-17-octobre-a-paris-deces-rumeurs-enquetes-le-point-sur-les-quatre-drames-en-marge-des-violences-urbaines-21-10-2026-KGOEWQEVEFGGZLTVBYD2UYJUB4.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Le double du rythme habituel » : après les pillages de commerces, les serruriers, vitriers et agents de sécurité débordés",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-va-rester-defiguree-apres-les-pillages-de-commerces-les-serruriers-vitriers-et-agents-de-securites-debordes-21-10-2026-MGIXB6BDQVGLDHYVUAFLPNOW2U.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 24 octobre à Paris : parcours, Gilets jaunes, étudiants, syndicats… À quoi s’attendre samedi ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestations-du-24-octobre-a-paris-parcours-gilets-jaunes-etudiants-syndicats-a-quoi-sattendre-samedi-21-10-2026-QYKRGWXMBFDYJH2AWVOERBBQ3U.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Avec ces casseurs dans le hall, on pensait qu’on allait y passer » : Cloé se réfugie chez elle avec sa voisine de 80 ans",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/avec-ces-casseurs-dans-le-hall-on-pensait-quon-allait-y-passer-elle-se-refugie-chez-elle-avec-sa-voisine-de-80-ans-20-10-2026-DYBTYC43GZCJNJOR3VD47SUGEM.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "DIRECT. Violences du 17 octobre : « Les ''professionnels'' du pillage comme de la casse se font rarement interpeller... »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/direct-violences-du-17-octobre-qui-sont-les-casseurs-quel-dispositif-securitaire-samedi-prochain-les-couvre-feux-seront-ils-etendus-posez-nous-vos-questions-20-10-2026-ZSIQHFAM2NAR5G4Q75IJU6IWHE.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Rumeurs sur la mort d’un street médic à Paris : le manifestant de la place de la République toujours en vie, un témoin raconte la scène",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/rumeurs-sur-la-mort-dun-street-medic-a-paris-le-manifestant-de-la-place-de-la-republique-toujours-en-vie-un-temoin-raconte-la-scene-20-10-2026-MQCDQTHJHJHTTFZSFVFJTN7VPQ.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Il sert à que dalle » : à Paris, le couvre-feu mis en place après les pillages du 17 octobre respecté… mais contesté",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/il-sert-a-que-dalle-a-paris-le-couvre-feu-apres-mis-en-place-apres-les-pillages-du-17-octobre-respecte-mais-conteste-20-10-2026-77BUJVDWBVBALHJ7URFOJE6NVQ.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« C’est l’anarchie » : après deux nuits de pillages dans plusieurs quartiers de la capitale, les Parisiens pris d’angoisse",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/cest-lanarchie-apres-deux-nuits-de-pillages-dans-plusieurs-quartiers-de-la-capitale-les-parisiens-pris-dangoisse-19-10-2026-42VTTATFOVE37GUTQWVTUX2EVU.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Paris : après les pillages, des commerçants « traumatisés » et de premières mesures d’urgence",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-apres-les-pillages-des-commercants-traumatises-et-de-premieres-mesures-durgence-19-10-2026-O6SQ6ZNSNFBPXDKWLOR7ZBLMIQ.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Couvre-feu à Paris : secteurs, horaires, exceptions… ce que l’on sait du dispositif déployé face aux violences urbaines",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/couvre-feu-a-paris-secteurs-heures-personnes-ce-que-lon-sait-du-dispositif-deploye-face-aux-violences-urbaines-19-10-2026-LVGEYQYDN5DRNCBNCJEWKGDDUM.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Je n’ai pas envie de me retrouver au chômage à 60 ans » : à Paris, les commerçants inquiets pour leur emploi après les pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/economie/emploi/je-nai-pas-envie-de-me-retrouver-au-chomage-a-60-ans-a-paris-les-commercants-inquiets-pour-leur-emploi-apres-les-pillages-19-10-2026-DNDE7MM2MJDAZHW47KMACCC6SU.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Violences urbaines à Paris : le jeune Hamza « La Douane » interpellé dimanche en marge des pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/violences-urbaines-a-paris-le-jeune-hamza-la-douane-interpelle-dimanche-en-marge-des-pillages-19-10-2026-AA4ZXGQDNREIDCGI722AL7SEJY.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Un millier de vélos en libre-service détruits à Paris : pourquoi ne pas tous les retirer des rues en cas d’émeute ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/un-millier-de-velos-en-libre-service-detruits-a-paris-pourquoi-ne-pas-tous-les-retirer-des-rues-en-cas-demeute-19-10-2026-ROJ3WW3LW5GKZCJ3IH6QKMTFYY.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Complètement traumatisés » : deux policiers municipaux agressés dimanche soir à Paris en marge des pillages, une plainte déposée",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/completement-traumatises-deux-policiers-municipaux-agresses-dimanche-soir-a-paris-en-marge-des-pillages-une-plainte-deposee-19-10-2026-6GPJLF54GNARDIF5VGRPQF5LNU.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Violences à Paris : plus de 1 000 interpellations sur tout le week-end, des comparutions immédiates ce lundi",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/violences-a-paris-plus-de-1-000-interpellations-sur-tout-le-week-end-des-comparutions-immediates-ce-lundi-19-10-2026-TOLNZYLH2VG47JMWJRYWTYAW2I.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Paris : l’accès au Louvre bloqué par des manifestants « en soutien » au mouvement lycéen",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-lacces-au-louvre-bloque-par-des-manifestants-en-soutien-au-mouvement-lyceen-19-10-2026-SOWQ5J7FQFCGLLN6PGCGDDCHTM.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Violence du 17 octobre à Paris : des rassemblements organisés devant l’Hôtel de Ville et les mairies d’arrondissement pour dénoncer les pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/violence-du-17-octobre-a-paris-des-rassemblements-organises-devant-lhotel-de-ville-et-les-mairies-darrondissement-pour-denoncer-les-pillages-19-10-2026-ZU2WZQT5CREUJEWFS7F2J4TXOM.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Violences à Paris : 350 interpellations à Paris dimanche et dans la nuit, des défèrements attendus ce lundi",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/violences-a-paris-350-interpellations-a-paris-dimanche-et-dans-la-nuit-des-deferements-attendus-ce-lundi-19-10-2026-FBOFK535CNFHHDZR57C23BFEW4.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Vigiles, battes de base-ball... Après les pillages à Paris, ces commerçants ont décidé de se défendre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/vigiles-battes-de-base-ball-apres-les-pillages-a-paris-ces-commercants-ont-decide-de-se-defendre-19-10-2026-B5JUKSOYFBFALAFUYJN57RWZL4.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Je sentais la mort » : Maria, 81 ans, a failli être asphyxiée par les gaz lacrymogènes dans son salon à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/je-sentais-la-mort-maria-81-ans-a-failli-etre-asphyxiee-par-les-gaz-lacrymogenes-dans-son-salon-a-paris-18-10-2026-NLNZTPCOBZCPTGMY6KZOJ66OIQ.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Les Gilets jaunes sont des enfants de chœur à côté » : Paris se réveille dévasté après les pillages et le chaos",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/les-gilets-jaunes-sont-des-enfants-de-choeur-a-cote-paris-se-reveille-devaste-apres-une-nuit-de-pillages-et-de-chaos-18-10-2026-ZABHNPXVAVHRNE5YSQNGFYW2KE.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "17 octobre à Paris : un manifestant succombe à un malaise, un « record » de 855 interpellations et plus de 500 gardes à vue",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-manifestant-succombe-a-un-malaise-un-record-de-855-interpellations-18-10-2026-REP7K3KCUVDFTLF7KFKQBIPHJM.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Incendies, destructions, pillages : au lendemain du 17 octobre, les images de Paris qui se réveille avec la gueule de bois",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/pillages-et-destructions-au-lendemain-du-17-octobre-les-images-de-paris-qui-se-reveille-avec-la-gueule-de-bois-18-10-2026-NZ5SQVYUIREE5PN5FEZRD42EDE.php",
-   "published": "2026-10-21T15:29:44+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontri a Milano, il più giovane identificato ha 11 anni",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/10/21/scontri-a-milano-il-piu-giovane-identificato-ha-11-anni_4e2a19cc-a8c4-42ff-82eb-9aeeda6ec26f.html",
-   "published": "2026-10-21T15:27:28+02:00"
   },
   {
    "city": "paris",
@@ -317,13 +352,6 @@
    "published": "2026-10-21T12:38:32+00:00"
   },
   {
-   "city": "paris",
-   "title": "Fanfares d’un côté, pillages de l’autre : plongée dans la journée de tensions qui a embrasé Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/fanfares-dun-cote-pillages-de-lautre-plongee-dans-la-journee-de-tensions-qui-a-embrase-paris-17-10-2026-GRPKRVMORRCK3EKBDPO7QAPLMY.php",
-   "published": "2026-10-21T12:32:29+00:00"
-  },
-  {
    "city": "milano",
    "title": "Individuato a scuola il più giovane partecipante ai disordini di Milano: è un ragazzino di 11 anni che frequenta la seconda media",
    "outlet": "Il Giorno",
@@ -331,32 +359,11 @@
    "published": "2026-10-21T11:53:23+00:00"
   },
   {
-   "city": "paris",
-   "title": "Macron says world leaders have made 'stupid' comments on France riots based on fake AI videos",
-   "outlet": "France 24 (EN)",
-   "url": "https://www.france24.com/en/france/20261021-macron-says-world-leaders-have-made-stupid-comments-on-france-riots-based-on-fake-ai-videos",
-   "published": "2026-10-21T11:48:11+00:00"
-  },
-  {
    "city": "milano",
    "title": "Al via in prefettura a Milano comitato sulla sicurezza con Piantedosi e Pisani",
    "outlet": "ANSA Lombardia",
    "url": "https://www.ansa.it/lombardia/notizie/2026/10/21/al-via-in-prefettura-a-milano-comitato-sulla-sicurezza-con-piantedosi-e-pisani_b713b705-f7f1-454c-bee3-431ab0c20b36.html",
    "published": "2026-10-21T11:02:57+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Avant Parcoursup, des candidats étaient pareillement refoulés, mais sur des bases arbitraires ou par une sélection masquée »",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/idees/article/2026/10/21/avant-parcoursup-des-candidats-etaient-pareillement-refoules-mais-sur-des-bases-arbitraires-ou-par-une-selection-masquee_6798227_3232.html",
-   "published": "2026-10-21T11:00:04+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-   "outlet": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/21/why-are-french-protesters-chanting-bismillah-cest-les?traffic_source=rss",
-   "published": "2026-10-21T10:35:34+00:00"
   },
   {
    "city": "milano",
@@ -553,13 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/fedez-marracash-rapper-scontri-wph3gq65",
    "published": "2026-10-20T14:58:04+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Dirigente polizia ferito in scontri Milano premiato in Consiglio regionale",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/10/20/dirigente-polizia-ferito-in-scontri-milano-premiato-in-consiglio-regionale_4c04d325-5fbe-41bc-a0aa-535a5b7fbc06.html",
-   "published": "2026-10-20T13:42:34+02:00"
   }
  ]
 }
