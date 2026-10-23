@@ -1,12 +1,26 @@
 {
- "updatedAt": "2026-10-23T12:28:28+00:00",
+ "updatedAt": "2026-10-23T13:16:06+00:00",
  "items": [
   {
    "city": "paris",
-   "title": "EN DIRECT - Mobilisation en France : 70 000 policiers et gendarmes mobilisés samedi, le choc PSG-Lyon prévu dimanche reporté",
+   "title": "Qui sont les lycéens reçus par Emmanuel Macron ce vendredi ?",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/qui-sont-les-lyceens-recus-par-emmanuel-macron-ce-vendredi-20261023",
+   "published": "2026-10-23T15:10:17+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "EN DIRECT - «Acte II» le 24 octobre : les lycéens reçus à l’Élysée, l’intersyndicale dénonce une modification du parcours de la manifestation à Paris",
    "outlet": "Le Figaro",
    "url": "https://www.lefigaro.fr/actualite-france/en-direct-mobilisation-24-octobre-manifestations-paris-emmanuel-macron-lyceens-sebastien-lecornu-20261023",
-   "published": "2026-10-23T14:15:07+02:00"
+   "published": "2026-10-23T15:06:23+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Scontri a Milano, Beppe Sala a Meloni: \"Non guasterebbe più vicinanza istituzionale\"",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/politica/beppe-sala-vicinanza-richiesta-giorgia-meloni.html",
+   "published": "2026-10-23T14:21:21+02:00"
   },
   {
    "city": "paris",
@@ -23,11 +37,193 @@
    "published": "2026-10-23T13:27:55+02:00"
   },
   {
+   "city": "paris",
+   "title": "« Pas leurs compétences » : pourquoi les policiers municipaux resteront à l’écart « des casseurs ou des manifestants » le 24 octobre à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pas-leurs-competences-pourquoi-les-policiers-municipaux-resteront-a-lecart-des-casseurs-ou-des-manifestants-le-24-octobre-a-paris-23-10-2026-6225YME3LRAYPCUBMAQW774Z4U.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Palissades, maître-chien… A Paris, les mairies d’arrondissement se mettent aussi à couvert avant la manifestation du 24 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/palissades-maitre-chien-retrait-des-drapeaux-a-paris-les-mairies-darrondissement-se-mettent-aussi-a-couvert-avant-la-manifestation-23-10-2026-4ICNPV2HMBATBO4EJW65ZNS2UY.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Quand la société se divise, le Paris Basketball rassemble »: lycéens, étudiants, commerçants et agents de propreté invités par le club parisien",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/sports/basket/quand-la-societe-se-divise-le-paris-basketball-rassemble-lyceens-etudiants-commercants-et-agents-de-proprete-invites-par-le-club-parisien-23-10-2026-HJ5I7B7BJRBZ3H7EVS7SIGYGRU.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« S’ils foutent le feu à l’immeuble, qu’est-ce qu’on fait ? » : partir ou rester, le dilemme des Parisiens avant la manifestation du 24 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/sils-foutent-le-feu-a-limmeuble-quest-ce-quon-fait-partir-ou-rester-le-dilemme-des-parisiens-avant-la-manifestation-du-24-octobre-23-10-2026-XZDOONYEHFBTZL44ISCVWYKRYI.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Retrait du mobilier urbain et des vélos, sécurisation des chantiers… Paris vide son espace public pour éviter d’alimenter les casseurs",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/retrait-du-mobilier-urbain-et-des-velos-securisation-des-chantiers-paris-vide-son-espace-public-pour-eviter-dalimenter-les-casseurs-23-10-2026-5GN3QNNGIFD4PHAMDQ34KY2LBQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 17 octobre : la famille de l’homme décédé réclame des résultats d’autopsie « au plus vite »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-la-famille-de-lhomme-decede-reclame-des-resultats-dautopsie-au-plus-vite-22-10-2026-3JA3HCKPYVE6LDWT4B6L2QEH3Y.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre : musées et commerces fermés, événements annulés… Paris sera-t-elle une ville « morte » ce samedi ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-musees-et-commerces-fermes-evenements-annules-paris-sera-t-elle-une-ville-morte-ce-samedi-23-10-2026-FB7MIW5JZ5FIXK6A4JRMYT2QVI.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre à Paris : voici le parcours autorisé par la préfecture, entre Bastille et Nation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-voici-le-parcours-en-detail-entre-bastille-et-nation-22-10-2026-K6K23DBJEVBBHMOS23WFZJ7NVQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre à Paris : la foire d’art contemporain Art Basel écourtée de deux jours",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-la-foire-dart-contemporain-art-basel-ecourtee-de-deux-jours-22-10-2026-BBMCWHHNA5DYLAAWDAKP2EYJXQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Paris : la justice autorise la manifestation ce jeudi de l’Interfac, interdite par la préfecture de police",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-la-justice-autorise-la-manifestation-de-linterfac-interdite-par-la-prefecture-de-police-prevue-ce-jeudi-22-10-2026-EI72AZBGUJFIRB424K6NZQYA3A.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre : la préfecture autorise un parcours entre Bastille et Nation, celui des Gilets jaunes interdit",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-la-prefecture-autorise-un-parcours-entre-bastille-et-nation-celui-des-gilets-jaunes-interdit-22-10-2026-5N35TQB2M5GZHCJLNUD2EHXFSY.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« C’est toujours un compromis » : comment les parcours de manifestations se décident-ils à Paris ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/cest-toujours-un-compromis-comment-les-parcours-de-manifestations-se-decident-ils-a-paris-22-10-2026-4Q32RPRPYJB6RA2DCEAKEZDEEA.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Paris : les rassemblements et manifestations interdits jeudi entre 8h et 20h dans certains secteurs",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-les-rassemblements-et-manifestations-interdits-jeudi-entre-8h-et-20h-dans-certains-secteurs-21-10-2026-QHWMKLICYNCJFKOL4VEITRFZKA.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Pillage de Darty à République : sept suspects mis en examen et placés sous contrôle judiciaire",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/pillage-de-darty-a-republique-sept-suspects-mis-en-examen-et-places-sous-controle-judiciaire-21-10-2026-7WW236IBJVC7RPPFJUFSXKGJ4I.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Nos commandes ont été multipliées par dix » : après les pillages, les armureries de Paris face à l’afflux de clients inquiets",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/nos-commandes-ont-ete-multipliees-par-dix-apres-les-pillages-les-armureries-de-paris-face-a-lafflux-de-clients-inquiets-21-10-2026-SEEEGKRMDBB47LRHOET6GLZOTE.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 17 octobre à Paris : décès, rumeurs, enquêtes… le point sur les quatre « drames » en marge des violences urbaines",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-17-octobre-a-paris-deces-rumeurs-enquetes-le-point-sur-les-quatre-drames-en-marge-des-violences-urbaines-21-10-2026-KGOEWQEVEFGGZLTVBYD2UYJUB4.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Le double du rythme habituel » : après les pillages de commerces, les serruriers, vitriers et agents de sécurité débordés",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-va-rester-defiguree-apres-les-pillages-de-commerces-les-serruriers-vitriers-et-agents-de-securites-debordes-21-10-2026-MGIXB6BDQVGLDHYVUAFLPNOW2U.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 24 octobre à Paris : parcours, Gilets jaunes, étudiants, syndicats… À quoi s’attendre samedi ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestations-du-24-octobre-a-paris-parcours-gilets-jaunes-etudiants-syndicats-a-quoi-sattendre-samedi-21-10-2026-QYKRGWXMBFDYJH2AWVOERBBQ3U.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Avec ces casseurs dans le hall, on pensait qu’on allait y passer » : Cloé se réfugie chez elle avec sa voisine de 80 ans",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/avec-ces-casseurs-dans-le-hall-on-pensait-quon-allait-y-passer-elle-se-refugie-chez-elle-avec-sa-voisine-de-80-ans-20-10-2026-DYBTYC43GZCJNJOR3VD47SUGEM.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "DIRECT. Violences du 17 octobre : « Les ''professionnels'' du pillage comme de la casse se font rarement interpeller... »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/direct-violences-du-17-octobre-qui-sont-les-casseurs-quel-dispositif-securitaire-samedi-prochain-les-couvre-feux-seront-ils-etendus-posez-nous-vos-questions-20-10-2026-ZSIQHFAM2NAR5G4Q75IJU6IWHE.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Rumeurs sur la mort d’un street médic à Paris : le manifestant de la place de la République toujours en vie, un témoin raconte la scène",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/rumeurs-sur-la-mort-dun-street-medic-a-paris-le-manifestant-de-la-place-de-la-republique-toujours-en-vie-un-temoin-raconte-la-scene-20-10-2026-MQCDQTHJHJHTTFZSFVFJTN7VPQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Il sert à que dalle » : à Paris, le couvre-feu mis en place après les pillages du 17 octobre respecté… mais contesté",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/il-sert-a-que-dalle-a-paris-le-couvre-feu-apres-mis-en-place-apres-les-pillages-du-17-octobre-respecte-mais-conteste-20-10-2026-77BUJVDWBVBALHJ7URFOJE6NVQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« C’est l’anarchie » : après deux nuits de pillages dans plusieurs quartiers de la capitale, les Parisiens pris d’angoisse",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/cest-lanarchie-apres-deux-nuits-de-pillages-dans-plusieurs-quartiers-de-la-capitale-les-parisiens-pris-dangoisse-19-10-2026-42VTTATFOVE37GUTQWVTUX2EVU.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Paris : après les pillages, des commerçants « traumatisés » et de premières mesures d’urgence",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-apres-les-pillages-des-commercants-traumatises-et-de-premieres-mesures-durgence-19-10-2026-O6SQ6ZNSNFBPXDKWLOR7ZBLMIQ.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Couvre-feu à Paris : secteurs, horaires, exceptions… ce que l’on sait du dispositif déployé face aux violences urbaines",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/couvre-feu-a-paris-secteurs-heures-personnes-ce-que-lon-sait-du-dispositif-deploye-face-aux-violences-urbaines-19-10-2026-LVGEYQYDN5DRNCBNCJEWKGDDUM.php",
+   "published": "2026-10-23T13:16:06+00:00"
+  },
+  {
    "city": "milano",
    "title": "Scontri a Milano, Sala: 'Invito i negozianti a non chiudere, non si diffonda panico'",
    "outlet": "ANSA",
    "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/23/scontri-a-milano-sala-invito-i-negozianti-a-non-chiudere-non-si-diffonda-panico_6ba38369-9e11-4553-824b-24656589fb58.html",
    "published": "2026-10-23T13:12:49+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Milano si prepara a sabato 24 ottobre: due presidi autorizzati, preoccupazione per piazza Duomo. Nella ‘zona rossa’ forze dell'ordine e parà",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/presidi-cortei-sabato-24-ottobre-room0o4d",
+   "published": "2026-10-23T12:48:19+00:00"
   },
   {
    "city": "paris",
@@ -38,178 +234,10 @@
   },
   {
    "city": "paris",
-   "title": "« Pas leurs compétences » : pourquoi les policiers municipaux resteront à l’écart « des casseurs ou des manifestants » le 24 octobre à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/pas-leurs-competences-pourquoi-les-policiers-municipaux-resteront-a-lecart-des-casseurs-ou-des-manifestants-le-24-octobre-a-paris-23-10-2026-6225YME3LRAYPCUBMAQW774Z4U.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Palissades, maître-chien… A Paris, les mairies d’arrondissement se mettent aussi à couvert avant la manifestation du 24 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/palissades-maitre-chien-retrait-des-drapeaux-a-paris-les-mairies-darrondissement-se-mettent-aussi-a-couvert-avant-la-manifestation-23-10-2026-4ICNPV2HMBATBO4EJW65ZNS2UY.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Quand la société se divise, le Paris Basketball rassemble »: lycéens, étudiants, commerçants et agents de propreté invités par le club parisien",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/sports/basket/quand-la-societe-se-divise-le-paris-basketball-rassemble-lyceens-etudiants-commercants-et-agents-de-proprete-invites-par-le-club-parisien-23-10-2026-HJ5I7B7BJRBZ3H7EVS7SIGYGRU.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« S’ils foutent le feu à l’immeuble, qu’est-ce qu’on fait ? » : partir ou rester, le dilemme des Parisiens avant la manifestation du 24 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/sils-foutent-le-feu-a-limmeuble-quest-ce-quon-fait-partir-ou-rester-le-dilemme-des-parisiens-avant-la-manifestation-du-24-octobre-23-10-2026-XZDOONYEHFBTZL44ISCVWYKRYI.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Retrait du mobilier urbain et des vélos, sécurisation des chantiers… Paris vide son espace public pour éviter d’alimenter les casseurs",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/retrait-du-mobilier-urbain-et-des-velos-securisation-des-chantiers-paris-vide-son-espace-public-pour-eviter-dalimenter-les-casseurs-23-10-2026-5GN3QNNGIFD4PHAMDQ34KY2LBQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 17 octobre : la famille de l’homme décédé réclame des résultats d’autopsie « au plus vite »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-la-famille-de-lhomme-decede-reclame-des-resultats-dautopsie-au-plus-vite-22-10-2026-3JA3HCKPYVE6LDWT4B6L2QEH3Y.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre : musées et commerces fermés, événements annulés… Paris sera-t-elle une ville « morte » ce samedi ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-musees-et-commerces-fermes-evenements-annules-paris-sera-t-elle-une-ville-morte-ce-samedi-23-10-2026-FB7MIW5JZ5FIXK6A4JRMYT2QVI.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre à Paris : voici le parcours autorisé par la préfecture, entre Bastille et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-voici-le-parcours-en-detail-entre-bastille-et-nation-22-10-2026-K6K23DBJEVBBHMOS23WFZJ7NVQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre à Paris : la foire d’art contemporain Art Basel écourtée de deux jours",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-la-foire-dart-contemporain-art-basel-ecourtee-de-deux-jours-22-10-2026-BBMCWHHNA5DYLAAWDAKP2EYJXQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Paris : la justice autorise la manifestation ce jeudi de l’Interfac, interdite par la préfecture de police",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-la-justice-autorise-la-manifestation-de-linterfac-interdite-par-la-prefecture-de-police-prevue-ce-jeudi-22-10-2026-EI72AZBGUJFIRB424K6NZQYA3A.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre : la préfecture autorise un parcours entre Bastille et Nation, celui des Gilets jaunes interdit",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-la-prefecture-autorise-un-parcours-entre-bastille-et-nation-celui-des-gilets-jaunes-interdit-22-10-2026-5N35TQB2M5GZHCJLNUD2EHXFSY.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« C’est toujours un compromis » : comment les parcours de manifestations se décident-ils à Paris ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/cest-toujours-un-compromis-comment-les-parcours-de-manifestations-se-decident-ils-a-paris-22-10-2026-4Q32RPRPYJB6RA2DCEAKEZDEEA.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Paris : les rassemblements et manifestations interdits jeudi entre 8h et 20h dans certains secteurs",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-les-rassemblements-et-manifestations-interdits-jeudi-entre-8h-et-20h-dans-certains-secteurs-21-10-2026-QHWMKLICYNCJFKOL4VEITRFZKA.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Pillage de Darty à République : sept suspects mis en examen et placés sous contrôle judiciaire",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/pillage-de-darty-a-republique-sept-suspects-mis-en-examen-et-places-sous-controle-judiciaire-21-10-2026-7WW236IBJVC7RPPFJUFSXKGJ4I.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Nos commandes ont été multipliées par dix » : après les pillages, les armureries de Paris face à l’afflux de clients inquiets",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/nos-commandes-ont-ete-multipliees-par-dix-apres-les-pillages-les-armureries-de-paris-face-a-lafflux-de-clients-inquiets-21-10-2026-SEEEGKRMDBB47LRHOET6GLZOTE.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 17 octobre à Paris : décès, rumeurs, enquêtes… le point sur les quatre « drames » en marge des violences urbaines",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-17-octobre-a-paris-deces-rumeurs-enquetes-le-point-sur-les-quatre-drames-en-marge-des-violences-urbaines-21-10-2026-KGOEWQEVEFGGZLTVBYD2UYJUB4.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Le double du rythme habituel » : après les pillages de commerces, les serruriers, vitriers et agents de sécurité débordés",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-va-rester-defiguree-apres-les-pillages-de-commerces-les-serruriers-vitriers-et-agents-de-securites-debordes-21-10-2026-MGIXB6BDQVGLDHYVUAFLPNOW2U.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 24 octobre à Paris : parcours, Gilets jaunes, étudiants, syndicats… À quoi s’attendre samedi ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestations-du-24-octobre-a-paris-parcours-gilets-jaunes-etudiants-syndicats-a-quoi-sattendre-samedi-21-10-2026-QYKRGWXMBFDYJH2AWVOERBBQ3U.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Avec ces casseurs dans le hall, on pensait qu’on allait y passer » : Cloé se réfugie chez elle avec sa voisine de 80 ans",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/avec-ces-casseurs-dans-le-hall-on-pensait-quon-allait-y-passer-elle-se-refugie-chez-elle-avec-sa-voisine-de-80-ans-20-10-2026-DYBTYC43GZCJNJOR3VD47SUGEM.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "DIRECT. Violences du 17 octobre : « Les ''professionnels'' du pillage comme de la casse se font rarement interpeller... »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/direct-violences-du-17-octobre-qui-sont-les-casseurs-quel-dispositif-securitaire-samedi-prochain-les-couvre-feux-seront-ils-etendus-posez-nous-vos-questions-20-10-2026-ZSIQHFAM2NAR5G4Q75IJU6IWHE.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Rumeurs sur la mort d’un street médic à Paris : le manifestant de la place de la République toujours en vie, un témoin raconte la scène",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/rumeurs-sur-la-mort-dun-street-medic-a-paris-le-manifestant-de-la-place-de-la-republique-toujours-en-vie-un-temoin-raconte-la-scene-20-10-2026-MQCDQTHJHJHTTFZSFVFJTN7VPQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Il sert à que dalle » : à Paris, le couvre-feu mis en place après les pillages du 17 octobre respecté… mais contesté",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/il-sert-a-que-dalle-a-paris-le-couvre-feu-apres-mis-en-place-apres-les-pillages-du-17-octobre-respecte-mais-conteste-20-10-2026-77BUJVDWBVBALHJ7URFOJE6NVQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« C’est l’anarchie » : après deux nuits de pillages dans plusieurs quartiers de la capitale, les Parisiens pris d’angoisse",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/cest-lanarchie-apres-deux-nuits-de-pillages-dans-plusieurs-quartiers-de-la-capitale-les-parisiens-pris-dangoisse-19-10-2026-42VTTATFOVE37GUTQWVTUX2EVU.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Paris : après les pillages, des commerçants « traumatisés » et de premières mesures d’urgence",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-apres-les-pillages-des-commercants-traumatises-et-de-premieres-mesures-durgence-19-10-2026-O6SQ6ZNSNFBPXDKWLOR7ZBLMIQ.php",
-   "published": "2026-10-23T12:28:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Couvre-feu à Paris : secteurs, horaires, exceptions… ce que l’on sait du dispositif déployé face aux violences urbaines",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/couvre-feu-a-paris-secteurs-heures-personnes-ce-que-lon-sait-du-dispositif-deploye-face-aux-violences-urbaines-19-10-2026-LVGEYQYDN5DRNCBNCJEWKGDDUM.php",
-   "published": "2026-10-23T12:28:28+00:00"
+   "title": "Are parents in France and Italy liable for damage caused by student protesters?",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/23/are-parents-in-france-and-italy-liable-for-damage-caused-by-student-protesters?traffic_source=rss",
+   "published": "2026-10-23T12:18:01+00:00"
   },
   {
    "city": "milano",
@@ -322,20 +350,6 @@
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/replay-magazine/france-2/envoye-special/video-regardez-l-extrait-d-envoye-special-en-immersion-au-ministere-de-l-interieur-au-lendemain-des-manifestations-du-17-octobre_8249479.html#xtor=RSS-3-[lestitres]",
    "published": "2026-10-23T08:43:59+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "«L’État veut nous retirer notre droit de manifester» : les jeunes remontés contre l’exécutif",
-   "outlet": "Le Figaro",
-   "url": "https://etudiant.lefigaro.fr/article/vie-etudiante/l-etat-veut-nous-retirer-notre-droit-de-manifester-les-jeunes-remontes-contre-l-executif-20261023/",
-   "published": "2026-10-23T07:52:53+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "Déclarer la manifestation, porter des équipements de protection, filmer les forces de l'ordre… Quels sont les droits et les devoirs des manifestants ?",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/economie/greve/declarer-la-manifestation-porter-des-equipements-de-protection-filmer-les-forces-de-l-ordre-quels-sont-les-droits-et-les-devoirs-des-manifestants_8248630.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-10-23T07:21:30+02:00"
   },
   {
    "city": "milano",
@@ -546,20 +560,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/guerriglia-scontri-tre-misure-cautelari-maggiorenni.html",
    "published": "2026-10-22T11:59:53+02:00"
-  },
-  {
-   "city": "milano",
-   "title": "“I social possono diventare detonatori di violenza”. Altri sei arresti per gli scontri a Milano: uno aveva in tasca una lama da 15 cm, tre sono minorenni",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/scontri-duomo-arresti-ms20i1yu",
-   "published": "2026-10-22T10:40:20+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Cristiana Anania è rimasta coinvolta in un incidente stradale: \"Scaraventate a terra da un'auto\"",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/incidente-stradale/cristina-anania-come-sta.html",
-   "published": "2026-10-22T09:20:21+02:00"
   }
  ]
 }
