@@ -1,12 +1,54 @@
 {
- "updatedAt": "2026-10-24T08:59:28+00:00",
+ "updatedAt": "2026-10-24T09:30:27+00:00",
  "items": [
+  {
+   "city": "milano",
+   "title": "Cortei, oltre 150 perquisizioni a Milano e in altre 20 città. Oggi le nuove manifestazioni",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/24/cortei-oltre-150-perquisizioni-a-milano-e-in-altre-20-citta.-oggi-le-nuove-manifestazioni_c947f80a-5c41-4c1b-bc3b-fe5603318029.html",
+   "published": "2026-10-24T11:26:42+02:00"
+  },
   {
    "city": "paris",
    "title": "EN DIRECT - Manifestations du 24 octobre : à Paris, le recours contre le tracé de la préfecture rejeté",
    "outlet": "Le Figaro",
    "url": "https://www.lefigaro.fr/actualite-france/en-direct-mobilisation-manifestations-24-octobre-etudiants-lyceens-acte-ii-gilets-jaunes-orleans-congres-du-rn-20261024",
-   "published": "2026-10-24T10:58:50+02:00"
+   "published": "2026-10-24T11:22:02+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "EN DIRECT, manifestations du 24 octobre : à Paris, le parcours entre la porte d’Italie et la porte de Vincennes reste le seul autorisé, après le rejet d’un recours par le tribunal administratif",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/live/2026/10/24/en-direct-manifestations-du-24-octobre-a-paris-le-parcours-entre-la-porte-d-italie-et-la-porte-de-vincennes-reste-le-seul-autorise-apres-le-rejet-d-un-recours-par-le-tribunal-administratif_6799445_3224.html",
+   "published": "2026-10-24T11:10:59+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Cortei a Milano, il centro è blindato e in piazza Duomo ci sono i Lince",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/10/24/cortei-a-milano-il-centro-e-blindato-e-in-piazza-duomo-ci-sono-i-lince_0c264868-9b83-4556-abf1-39d452aacb7f.html",
+   "published": "2026-10-24T11:08:05+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 24 octobre : \"Je sais que tout ce que vous faites est proportionné\", lance le ministre de l'Intérieur Laurent Nuñez à ses troupes, avant la mobilisation",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-du-24-octobre-suivez-en-direct-cette-nouvelle-journee-de-mobilisation-sous-tres-haute-securite_8251987.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-24T10:55:48+02:00"
+  },
+  {
+   "city": "paris",
+   "title": "Afflux de militants d'extrême droite, manifestation de la gauche... Pourquoi le congrès du RN à Orléans ce week-end est au cœur des tensions",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/politique/marine-le-pen/afflux-de-militants-d-extreme-droite-manifestation-de-la-gauche-pourquoi-le-congres-du-rn-a-orleans-ce-week-end-est-au-c-ur-des-tensions_8250358.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-24T10:55:43+02:00"
+  },
+  {
+   "city": "milano",
+   "title": "Milano si prepara ai disordini: protezioni in legno e negozi chiusi nel cuore del centro",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/negozi_chiusi-protezioni-centro-milano.html",
+   "published": "2026-10-24T10:54:51+02:00"
   },
   {
    "city": "milano",
@@ -16,25 +58,11 @@
    "published": "2026-10-24T10:41:02+02:00"
   },
   {
-   "city": "paris",
-   "title": "Manifestations du 24 octobre : \"Je sais que tout ce que vous faites est proportionné\", lance le ministre de l'Intérieur Laurent Nuñez à ses troupes, avant la mobilisation",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-du-24-octobre-suivez-en-direct-cette-nouvelle-journee-de-mobilisation-sous-tres-haute-securite_8251987.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-10-24T10:30:44+02:00"
-  },
-  {
    "city": "milano",
    "title": "Aperta inchiesta sugli scontri a Milano, focus anche sui social",
    "outlet": "ANSA Lombardia",
    "url": "https://www.ansa.it/lombardia/notizie/2026/10/23/aperta-inchiesta-sugli-scontri-a-milano-focus-anche-sui-social_b1e28b3c-f40e-43fd-86f6-33d2083bef25.html",
    "published": "2026-10-24T10:12:06+02:00"
-  },
-  {
-   "city": "milano",
-   "title": "Cortei, oltre 150 perquisizioni a Milano e in altre 20 città. Oggi le nuove manifestazioni",
-   "outlet": "ANSA",
-   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/24/cortei-oltre-150-perquisizioni-a-milano-e-in-altre-20-citta.-oggi-le-nuove-manifestazioni_c947f80a-5c41-4c1b-bc3b-fe5603318029.html",
-   "published": "2026-10-24T10:11:47+02:00"
   },
   {
    "city": "paris",
@@ -51,186 +79,200 @@
    "published": "2026-10-24T10:01:58+02:00"
   },
   {
-   "city": "milano",
-   "title": "Da Milano a Castel Volturno, piazze blindate per i nuovi cortei. La mappa",
-   "outlet": "ANSA",
-   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/24/da-milano-a-castel-volturno-piazze-blindate-per-i-nuovi-cortei.-la-mappa_4b093092-5d16-474b-ad7e-21a60f02d95f.html",
-   "published": "2026-10-24T09:13:32+02:00"
+   "city": "paris",
+   "title": "\"Une culture de la manifestation fortement pacifiée\" : en Allemagne, la police mise sur la communication et la désescalade",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/monde/europe/allemagne/une-culture-de-la-manifestation-fortement-pacifiee-en-allemagne-la-police-mise-sur-la-communication-et-la-desescalade_8251978.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-24T09:53:21+02:00"
   },
   {
    "city": "paris",
    "title": "Manifestations du 24 octobre : « C’est à nous de payer alors qu’on est le peuple ! » enragent les commerçants pillés",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/manifestations-du-24-octobre-cest-a-nous-de-payer-alors-quon-est-le-peuple-enragent-les-commercants-pilles-24-10-2026-HHIAN4BCEZCJFDZ4ESVLCVZNCA.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre à Paris : les 24 stations de métro fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-24-octobre-a-paris-les-24-stations-de-metro-fermees-ce-samedi-24-10-2026-XM37DFGRYRHVXICFQX2F2MHWZE.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« À quoi sont-ils en train de jouer ? » : les syndicats furieux du nouveau parcours de la manifestation à Paris imposé par la préfecture",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/a-quoi-sont-ils-en-train-de-jouer-les-syndicats-furieux-du-nouveau-parcours-de-la-manifestation-a-paris-impose-par-la-prefecture-23-10-2026-BECQQC5GGZAANLJYKDVTV7CJ4A.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre à Paris : Bastille-Nation interdit, voici le nouveau parcours entre les portes d’Italie et de Vincennes imposé par la préfecture",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-bastille-nation-interdit-voici-le-nouveau-parcours-entre-les-portes-ditalie-et-de-vincennes-impose-par-la-prefecture-23-10-2026-TLPOY4VLVVH7LJBZTZV6HHVRUY.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre : « On se prépare à ce que la situation dure plusieurs semaines », prévient Emmanuel Grégoire",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-on-se-prepare-a-ce-que-la-situation-dure-plusieurs-semaines-previent-emmanuel-gregoire-23-10-2026-ZC34LUAYAVC6TAYJ4YQ4FLWA7Y.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestations du 24 octobre : comment les concerts s’adaptent « minute après minute » aux couvre-feux",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/culture-loisirs/musique/manifestations-du-24-octobre-face-aux-couvre-feux-les-concerts-sadaptent-minute-apres-minute-23-10-2026-5ATVKD7FQJGNNPOIT4565SDWRM.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« Pas leurs compétences » : pourquoi les policiers municipaux resteront à l’écart « des casseurs ou des manifestants » le 24 octobre à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/pas-leurs-competences-pourquoi-les-policiers-municipaux-resteront-a-lecart-des-casseurs-ou-des-manifestants-le-24-octobre-a-paris-23-10-2026-6225YME3LRAYPCUBMAQW774Z4U.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Palissades, maître-chien… A Paris, les mairies d’arrondissement se mettent aussi à couvert avant la manifestation du 24 octobre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/palissades-maitre-chien-retrait-des-drapeaux-a-paris-les-mairies-darrondissement-se-mettent-aussi-a-couvert-avant-la-manifestation-23-10-2026-4ICNPV2HMBATBO4EJW65ZNS2UY.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« Quand la société se divise, le Paris Basketball rassemble »: lycéens, étudiants, commerçants et agents de propreté invités par le club parisien",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/sports/basket/quand-la-societe-se-divise-le-paris-basketball-rassemble-lyceens-etudiants-commercants-et-agents-de-proprete-invites-par-le-club-parisien-23-10-2026-HJ5I7B7BJRBZ3H7EVS7SIGYGRU.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« S’ils foutent le feu à l’immeuble, qu’est-ce qu’on fait ? » : partir ou rester, le dilemme des Parisiens avant la manifestation du 24 octobre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/sils-foutent-le-feu-a-limmeuble-quest-ce-quon-fait-partir-ou-rester-le-dilemme-des-parisiens-avant-la-manifestation-du-24-octobre-23-10-2026-XZDOONYEHFBTZL44ISCVWYKRYI.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Retrait du mobilier urbain et des vélos, sécurisation des chantiers… Paris vide son espace public pour éviter d’alimenter les casseurs",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/retrait-du-mobilier-urbain-et-des-velos-securisation-des-chantiers-paris-vide-son-espace-public-pour-eviter-dalimenter-les-casseurs-23-10-2026-5GN3QNNGIFD4PHAMDQ34KY2LBQ.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 octobre : la famille de l’homme décédé réclame des résultats d’autopsie « au plus vite »",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-la-famille-de-lhomme-decede-reclame-des-resultats-dautopsie-au-plus-vite-22-10-2026-3JA3HCKPYVE6LDWT4B6L2QEH3Y.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre : musées et commerces fermés, événements annulés… Paris sera-t-elle une ville « morte » ce samedi ?",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-musees-et-commerces-fermes-evenements-annules-paris-sera-t-elle-une-ville-morte-ce-samedi-23-10-2026-FB7MIW5JZ5FIXK6A4JRMYT2QVI.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre à Paris : voici le parcours autorisé par la préfecture, entre Bastille et Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-voici-le-parcours-en-detail-entre-bastille-et-nation-22-10-2026-K6K23DBJEVBBHMOS23WFZJ7NVQ.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre à Paris : la foire d’art contemporain Art Basel écourtée de deux jours",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-la-foire-dart-contemporain-art-basel-ecourtee-de-deux-jours-22-10-2026-BBMCWHHNA5DYLAAWDAKP2EYJXQ.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : la justice autorise la manifestation ce jeudi de l’Interfac, interdite par la préfecture de police",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-la-justice-autorise-la-manifestation-de-linterfac-interdite-par-la-prefecture-de-police-prevue-ce-jeudi-22-10-2026-EI72AZBGUJFIRB424K6NZQYA3A.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 24 octobre : la préfecture autorise un parcours entre Bastille et Nation, celui des Gilets jaunes interdit",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-la-prefecture-autorise-un-parcours-entre-bastille-et-nation-celui-des-gilets-jaunes-interdit-22-10-2026-5N35TQB2M5GZHCJLNUD2EHXFSY.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« C’est toujours un compromis » : comment les parcours de manifestations se décident-ils à Paris ?",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/cest-toujours-un-compromis-comment-les-parcours-de-manifestations-se-decident-ils-a-paris-22-10-2026-4Q32RPRPYJB6RA2DCEAKEZDEEA.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : les rassemblements et manifestations interdits jeudi entre 8h et 20h dans certains secteurs",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-les-rassemblements-et-manifestations-interdits-jeudi-entre-8h-et-20h-dans-certains-secteurs-21-10-2026-QHWMKLICYNCJFKOL4VEITRFZKA.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Pillage de Darty à République : sept suspects mis en examen et placés sous contrôle judiciaire",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillage-de-darty-a-republique-sept-suspects-mis-en-examen-et-places-sous-controle-judiciaire-21-10-2026-7WW236IBJVC7RPPFJUFSXKGJ4I.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« Nos commandes ont été multipliées par dix » : après les pillages, les armureries de Paris face à l’afflux de clients inquiets",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/nos-commandes-ont-ete-multipliees-par-dix-apres-les-pillages-les-armureries-de-paris-face-a-lafflux-de-clients-inquiets-21-10-2026-SEEEGKRMDBB47LRHOET6GLZOTE.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Mobilisation du 17 octobre à Paris : décès, rumeurs, enquêtes… le point sur les quatre « drames » en marge des violences urbaines",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/mobilisation-du-17-octobre-a-paris-deces-rumeurs-enquetes-le-point-sur-les-quatre-drames-en-marge-des-violences-urbaines-21-10-2026-KGOEWQEVEFGGZLTVBYD2UYJUB4.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« Le double du rythme habituel » : après les pillages de commerces, les serruriers, vitriers et agents de sécurité débordés",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-va-rester-defiguree-apres-les-pillages-de-commerces-les-serruriers-vitriers-et-agents-de-securites-debordes-21-10-2026-MGIXB6BDQVGLDHYVUAFLPNOW2U.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestations du 24 octobre à Paris : parcours, Gilets jaunes, étudiants, syndicats… À quoi s’attendre samedi ?",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestations-du-24-octobre-a-paris-parcours-gilets-jaunes-etudiants-syndicats-a-quoi-sattendre-samedi-21-10-2026-QYKRGWXMBFDYJH2AWVOERBBQ3U.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
   },
   {
    "city": "paris",
    "title": "« Avec ces casseurs dans le hall, on pensait qu’on allait y passer » : Cloé se réfugie chez elle avec sa voisine de 80 ans",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/avec-ces-casseurs-dans-le-hall-on-pensait-quon-allait-y-passer-elle-se-refugie-chez-elle-avec-sa-voisine-de-80-ans-20-10-2026-DYBTYC43GZCJNJOR3VD47SUGEM.php",
-   "published": "2026-10-24T08:59:28+00:00"
+   "published": "2026-10-24T09:30:27+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Rischio scontri a Milano, i negozi si blindano: vetrine coperte in via Montenapoleone",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/video/rischio-scontri-a-milano-i-negozi-si-blindano-vetrine-coperte-in-via-montenapoleone-qg3nb0ua",
+   "published": "2026-10-24T09:25:29+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Da Milano a Castel Volturno, piazze blindate per i nuovi cortei. La mappa",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/24/da-milano-a-castel-volturno-piazze-blindate-per-i-nuovi-cortei.-la-mappa_4b093092-5d16-474b-ad7e-21a60f02d95f.html",
+   "published": "2026-10-24T09:13:32+02:00"
   },
   {
    "city": "paris",
@@ -259,13 +301,6 @@
    "outlet": "ANSA",
    "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/23/da-milano-a-castel-volturno-la-mappa-delle-piazze_4b093092-5d16-474b-ad7e-21a60f02d95f.html",
    "published": "2026-10-24T07:10:05+02:00"
-  },
-  {
-   "city": "paris",
-   "title": "Afflux de militants d'extrême droite, manifestation de la gauche... Pourquoi le congrès du RN à Orléans ce week-end est au cœur des tensions",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/politique/marine-le-pen/afflux-de-militants-d-extreme-droite-manifestation-de-la-gauche-pourquoi-le-congres-du-rn-a-orleans-ce-week-end-est-au-c-ur-des-tensions_8250358.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-10-24T07:00:42+02:00"
   },
   {
    "city": "paris",
@@ -318,7 +353,7 @@
   },
   {
    "city": "paris",
-   "title": "Mobilisation du 24 octobre en direct : la gauche fustige le changement tardif du parcours à Paris",
+   "title": "Mobilisation du 24 octobre en direct : le tribunal entérine le parcours imposé par la préfecture de Paris",
    "outlet": "France 24",
    "url": "https://www.france24.com/fr/france/20261024-en-direct-centaines-manifestations-france-climat-fortes-tensions-mobilisation-revendications-salaires-education-syndicats-pouvoir-d-achat-lycee-police-macron",
    "published": "2026-10-24T05:00:19+00:00"
@@ -352,13 +387,6 @@
    "published": "2026-10-24T02:45:09+00:00"
   },
   {
-   "city": "paris",
-   "title": "Le congrès du Rassemblement national à Orléans, épicentre d'une nouvelle journée de manifestations à haut risque",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/politique/front-national/a-orleans-le-parcours-de-la-manifestation-anti-rassemblement-national-est-modifie-pour-eviter-le-centre-ville_8251546.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-10-24T00:32:31+02:00"
-  },
-  {
    "city": "milano",
    "title": "Passamontagna e finti Kalashnikov a casa di un 22enne: a Como 25 perquisizioni, e fra i commercianti è psicosi per i saccheggi",
    "outlet": "Il Giorno",
@@ -385,13 +413,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/devastazione-di-milano-intervista-massimo-rosina-w1myxpo7",
    "published": "2026-10-24T00:00:00+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
-   "outlet": "BBC News",
-   "url": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-10-23T23:09:16+00:00"
   },
   {
    "city": "milano",
@@ -539,27 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/presidi-cortei-sabato-24-ottobre-room0o4d",
    "published": "2026-10-23T12:48:19+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Salvini e gli scontri a Milano: “Togliere i bonus pubblici ai genitori che hanno figli delinquenti”",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/salvini-bonus-disordini-wno58dj6",
-   "published": "2026-10-23T12:07:33+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontri a Milano, Sala: \"Meloni? Nessuna telefonata, più vicinanza non guasterebbe\"",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/video/scontri-milano-sala-meloni-ajoi2gli",
-   "published": "2026-10-23T11:46:29+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Il dilemma dei commercianti: tenere chiuso o “solo” proteggere vetrine e ingressi? Le scelte per sabato 24 fra centro e aree dello shopping",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/negozi-chiusi-manifestazioni-sabato-bit4tvqq",
-   "published": "2026-10-23T10:33:52+00:00"
   }
  ]
 }
