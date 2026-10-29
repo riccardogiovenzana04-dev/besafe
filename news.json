@@ -1,19 +1,201 @@
 {
- "updatedAt": "2026-10-29T08:21:11+00:00",
+ "updatedAt": "2026-10-29T09:19:42+00:00",
  "items": [
   {
-   "city": "paris",
-   "title": "Mobilisation lycéenne : «On aurait certainement dû être plus rapides», reconnaît Édouard Geffray",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/mobilisation-lyceenne-on-aurait-certainement-du-etre-plus-rapides-reconnait-edouard-geffray-20261029",
-   "published": "2026-10-29T09:15:20+01:00"
+   "city": "milano",
+   "title": "Ultima generazione: 'Aderiamo allo sciopero di domani'",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/29/ultima-generazione-aderiamo-allo-sciopero-di-domani_99d186a2-8b27-442f-b637-bc226fa79102.html",
+   "published": "2026-10-29T10:15:16+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Aula occupata all'Università Bicocca a Milano, attesa per i cortei di domani",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/10/29/aula-occupata-alluniversita-bicocca-a-milano-attesa-per-i-cortei-di-domani_3904de2b-a7ec-4167-a221-93208fadd540.html",
+   "published": "2026-10-29T10:10:10+01:00"
   },
   {
    "city": "paris",
    "title": "Le ministre de l'Enseignement supérieur estime qu'il est \"essentiel\" que les cours puissent reprendre lundi \"en présentiel\" mais assure que la discussion \"reste ouverte\"",
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-ministre-de-l-enseignement-superieur-estime-qu-il-est-essentiel-que-les-cours-puissent-reprendre-lundi-en-presentiel-mais-assure-que-la-discussion-reste-ouverte_8258474.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-10-29T08:59:48+01:00"
+   "published": "2026-10-29T10:05:49+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Autonomie de la Corse : le rejet du projet de loi au Sénat ouvre une crise politique aiguë dans l’île",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/article/2026/10/29/autonomie-de-la-corse-le-rejet-du-projet-de-loi-au-senat-ouvre-une-crise-politique-aigue-dans-l-ile_6802293_823448.html",
+   "published": "2026-10-29T10:00:07+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations : Jean-Pierre Farandou veut donner un \"OK de principe\" aux commerçants qui veulent ouvrir le dimanche, pour compenser les pertes d'activités",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/economie/greve/manifestations-jean-pierre-farandou-veut-donner-un-ok-de-principe-aux-commercants-qui-veulent-ouvrir-le-dimanche-pour-compenser-les-pertes-d-activites_8258495.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-10-29T09:29:06+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mort de Christophe M. le 17 octobre à Paris : le rôle du gaz lacrymogène pointé du doigt par la famille",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/val-de-marne-94/mort-de-christophe-m-le-17-octobre-a-paris-le-role-du-gaz-lacrymogene-pointe-du-doigt-par-la-famille-29-10-2026-7ZKZTIVS2JCOLIEQJGHGAOFFRY.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Moi, je vais m’en sortir, mais à côté… » : après les pillages à Paris, la survie à deux vitesses des commerçants",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/moi-je-vais-men-sortir-mais-a-cote-apres-les-pillages-a-paris-la-survie-a-deux-vitesses-des-commercants-28-10-2026-YB762TXB6JBEPGUTSTYKYZAHBU.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Libre, indépendant, révolté » : une amie de Christophe M., mort lors de la manifestation du 17 octobre, se confie",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/val-de-marne-94/libre-independant-revolte-qui-etait-christophe-m-mort-lors-de-la-manifestation-du-17-octobre-28-10-2026-UGVUXJHIENBKHDJXJEQWA3FW4U.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Colère lycéenne : une nouvelle manifestation prévue le mardi 3 novembre, un parcours entre Panthéon et le siège du Medef déclaré",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/colere-lyceenne-une-nouvelle-manifestation-prevue-le-3-novembre-un-parcours-entre-pantheon-et-le-siege-du-medef-declare-28-10-2026-HL3T653SCRH4LCOQQJ62SG66JA.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Blocages des lycées : « C’est ici le cours de maths ? », à Normale sup, du soutien scolaire solidaire",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/blocages-des-lycees-cest-ici-le-cours-de-maths-a-normale-sup-du-soutien-scolaire-solidaire-28-10-2026-AUTAYTI3TVEUVFUTXRCRFGXMFM.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 17 octobre à Paris : mort d’un homme après une « défaillance cardio respiratoire », sa famille accuse le gaz lacrymogène",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-a-paris-mort-dun-homme-apres-une-defaillance-cardio-respiratoire-sa-famille-accuse-le-gaz-lacrymogene-27-10-2026-RNYHAGFJPFA3JKGQ7BKKG62TLI.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« La casse est aussi à l’intérieur » : après les pillages de commerces à Paris, un traumatisme économique… et psychologique",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/la-casse-est-aussi-a-linterieur-apres-les-pillages-de-commerces-a-paris-un-traumatisme-economique-et-psychologique-27-10-2026-LCIAAQK6RBHVTBVRRWKRIVFYTE.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Ils n’ont qu’à aller vers les Champs-Élysées ! » : à Paris, les commerçants s’inquiètent déjà des prochaines manifestations",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/ils-nont-qua-aller-vers-les-champs-elysees-a-paris-les-commercants-sinquietent-deja-des-prochaines-manifestations-25-10-2026-6N55TUT7KBEWVKMIIFJ44XRYA4.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre : plus de 1 300 interpellations en France et 142 à Paris, en très forte baisse par rapport au 17",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-24-octobre-142-interpellations-a-paris-six-fois-moins-que-samedi-dernier-25-10-2026-KMCE3UGLANFIJC3EPY2IRU3KMY.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« On joue au jeu du chat et de la souris » : pluie, lacrymo, Master Poulet… une étrange fin de manifestation à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/on-joue-au-chat-du-chat-et-de-la-souris-pluie-lacrymo-master-poulet-une-etrange-fin-de-manifestation-a-paris-24-10-2026-JUQPWBWUZJEPVL7JG5EBFSFBJA.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 24 octobre : à Paris, un flot continu de manifestants pour « démontrer qu’il n’y a pas que la violence »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-24-octobre-a-paris-un-flot-continu-de-manifestants-pour-demontrer-quil-ny-a-pas-que-la-violence-24-10-2026-65VXIRBPJFHAZCWWYWI7OCR32M.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Ce sera la première grosse manifestation ici ! » : entre les portes d’Italie et de Vincennes, les commerçants inquiets",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/ce-sera-la-premiere-grosse-manifestation-ici-entre-les-portes-ditalie-et-de-vincennes-les-commercants-inquiets-24-10-2026-DCOTSPLWYBGDND72TNSSXO5MT4.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 24 octobre : « C’est à nous de payer alors qu’on est le peuple ! » enragent les commerçants pillés",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/manifestations-du-24-octobre-cest-a-nous-de-payer-alors-quon-est-le-peuple-enragent-les-commercants-pilles-24-10-2026-HHIAN4BCEZCJFDZ4ESVLCVZNCA.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre à Paris : les 24 stations de métro fermées ce samedi",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-24-octobre-a-paris-les-24-stations-de-metro-fermees-ce-samedi-24-10-2026-XM37DFGRYRHVXICFQX2F2MHWZE.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« À quoi sont-ils en train de jouer ? » : les syndicats furieux du nouveau parcours de la manifestation à Paris imposé par la préfecture",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/a-quoi-sont-ils-en-train-de-jouer-les-syndicats-furieux-du-nouveau-parcours-de-la-manifestation-a-paris-impose-par-la-prefecture-23-10-2026-BECQQC5GGZAANLJYKDVTV7CJ4A.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre à Paris : Bastille-Nation interdit, voici le nouveau parcours entre les portes d’Italie et de Vincennes imposé par la préfecture",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-bastille-nation-interdit-voici-le-nouveau-parcours-entre-les-portes-ditalie-et-de-vincennes-impose-par-la-prefecture-23-10-2026-TLPOY4VLVVH7LJBZTZV6HHVRUY.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 24 octobre : « On se prépare à ce que la situation dure plusieurs semaines », prévient Emmanuel Grégoire",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-on-se-prepare-a-ce-que-la-situation-dure-plusieurs-semaines-previent-emmanuel-gregoire-23-10-2026-ZC34LUAYAVC6TAYJ4YQ4FLWA7Y.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 24 octobre : comment les concerts s’adaptent « minute après minute » aux couvre-feux",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/culture-loisirs/musique/manifestations-du-24-octobre-face-aux-couvre-feux-les-concerts-sadaptent-minute-apres-minute-23-10-2026-5ATVKD7FQJGNNPOIT4565SDWRM.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Pas leurs compétences » : pourquoi les policiers municipaux resteront à l’écart « des casseurs ou des manifestants » le 24 octobre à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pas-leurs-competences-pourquoi-les-policiers-municipaux-resteront-a-lecart-des-casseurs-ou-des-manifestants-le-24-octobre-a-paris-23-10-2026-6225YME3LRAYPCUBMAQW774Z4U.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Palissades, maître-chien… A Paris, les mairies d’arrondissement se mettent aussi à couvert avant la manifestation du 24 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/palissades-maitre-chien-retrait-des-drapeaux-a-paris-les-mairies-darrondissement-se-mettent-aussi-a-couvert-avant-la-manifestation-23-10-2026-4ICNPV2HMBATBO4EJW65ZNS2UY.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Quand la société se divise, le Paris Basketball rassemble »: lycéens, étudiants, commerçants et agents de propreté invités par le club parisien",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/sports/basket/quand-la-societe-se-divise-le-paris-basketball-rassemble-lyceens-etudiants-commercants-et-agents-de-proprete-invites-par-le-club-parisien-23-10-2026-HJ5I7B7BJRBZ3H7EVS7SIGYGRU.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« S’ils foutent le feu à l’immeuble, qu’est-ce qu’on fait ? » : partir ou rester, le dilemme des Parisiens avant la manifestation du 24 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/sils-foutent-le-feu-a-limmeuble-quest-ce-quon-fait-partir-ou-rester-le-dilemme-des-parisiens-avant-la-manifestation-du-24-octobre-23-10-2026-XZDOONYEHFBTZL44ISCVWYKRYI.php",
+   "published": "2026-10-29T09:19:42+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation lycéenne : «On aurait certainement dû être plus rapides», reconnaît Édouard Geffray",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/mobilisation-lyceenne-on-aurait-certainement-du-etre-plus-rapides-reconnait-edouard-geffray-20261029",
+   "published": "2026-10-29T09:15:20+01:00"
   },
   {
    "city": "paris",
@@ -28,160 +210,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/politica/siher-scarcerato-gip-milano-violenze-17-ottobre.html",
    "published": "2026-10-29T08:29:53+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mort de Christophe M. le 17 octobre à Paris : le rôle du gaz lacrymogène pointé du doigt par la famille",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/val-de-marne-94/mort-de-christophe-m-le-17-octobre-a-paris-le-role-du-gaz-lacrymogene-pointe-du-doigt-par-la-famille-29-10-2026-7ZKZTIVS2JCOLIEQJGHGAOFFRY.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Moi, je vais m’en sortir, mais à côté… » : après les pillages à Paris, la survie à deux vitesses des commerçants",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/moi-je-vais-men-sortir-mais-a-cote-apres-les-pillages-a-paris-la-survie-a-deux-vitesses-des-commercants-28-10-2026-YB762TXB6JBEPGUTSTYKYZAHBU.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Libre, indépendant, révolté » : une amie de Christophe M., mort lors de la manifestation du 17 octobre, se confie",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/val-de-marne-94/libre-independant-revolte-qui-etait-christophe-m-mort-lors-de-la-manifestation-du-17-octobre-28-10-2026-UGVUXJHIENBKHDJXJEQWA3FW4U.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Colère lycéenne : une nouvelle manifestation prévue le mardi 3 novembre, un parcours entre Panthéon et le siège du Medef déclaré",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/colere-lyceenne-une-nouvelle-manifestation-prevue-le-3-novembre-un-parcours-entre-pantheon-et-le-siege-du-medef-declare-28-10-2026-HL3T653SCRH4LCOQQJ62SG66JA.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Blocages des lycées : « C’est ici le cours de maths ? », à Normale sup, du soutien scolaire solidaire",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/blocages-des-lycees-cest-ici-le-cours-de-maths-a-normale-sup-du-soutien-scolaire-solidaire-28-10-2026-AUTAYTI3TVEUVFUTXRCRFGXMFM.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 17 octobre à Paris : mort d’un homme après une « défaillance cardio respiratoire », sa famille accuse le gaz lacrymogène",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-a-paris-mort-dun-homme-apres-une-defaillance-cardio-respiratoire-sa-famille-accuse-le-gaz-lacrymogene-27-10-2026-RNYHAGFJPFA3JKGQ7BKKG62TLI.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« La casse est aussi à l’intérieur » : après les pillages de commerces à Paris, un traumatisme économique… et psychologique",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/la-casse-est-aussi-a-linterieur-apres-les-pillages-de-commerces-a-paris-un-traumatisme-economique-et-psychologique-27-10-2026-LCIAAQK6RBHVTBVRRWKRIVFYTE.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Ils n’ont qu’à aller vers les Champs-Élysées ! » : à Paris, les commerçants s’inquiètent déjà des prochaines manifestations",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/ils-nont-qua-aller-vers-les-champs-elysees-a-paris-les-commercants-sinquietent-deja-des-prochaines-manifestations-25-10-2026-6N55TUT7KBEWVKMIIFJ44XRYA4.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre : plus de 1 300 interpellations en France et 142 à Paris, en très forte baisse par rapport au 17",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-24-octobre-142-interpellations-a-paris-six-fois-moins-que-samedi-dernier-25-10-2026-KMCE3UGLANFIJC3EPY2IRU3KMY.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« On joue au jeu du chat et de la souris » : pluie, lacrymo, Master Poulet… une étrange fin de manifestation à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/on-joue-au-chat-du-chat-et-de-la-souris-pluie-lacrymo-master-poulet-une-etrange-fin-de-manifestation-a-paris-24-10-2026-JUQPWBWUZJEPVL7JG5EBFSFBJA.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 24 octobre : à Paris, un flot continu de manifestants pour « démontrer qu’il n’y a pas que la violence »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-24-octobre-a-paris-un-flot-continu-de-manifestants-pour-demontrer-quil-ny-a-pas-que-la-violence-24-10-2026-65VXIRBPJFHAZCWWYWI7OCR32M.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Ce sera la première grosse manifestation ici ! » : entre les portes d’Italie et de Vincennes, les commerçants inquiets",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/ce-sera-la-premiere-grosse-manifestation-ici-entre-les-portes-ditalie-et-de-vincennes-les-commercants-inquiets-24-10-2026-DCOTSPLWYBGDND72TNSSXO5MT4.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 24 octobre : « C’est à nous de payer alors qu’on est le peuple ! » enragent les commerçants pillés",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/manifestations-du-24-octobre-cest-a-nous-de-payer-alors-quon-est-le-peuple-enragent-les-commercants-pilles-24-10-2026-HHIAN4BCEZCJFDZ4ESVLCVZNCA.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre à Paris : les 24 stations de métro fermées ce samedi",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-24-octobre-a-paris-les-24-stations-de-metro-fermees-ce-samedi-24-10-2026-XM37DFGRYRHVXICFQX2F2MHWZE.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« À quoi sont-ils en train de jouer ? » : les syndicats furieux du nouveau parcours de la manifestation à Paris imposé par la préfecture",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/a-quoi-sont-ils-en-train-de-jouer-les-syndicats-furieux-du-nouveau-parcours-de-la-manifestation-a-paris-impose-par-la-prefecture-23-10-2026-BECQQC5GGZAANLJYKDVTV7CJ4A.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre à Paris : Bastille-Nation interdit, voici le nouveau parcours entre les portes d’Italie et de Vincennes imposé par la préfecture",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-a-paris-bastille-nation-interdit-voici-le-nouveau-parcours-entre-les-portes-ditalie-et-de-vincennes-impose-par-la-prefecture-23-10-2026-TLPOY4VLVVH7LJBZTZV6HHVRUY.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 24 octobre : « On se prépare à ce que la situation dure plusieurs semaines », prévient Emmanuel Grégoire",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-24-octobre-on-se-prepare-a-ce-que-la-situation-dure-plusieurs-semaines-previent-emmanuel-gregoire-23-10-2026-ZC34LUAYAVC6TAYJ4YQ4FLWA7Y.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 24 octobre : comment les concerts s’adaptent « minute après minute » aux couvre-feux",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/culture-loisirs/musique/manifestations-du-24-octobre-face-aux-couvre-feux-les-concerts-sadaptent-minute-apres-minute-23-10-2026-5ATVKD7FQJGNNPOIT4565SDWRM.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Pas leurs compétences » : pourquoi les policiers municipaux resteront à l’écart « des casseurs ou des manifestants » le 24 octobre à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/pas-leurs-competences-pourquoi-les-policiers-municipaux-resteront-a-lecart-des-casseurs-ou-des-manifestants-le-24-octobre-a-paris-23-10-2026-6225YME3LRAYPCUBMAQW774Z4U.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Palissades, maître-chien… A Paris, les mairies d’arrondissement se mettent aussi à couvert avant la manifestation du 24 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/palissades-maitre-chien-retrait-des-drapeaux-a-paris-les-mairies-darrondissement-se-mettent-aussi-a-couvert-avant-la-manifestation-23-10-2026-4ICNPV2HMBATBO4EJW65ZNS2UY.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Quand la société se divise, le Paris Basketball rassemble »: lycéens, étudiants, commerçants et agents de propreté invités par le club parisien",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/sports/basket/quand-la-societe-se-divise-le-paris-basketball-rassemble-lyceens-etudiants-commercants-et-agents-de-proprete-invites-par-le-club-parisien-23-10-2026-HJ5I7B7BJRBZ3H7EVS7SIGYGRU.php",
-   "published": "2026-10-29T08:21:11+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« S’ils foutent le feu à l’immeuble, qu’est-ce qu’on fait ? » : partir ou rester, le dilemme des Parisiens avant la manifestation du 24 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/sils-foutent-le-feu-a-limmeuble-quest-ce-quon-fait-partir-ou-rester-le-dilemme-des-parisiens-avant-la-manifestation-du-24-octobre-23-10-2026-XZDOONYEHFBTZL44ISCVWYKRYI.php",
-   "published": "2026-10-29T08:21:11+00:00"
   },
   {
    "city": "milano",
@@ -199,7 +227,7 @@
   },
   {
    "city": "milano",
-   "title": "La manifestazione dello sciopero Usb. Occupate la Statale e la Bicocca. Venerdì 30 ottobre in piazza con sindacati e pro Pal",
+   "title": "La manifestazione dello sciopero Usb. Studenti occupano Statale e Bicocca, venerdì 30 ottobre in piazza con sindacati e pro Pal",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/la-manifestazione-dello-sciopero-usb-16bf29bd",
    "published": "2026-10-29T05:16:45+00:00"
@@ -336,20 +364,6 @@
    "outlet": "Le Monde",
    "url": "https://www.lemonde.fr/politique/article/2026/10/28/apres-l-attentat-raciste-de-trappes-lfi-et-emmanuel-gregoire-mettent-en-garde-contre-des-manifestations-liees-a-l-extreme-droite-prevues-ce-week-end_6801620_823448.html",
    "published": "2026-10-28T18:21:47+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "La gauche dénonce la tenue de manifestations \"néofascistes\" ce week-end à Paris",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/france/20261028-gauche-d%C3%A9nonce-tenue-manifestations-n%C3%A9ofascistes-week-end-paris-lfi-ps-pcf-objectif-remigration",
-   "published": "2026-10-28T18:21:16+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation lycéenne : Jean-Michel Blanquer défend Parcoursup et sa réforme du lycée et du bac devant les sénateurs",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/10/28/mobilisation-lyceenne-face-aux-senateurs-jean-michel-blanquer-defend-parcoursup-et-sa-reforme-du-lycee-et-du-bac_6801616_3224.html",
-   "published": "2026-10-28T18:04:22+01:00"
   },
   {
    "city": "milano",
@@ -546,20 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/i-pm-la-guerra-di-f6ea51ad",
    "published": "2026-10-27T05:04:09+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Il fenomeno delle social street. San Gottardo esempio mondiale. Anni di impegno civico e battaglie",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/speciali/servizi/il-fenomeno-delle-social-street-8d882728",
-   "published": "2026-10-27T04:23:16+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "\"Scontri partiti dall’estrema destra\"",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/brescia/cronaca/scontri-partiti-dallestrema-destra-1837f102",
-   "published": "2026-10-27T04:16:55+00:00"
   }
  ]
 }
