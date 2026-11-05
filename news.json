@@ -1,6 +1,132 @@
 {
- "updatedAt": "2026-11-05T11:56:15+00:00",
+ "updatedAt": "2026-11-05T12:59:37+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "EN DIRECT - Grève du 5 novembre : 270.000 manifestants dans 180 cortèges hors Paris à la mi-journée, un adolescent blessé à La Courneuve",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
+   "published": "2026-11-05T13:59:22+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "EN DIRECT, grève du 5 novembre : « Les cortèges se déroulent globalement bien », rapporte l’entourage de Laurent Nuñez, qui dénombre 270 000 manifestants, hors Paris",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-les-corteges-se-deroulent-globalement-bien-rapporte-l-entourage-de-laurent-nunez-qui-denombre-270-000-manifestants-hors-paris_6806775_823448.html",
+   "published": "2026-11-05T13:55:34+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Blocages des lycées : l’année scolaire est-elle « à risque », comme l’affirme Édouard Geffray ?",
+   "outlet": "Le Figaro",
+   "url": "https://etudiant.lefigaro.fr/article/lycee/blocages-des-lycees-l-annee-scolaire-est-elle-a-risque-comme-l-affirme-edouard-geffray-20261105/",
+   "published": "2026-11-05T13:49:29+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 5 novembre : l'Intérieur dénombre 270 000 manifestants dans 180 cortèges, la CGT en compte 250 000 dans plus de 73 villes",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-05T13:47:57+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 5 novembre : à la Gare du Nord, la police traque ceux qui ont « la volonté de participer aux affrontements »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-5-novembre-a-la-gare-du-nord-la-police-traque-ceux-qui-ont-la-volonte-de-participer-aux-affrontements-05-11-2026-CBIMMY5DQ5HG5K5ZNTHHMNPGZM.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Grève du 5 novembre à Paris : voici le parcours de la manifestation entre République et Nation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-voici-le-parcours-de-la-manifestation-republique-nation-propose-par-la-prefecture-04-11-2026-LMAH5ZVYPNCPBLP7TWVW37P6K4.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Cela m’a choquée mais… » : face à l’image du gendarme en feu lors d’une manifestation, les réactions très contrastées des lycéens",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/cela-ma-choquee-mais-face-a-limage-du-gendarme-en-feu-lors-dune-manifestation-les-reactions-tres-contrastees-des-lyceens-04-11-2026-BLXXXGSQ2FAAPEWQIPCFJ3XZ5U.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation à Paris : frappé après avoir voulu éteindre un gendarme en feu, un homme est « remercié publiquement » par un général",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-a-paris-frappe-apres-avoir-voulu-eteindre-un-gendarme-en-feu-un-homme-est-remercie-publiquement-par-un-general-03-11-2026-6SYMGIHI2ZGLNP6A2XBUHQMW5Y.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mort de Christophe le 17 octobre à Paris : une cagnotte créée « pour connaître la vérité » autour du décès du manifestant",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mort-de-christophe-le-17-octobre-a-paris-une-cagnotte-creee-pour-connaitre-la-verite-autour-du-deces-du-manifestant-02-11-2026-TZWGQIBF45FS5MPDWQOGOELYRY.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation lycéenne : la préfecture de police interdit la manifestation de l’Interfac IDF prévue ce mardi à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’espère qu’on ne va pas devoir s’habituer » : aux portes de Paris, l’inquiétude après les violences en fin de manifestation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/jespere-quon-va-pas-devoir-shabituer-aux-portes-de-paris-linquietude-apres-les-violences-en-fin-de-manifestation-01-11-2026-Z5CJKYI5ZRFOZBGNWVMYI2WOPQ.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : « on a frôlé la catastrophe », le gendarme blessé après un jet de cocktail molotov témoigne",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-31-octobre-a-paris-on-a-frole-la-catastrophe-le-gendarme-blesse-apres-un-jet-de-cocktail-molotov-temoigne-31-10-2026-OQ2ERQVMEBFTRNICN5RKQUWVB4.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’espère qu’on ne retiendra pas que ça » : à Paris, comment la fin de manifestation a viré à l’affrontement",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/jespere-quon-ne-retiendra-pas-que-ca-a-paris-comment-la-fin-de-manifestation-a-vire-a-laffrontement-31-10-2026-JG3O5KKLMNHZVLREZVV5CA4AGY.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Seul, pacifique, et non armé » : le parquet de Paris ouvre une enquête après le tabassage d’un manifestant par des policiers le 17 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/seul-pacifique-et-non-arme-le-parquet-de-paris-ouvre-une-enquete-apres-le-tabassage-dun-manifestant-par-des-policiers-le-17-octobre-30-10-2026-LBBSF3XWTBC4ND2WCZC2V2KCSI.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 31 octobre : le maintien de l’ordre « à la parisienne » est-il vraiment adapté aux pillages ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/mobilisation-du-31-octobre-le-maintien-de-lordre-a-la-parisienne-est-il-vraiment-adapte-aux-pillages-30-10-2026-7JJCL7YAENHSVJCE2TY5YLQSKU.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : Bastille-Nation, voici le parcours autorisé par le tribunal administratif",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-bastille-nation-voici-le-parcours-autorise-par-le-tribunal-administratif-30-10-2026-VHV7WTYF3FDVFOJUDLHZFG5QZQ.php",
+   "published": "2026-11-05T12:59:37+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Workers strike across France, hundreds of thousands expected to protest",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest?traffic_source=rss",
+   "published": "2026-11-05T12:21:13+00:00"
+  },
   {
    "city": "paris",
    "title": "Manifestations du 5 novembre : les images d’un lycée près de Toulouse incendié par des tirs de mortier",
@@ -10,94 +136,10 @@
   },
   {
    "city": "paris",
-   "title": "Grève du 5 novembre à Paris : voici le parcours de la manifestation entre République et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-voici-le-parcours-de-la-manifestation-republique-nation-propose-par-la-prefecture-04-11-2026-LMAH5ZVYPNCPBLP7TWVW37P6K4.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Cela m’a choquée mais… » : face à l’image du gendarme en feu lors d’une manifestation, les réactions très contrastées des lycéens",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/cela-ma-choquee-mais-face-a-limage-du-gendarme-en-feu-lors-dune-manifestation-les-reactions-tres-contrastees-des-lyceens-04-11-2026-BLXXXGSQ2FAAPEWQIPCFJ3XZ5U.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation à Paris : frappé après avoir voulu éteindre un gendarme en feu, un homme est « remercié publiquement » par un général",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-a-paris-frappe-apres-avoir-voulu-eteindre-un-gendarme-en-feu-un-homme-est-remercie-publiquement-par-un-general-03-11-2026-6SYMGIHI2ZGLNP6A2XBUHQMW5Y.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mort de Christophe le 17 octobre à Paris : une cagnotte créée « pour connaître la vérité » autour du décès du manifestant",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mort-de-christophe-le-17-octobre-a-paris-une-cagnotte-creee-pour-connaitre-la-verite-autour-du-deces-du-manifestant-02-11-2026-TZWGQIBF45FS5MPDWQOGOELYRY.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation lycéenne : la préfecture de police interdit la manifestation de l’Interfac IDF prévue ce mardi à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’espère qu’on ne va pas devoir s’habituer » : aux portes de Paris, l’inquiétude après les violences en fin de manifestation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/jespere-quon-va-pas-devoir-shabituer-aux-portes-de-paris-linquietude-apres-les-violences-en-fin-de-manifestation-01-11-2026-Z5CJKYI5ZRFOZBGNWVMYI2WOPQ.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : « on a frôlé la catastrophe », le gendarme blessé après un jet de cocktail molotov témoigne",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-31-octobre-a-paris-on-a-frole-la-catastrophe-le-gendarme-blesse-apres-un-jet-de-cocktail-molotov-temoigne-31-10-2026-OQ2ERQVMEBFTRNICN5RKQUWVB4.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’espère qu’on ne retiendra pas que ça » : à Paris, comment la fin de manifestation a viré à l’affrontement",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/jespere-quon-ne-retiendra-pas-que-ca-a-paris-comment-la-fin-de-manifestation-a-vire-a-laffrontement-31-10-2026-JG3O5KKLMNHZVLREZVV5CA4AGY.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Seul, pacifique, et non armé » : le parquet de Paris ouvre une enquête après le tabassage d’un manifestant par des policiers le 17 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/seul-pacifique-et-non-arme-le-parquet-de-paris-ouvre-une-enquete-apres-le-tabassage-dun-manifestant-par-des-policiers-le-17-octobre-30-10-2026-LBBSF3XWTBC4ND2WCZC2V2KCSI.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 31 octobre : le maintien de l’ordre « à la parisienne » est-il vraiment adapté aux pillages ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/mobilisation-du-31-octobre-le-maintien-de-lordre-a-la-parisienne-est-il-vraiment-adapte-aux-pillages-30-10-2026-7JJCL7YAENHSVJCE2TY5YLQSKU.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : Bastille-Nation, voici le parcours autorisé par le tribunal administratif",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-bastille-nation-voici-le-parcours-autorise-par-le-tribunal-administratif-30-10-2026-VHV7WTYF3FDVFOJUDLHZFG5QZQ.php",
-   "published": "2026-11-05T11:56:15+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 5 novembre : 81 lycées bloqués à 10 heures selon le ministère, l'Union syndicale lycéenne annonce 1 000 établissements \"à l'arrêt\"",
+   "title": "Bâtiments vétustes, toilettes insalubres, chauffage défectueux... Découvrez les 200 lycées prioritaires pour être rénovés dans notre moteur de recherche",
    "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-05T11:51:35+01:00"
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/batiments-vetustes-toilettes-insalubres-chauffage-defectueux-decouvrez-les-200-lycees-prioritaires-pour-etre-renoves-dans-notre-moteur-de-recherche_8268914.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-05T12:14:07+01:00"
   },
   {
    "city": "paris",
@@ -147,13 +189,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/varese/cronaca/besozzo-scontro-fra-tre-auto-in-via-trieste-anche-due-bimbi-coinvolti-11eda548",
    "published": "2026-11-05T09:45:53+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "EN DIRECT - Grève du 5 novembre : la grogne sociale monte d’un cran, jusqu’à 700.000 manifestants attendus dans les rues",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
-   "published": "2026-11-05T08:47:02+01:00"
   },
   {
    "city": "paris",
@@ -282,13 +317,6 @@
    "published": "2026-11-04T15:35:55+00:00"
   },
   {
-   "city": "paris",
-   "title": "Les manifestations République-Bastille-Nation, c’est terminé « pour un temps » : le plan du préfet de police de Paris pour ramener le calme",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/les-manifestations-republique-bastille-nation-cest-termine-pour-un-temps-le-plan-du-prefet-de-police-de-paris-pour-ramener-le-calme-29-10-2026-PWC5HPWZG5BGDIJKW6V6ZVFQQE.php",
-   "published": "2026-11-04T14:52:42+00:00"
-  },
-  {
    "city": "milano",
    "title": "Garlasco, quando si terrà l’udienza preliminare di Sempio? E a Brescia cambia il Pg della possibile revisione per Stasi",
    "outlet": "Il Giorno",
@@ -301,13 +329,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/attualita/tax-the-rich-party-milano-arco-pace-7-novembre-2026.html",
    "published": "2026-11-04T12:48:27+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation des lycéens : les absences des élèves peuvent-elles pénaliser leur dossier Parcoursup ?",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/mobilisation-des-lyceens-les-absences-des-eleves-peuvent-elles-penaliser-leur-dossier-parcoursup_8266520.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-04T12:22:10+01:00"
   },
   {
    "city": "milano",
@@ -324,13 +345,6 @@
    "published": "2026-11-04T05:40:15+00:00"
   },
   {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : sans réponse de la préfecture sur le parcours, l’intersyndicale dénonce des « manœuvres dangereuses »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-sans-reponse-de-la-prefecture-sur-le-parcours-lintersyndicale-denonce-des-manoeuvres-dangereuses-29-10-2026-OPIHGMIPZJGKHNYNFFNRDIID74.php",
-   "published": "2026-11-04T05:39:54+00:00"
-  },
-  {
    "city": "milano",
    "title": "Rimpasto della Giunta, è scontro: \"Così vince la logica del potere\". La sindaca: avanti col programma",
    "outlet": "Il Giorno",
@@ -343,20 +357,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/comunali-sfida-a-colpi-di-saggi-majorino-pacini-cjptusko",
    "published": "2026-11-04T01:00:00+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation lycéenne : 37 agents de l'Education nationale ont été blessés depuis lundi, annonce Edouard Geffray",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-les-organisations-de-jeunesse-appellent-a-une-nouvelle-journee-de-blocages-massifs-des-facs-et-des-lycees-avant-la-greve-de-jeudi_8265284.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-03T23:55:31+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "À Marseille, un marin-pompier raconte comment son camion a été pris d'assaut",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/faits-divers/a-marseille-un-marin-pompier-raconte-comment-son-camion-a-ete-pris-d-assaut_8266499.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-03T23:32:15+01:00"
   },
   {
    "city": "milano",
