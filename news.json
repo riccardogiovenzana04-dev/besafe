@@ -1,6 +1,118 @@
 {
- "updatedAt": "2026-11-05T05:30:04+00:00",
+ "updatedAt": "2026-11-05T06:33:44+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "EN DIRECT - Grève du 5 novembre : la grogne sociale monte d’un cran, jusqu’à 700.000 manifestants attendus dans les rues",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
+   "published": "2026-11-05T07:21:02+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Grève du 5 novembre : plus de 250 actions annoncées dans toute la France, selon une carte de la GGT",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-05T07:10:46+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Grève du 5 novembre à Paris : voici le parcours de la manifestation entre République et Nation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-voici-le-parcours-de-la-manifestation-republique-nation-propose-par-la-prefecture-04-11-2026-LMAH5ZVYPNCPBLP7TWVW37P6K4.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Cela m’a choquée mais… » : face à l’image du gendarme en feu lors d’une manifestation, les réactions très contrastées des lycéens",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/cela-ma-choquee-mais-face-a-limage-du-gendarme-en-feu-lors-dune-manifestation-les-reactions-tres-contrastees-des-lyceens-04-11-2026-BLXXXGSQ2FAAPEWQIPCFJ3XZ5U.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation à Paris : frappé après avoir voulu éteindre un gendarme en feu, un homme est « remercié publiquement » par un général",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-a-paris-frappe-apres-avoir-voulu-eteindre-un-gendarme-en-feu-un-homme-est-remercie-publiquement-par-un-general-03-11-2026-6SYMGIHI2ZGLNP6A2XBUHQMW5Y.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mort de Christophe le 17 octobre à Paris : une cagnotte créée « pour connaître la vérité » autour du décès du manifestant",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mort-de-christophe-le-17-octobre-a-paris-une-cagnotte-creee-pour-connaitre-la-verite-autour-du-deces-du-manifestant-02-11-2026-TZWGQIBF45FS5MPDWQOGOELYRY.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation lycéenne : la préfecture de police interdit la manifestation de l’Interfac IDF prévue ce mardi à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’espère qu’on ne va pas devoir s’habituer » : aux portes de Paris, l’inquiétude après les violences en fin de manifestation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/jespere-quon-va-pas-devoir-shabituer-aux-portes-de-paris-linquietude-apres-les-violences-en-fin-de-manifestation-01-11-2026-Z5CJKYI5ZRFOZBGNWVMYI2WOPQ.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : « on a frôlé la catastrophe », le gendarme blessé après un jet de cocktail molotov témoigne",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-31-octobre-a-paris-on-a-frole-la-catastrophe-le-gendarme-blesse-apres-un-jet-de-cocktail-molotov-temoigne-31-10-2026-OQ2ERQVMEBFTRNICN5RKQUWVB4.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’espère qu’on ne retiendra pas que ça » : à Paris, comment la fin de manifestation a viré à l’affrontement",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/jespere-quon-ne-retiendra-pas-que-ca-a-paris-comment-la-fin-de-manifestation-a-vire-a-laffrontement-31-10-2026-JG3O5KKLMNHZVLREZVV5CA4AGY.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Seul, pacifique, et non armé » : le parquet de Paris ouvre une enquête après le tabassage d’un manifestant par des policiers le 17 octobre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/seul-pacifique-et-non-arme-le-parquet-de-paris-ouvre-une-enquete-apres-le-tabassage-dun-manifestant-par-des-policiers-le-17-octobre-30-10-2026-LBBSF3XWTBC4ND2WCZC2V2KCSI.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 31 octobre : le maintien de l’ordre « à la parisienne » est-il vraiment adapté aux pillages ?",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/mobilisation-du-31-octobre-le-maintien-de-lordre-a-la-parisienne-est-il-vraiment-adapte-aux-pillages-30-10-2026-7JJCL7YAENHSVJCE2TY5YLQSKU.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 31 octobre à Paris : Bastille-Nation, voici le parcours autorisé par le tribunal administratif",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-bastille-nation-voici-le-parcours-autorise-par-le-tribunal-administratif-30-10-2026-VHV7WTYF3FDVFOJUDLHZFG5QZQ.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations à Paris : le couvre-feu de retour à République et Châtelet tout le week-end de la Toussaint",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestations-a-paris-le-couvre-feu-de-retour-a-republique-et-chatelet-tout-le-week-end-de-la-toussaint-30-10-2026-C4RGRN7OBZECLFJGVX7C2Z7A7Q.php",
+   "published": "2026-11-05T06:33:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "\"On ne pourra pas tout rattraper\" : les blocages des lycées menacent-ils l'année scolaire et la préparation du bac ?",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/on-ne-pourra-pas-tout-rattraper-les-blocages-des-lycees-menacent-ils-l-annee-scolaire-et-la-preparation-du-bac_8266037.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-05T06:03:19+01:00"
+  },
   {
    "city": "paris",
    "title": "Au lycée Diderot, dans les quartiers nord de Marseille, les élèves hésitent sur la suite du mouvement",
@@ -10,94 +122,24 @@
   },
   {
    "city": "paris",
-   "title": "Grève du 5 novembre à Paris : voici le parcours de la manifestation entre République et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-voici-le-parcours-de-la-manifestation-republique-nation-propose-par-la-prefecture-04-11-2026-LMAH5ZVYPNCPBLP7TWVW37P6K4.php",
-   "published": "2026-11-05T05:30:04+00:00"
+   "title": "Assigné à résidence avant les manifestations : \"On m'a reproché d'être une menace terroriste\"",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/assigne-a-residence-avant-les-manifestations-on-m-a-reproche-d-etre-une-menace-terroriste_8268311.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-05T06:00:04+01:00"
   },
   {
    "city": "paris",
-   "title": "« Cela m’a choquée mais… » : face à l’image du gendarme en feu lors d’une manifestation, les réactions très contrastées des lycéens",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/cela-ma-choquee-mais-face-a-limage-du-gendarme-en-feu-lors-dune-manifestation-les-reactions-tres-contrastees-des-lyceens-04-11-2026-BLXXXGSQ2FAAPEWQIPCFJ3XZ5U.php",
-   "published": "2026-11-05T05:30:04+00:00"
+   "title": "En direct : la grogne sociale monte d'un cran, grève et manifestations partout en France",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261105-en-direct-grogne-sociale-monte-cran-greve-manifestations-interprofessionnelle-france-syndicat-police-lycee-fonctionnaires-retraites",
+   "published": "2026-11-05T05:47:57+00:00"
   },
   {
-   "city": "paris",
-   "title": "Manifestation à Paris : frappé après avoir voulu éteindre un gendarme en feu, un homme est « remercié publiquement » par un général",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-a-paris-frappe-apres-avoir-voulu-eteindre-un-gendarme-en-feu-un-homme-est-remercie-publiquement-par-un-general-03-11-2026-6SYMGIHI2ZGLNP6A2XBUHQMW5Y.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mort de Christophe le 17 octobre à Paris : une cagnotte créée « pour connaître la vérité » autour du décès du manifestant",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mort-de-christophe-le-17-octobre-a-paris-une-cagnotte-creee-pour-connaitre-la-verite-autour-du-deces-du-manifestant-02-11-2026-TZWGQIBF45FS5MPDWQOGOELYRY.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation lycéenne : la préfecture de police interdit la manifestation de l’Interfac IDF prévue ce mardi à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’espère qu’on ne va pas devoir s’habituer » : aux portes de Paris, l’inquiétude après les violences en fin de manifestation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/jespere-quon-va-pas-devoir-shabituer-aux-portes-de-paris-linquietude-apres-les-violences-en-fin-de-manifestation-01-11-2026-Z5CJKYI5ZRFOZBGNWVMYI2WOPQ.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : « on a frôlé la catastrophe », le gendarme blessé après un jet de cocktail molotov témoigne",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/manifestation-du-31-octobre-a-paris-on-a-frole-la-catastrophe-le-gendarme-blesse-apres-un-jet-de-cocktail-molotov-temoigne-31-10-2026-OQ2ERQVMEBFTRNICN5RKQUWVB4.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’espère qu’on ne retiendra pas que ça » : à Paris, comment la fin de manifestation a viré à l’affrontement",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/jespere-quon-ne-retiendra-pas-que-ca-a-paris-comment-la-fin-de-manifestation-a-vire-a-laffrontement-31-10-2026-JG3O5KKLMNHZVLREZVV5CA4AGY.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Seul, pacifique, et non armé » : le parquet de Paris ouvre une enquête après le tabassage d’un manifestant par des policiers le 17 octobre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/seul-pacifique-et-non-arme-le-parquet-de-paris-ouvre-une-enquete-apres-le-tabassage-dun-manifestant-par-des-policiers-le-17-octobre-30-10-2026-LBBSF3XWTBC4ND2WCZC2V2KCSI.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 31 octobre : le maintien de l’ordre « à la parisienne » est-il vraiment adapté aux pillages ?",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/mobilisation-du-31-octobre-le-maintien-de-lordre-a-la-parisienne-est-il-vraiment-adapte-aux-pillages-30-10-2026-7JJCL7YAENHSVJCE2TY5YLQSKU.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : Bastille-Nation, voici le parcours autorisé par le tribunal administratif",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-31-octobre-a-paris-bastille-nation-voici-le-parcours-autorise-par-le-tribunal-administratif-30-10-2026-VHV7WTYF3FDVFOJUDLHZFG5QZQ.php",
-   "published": "2026-11-05T05:30:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations à Paris : le couvre-feu de retour à République et Châtelet tout le week-end de la Toussaint",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestations-a-paris-le-couvre-feu-de-retour-a-republique-et-chatelet-tout-le-week-end-de-la-toussaint-30-10-2026-C4RGRN7OBZECLFJGVX7C2Z7A7Q.php",
-   "published": "2026-11-05T05:30:04+00:00"
+   "city": "milano",
+   "title": "Biblioteche nei quartieri. Due milioni di ingressi e i giovani da conquistare",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/biblioteche-nei-quartieri-due-milioni-f07c19fe",
+   "published": "2026-11-05T05:32:46+00:00"
   },
   {
    "city": "milano",
@@ -324,32 +366,11 @@
    "published": "2026-11-03T14:51:41+00:00"
   },
   {
-   "city": "paris",
-   "title": "EN DIRECT, audition de Laurent Nuñez : le ministre de l’intérieur justifie les interpellations dans le cadre du mouvement lycéen et dit « regretter, évidemment » les blessures graves",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/politique/live/2026/11/03/en-direct-audition-de-laurent-nunez-le-ministre-de-l-interieur-attendu-devant-la-commission-d-enquete-sur-les-violences-du-17-octobre-a-16-h-30_6805591_823448.html",
-   "published": "2026-11-03T14:34:22+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisations en France : nouveaux blocages de facs et de lycées",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/vid%C3%A9o/20261103-mobilisations-en-france-nouveaux-blocages-de-facs-et-de-lyc%C3%A9es",
-   "published": "2026-11-03T14:31:26+00:00"
-  },
-  {
    "city": "milano",
    "title": "Scontri del 17 ottobre a Milano: torna libero un 24enne, Riesame deciderà per un 21enne",
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/scontri-milano-riesame-scarcerazione-21enne.html",
    "published": "2026-11-03T14:28:55+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Près de 5 000 personnes ont été placées en garde à vue et 329 incarcérées depuis le 17 octobre, annonce Gérald Darmanin",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/pres-de-5-000-personnes-ont-ete-placees-en-gardes-a-vue-et-329-incarcerees-depuis-le-17-octobre-annonce-gerald-darmanin_8265416.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-03T14:07:57+01:00"
   },
   {
    "city": "milano",
@@ -359,25 +380,11 @@
    "published": "2026-11-03T12:54:04+00:00"
   },
   {
-   "city": "paris",
-   "title": "Mobilisations en France : les blocages préoccupent certains parents et lycéens",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/vid%C3%A9o/20261103-mobilisations-en-france-les-blocages-pr%C3%A9occupent-certains-parents-et-lyc%C3%A9ens",
-   "published": "2026-11-03T11:54:36+00:00"
-  },
-  {
    "city": "milano",
    "title": "Incidente a Capriolo, scontro frontale fra autocisterna e camion dei rifiuti: un morto e un ferito",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/brescia/cronaca/capriolo-incidente-camion-morto-ferito-provinciale-469-f11n9c61",
    "published": "2026-11-03T10:41:09+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Avant la mobilisation nationale du 5 novembre, de nouvelles « perturbations » et blocages dans les universités et les lycées",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/03/avant-la-mobilisation-nationale-du-5-novembre-de-nouvelles-perturbations-et-blocages-dans-les-universites-et-les-lycees_6805556_3224.html",
-   "published": "2026-11-03T10:29:06+01:00"
   },
   {
    "city": "milano",
@@ -553,13 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/brescia/cronaca/perquisiziono-scontri--brescia-i61rafr8",
    "published": "2026-10-31T17:56:42+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Halloween a Milano: maxi-spiegamento di forze dell'ordine 'anti-maranza'",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/halloween-milano-maranza-controlli-31-ottobre.html",
-   "published": "2026-10-31T14:43:19+01:00"
   }
  ]
 }
