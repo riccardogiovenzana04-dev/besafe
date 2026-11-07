@@ -1,103 +1,201 @@
 {
- "updatedAt": "2026-11-07T06:00:27+00:00",
+ "updatedAt": "2026-11-07T13:04:55+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "EN DIRECT - Acte IV des gilets jaunes, mobilisation des syndicats et des lycéens… Jusqu’à 170.000 manifestants attendus dans les rues de France",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/en-direct-acte-iv-des-gilets-jaunes-syndicats-mouvement-social-contre-la-vie-chere-casseurs-blacks-blocs-crs-manifestation-paris-place-de-la-concorde-20261107",
+   "published": "2026-11-07T14:04:02+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Pillages du 17 octobre : des commerces parisiens autorisés à ouvrir le dimanche",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-des-commerces-parisiens-autorises-a-ouvrir-le-dimanche-07-11-2026-UGZW32KV6ZCLBAFAQIOY7GBFLU.php",
+   "published": "2026-11-07T13:04:55+00:00"
+  },
   {
    "city": "paris",
    "title": "Manifestation du 7 novembre : République-Nation, voici le parcours de la mobilisation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-7-novembre-republique-nation-voici-le-parcours-de-la-mobilisation-a-paris-07-11-2026-34FFRX2WV5D27PBE322RIXWLXQ.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 7 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-7-novembre-a-paris-14-stations-de-metro-et-rer-fermees-ce-samedi-07-11-2026-EVK5NCI7GBFLVF3M2CEGO333QE.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "« Victimes récurrentes », « quartier bouclé »… À Paris, des commerçants dénoncent les manifestations à répétition autour de République",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/victimes-recurrentes-quartier-boucle-a-paris-des-commercants-denoncent-les-manifestations-a-repetition-autour-de-republique-06-11-2026-WK3R3GJ6ORAHVB4VS2OFWL34PU.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 5 novembre : deux journalistes déposent plainte après avoir été frappées par des CRS place de la Nation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-5-novembre-deux-journalistes-deposent-plainte-apres-avoir-ete-frappees-par-des-crs-place-de-la-nation-a-paris-06-11-2026-DRHIXEGYFVHSPHAYD5SXE6XF2U.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "« Sous-employée » et pas armée… Critiquée après les émeutes du 17 octobre, à quoi sert vraiment la police municipale à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/sous-employee-et-pas-armee-critiquee-apres-les-emeutes-du-17-octobre-a-quoi-sert-vraiment-la-police-municipale-a-paris-06-11-2026-T4O5CKMV5ZENFBVSPNP366IFK4.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 7 novembre : à Paris, la préfecture de police valide le parcours entre République et Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-7-novembre-a-paris-la-prefecture-de-police-valide-le-parcours-entre-republique-et-nation-06-11-2026-6L2O65H6HBBVRBZZVOAF3WRLS4.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "140 agents, 1 200 caméras, 24 heures/24 : avec la « vigie » de la police municipale de Paris, au cœur des manifestations",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/140-agents-1-200-cameras-24-heures24-avec-la-vigie-de-la-police-municipale-de-paris-au-coeur-des-manifestations-05-11-2026-I26W6S7SKVDM7OA4SS2R6COX24.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 5 novembre : à la Gare du Nord, la police traque ceux qui ont « la volonté de participer aux affrontements »",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-5-novembre-a-la-gare-du-nord-la-police-traque-ceux-qui-ont-la-volonte-de-participer-aux-affrontements-05-11-2026-CBIMMY5DQ5HG5K5ZNTHHMNPGZM.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Grève du 5 novembre à Paris : voici le parcours de la manifestation entre République et Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/greve-du-5-novembre-a-paris-voici-le-parcours-de-la-manifestation-republique-nation-propose-par-la-prefecture-04-11-2026-LMAH5ZVYPNCPBLP7TWVW37P6K4.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "« Cela m’a choquée mais… » : face à l’image du gendarme en feu lors d’une manifestation, les réactions très contrastées des lycéens",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/cela-ma-choquee-mais-face-a-limage-du-gendarme-en-feu-lors-dune-manifestation-les-reactions-tres-contrastees-des-lyceens-04-11-2026-BLXXXGSQ2FAAPEWQIPCFJ3XZ5U.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation à Paris : frappé après avoir voulu éteindre un gendarme en feu, un homme est « remercié publiquement » par un général",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-a-paris-frappe-apres-avoir-voulu-eteindre-un-gendarme-en-feu-un-homme-est-remercie-publiquement-par-un-general-03-11-2026-6SYMGIHI2ZGLNP6A2XBUHQMW5Y.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Mort de Christophe le 17 octobre à Paris : une cagnotte créée « pour connaître la vérité » autour du décès du manifestant",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/mort-de-christophe-le-17-octobre-a-paris-une-cagnotte-creee-pour-connaitre-la-verite-autour-du-deces-du-manifestant-02-11-2026-TZWGQIBF45FS5MPDWQOGOELYRY.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "Mobilisation lycéenne : la préfecture de police interdit la manifestation de l’Interfac IDF prévue ce mardi à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/revolte-lyceenne-la-prefecture-de-police-interdit-la-manifestation-de-linterfac-idf-prevue-ce-mardi-a-paris-02-11-2026-IO644UBH3RF27OFBTRXTGFPOMA.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
   },
   {
    "city": "paris",
    "title": "« J’espère qu’on ne va pas devoir s’habituer » : aux portes de Paris, l’inquiétude après les violences en fin de manifestation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/jespere-quon-va-pas-devoir-shabituer-aux-portes-de-paris-linquietude-apres-les-violences-en-fin-de-manifestation-01-11-2026-Z5CJKYI5ZRFOZBGNWVMYI2WOPQ.php",
-   "published": "2026-11-07T06:00:27+00:00"
+   "published": "2026-11-07T13:04:55+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "\"On ne va pas tenir encore beaucoup de samedis\", prévient un délégué national Unsa Police alors que les manifestations de \"l'acte IV\" commencent",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/on-ne-va-pas-tenir-encore-beaucoup-de-samedis-previent-un-delegue-national-unsa-police-alors-que-les-manifestations-de-l-acte-iv-commencent_8272283.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-07T12:52:08+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Policiers blessés par des tirs de mortier devant un lycée à Pau : quatre mineurs mis en examen, une information judiciaire ouverte",
+   "outlet": "franceinfo",
+   "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/policiers-blesses-par-des-tirs-de-mortier-devant-un-lycee-a-pau-quatre-mineurs-mis-en-examen-une-information-judiciaire-ouverte-3445929.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-07T12:10:50+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "L’École polytechnique «condamne formellement» le port du grand uniforme en manifestation",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/manifestations-du-5-novembre-la-presence-de-polytechniciens-en-uniforme-dans-le-cortege-parisien-fait-polemique-20261106",
+   "published": "2026-11-07T11:24:45+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "ANSA Newsroom | In tenebra età, i giovani, gli scontri a Milano",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/06/ansa-newsroom-in-tenebra-eta-i-giovani-gli-scontri-a-milano_81c1ce83-96c5-410a-bdd2-ea1fc819ddb3.html",
+   "published": "2026-11-07T11:13:07+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 7 novembre : suivez avec nous cette nouvelle journée de manifestations",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-7-novembre-suivez-avec-nous-cette-nouvelle-journee-de-manifestations_8272010.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-07T10:19:31+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "EN DIRECT, manifestations du 7 novembre : à Paris, les manifestants arrivent place de la République ; appel à la grève dans l’éducation mardi",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/live/2026/11/07/en-direct-mobilisations-du-7-novembre-suivez-le-quatrieme-samedi-de-manifestations_6808254_3224.html",
+   "published": "2026-11-07T09:51:49+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations en France : le gaz lacrymogène est-il dangereux pour la santé ?",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/vid%C3%A9o/20261107-manifestations-en-france-le-gaz-lacrymog%C3%A8ne-est-il-dangereux-pour-la-sant%C3%A9",
+   "published": "2026-11-07T09:18:08+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Rapinava coetanei nel centro di Monza: il giovane “maranza” finisce in carcere",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/monza-brianza/cronaca/rapine-arresto-giovane-maranza-nemm4hs3",
+   "published": "2026-11-07T09:06:23+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Le ministère de l'Education nationale a-t-il envoyé un mail demandant de signaler les enseignants grévistes solidaires de la mobilisation des lycéens ?",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-le-ministere-de-l-education-nationale-a-t-il-envoye-un-mail-demandant-de-signaler-les-enseignants-grevistes-solidaires-de-la-mobilisation-des-lyceens_8269187.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-07T07:24:21+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Les mouvements sociaux de cet automne 2026 font-ils partie des plus longs et intenses des deux mandats d’Emmanuel Macron ?",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/cet-automne-2026-compte-t-il-parmi-les-mouvements-sociaux-les-plus-longs-et-intenses-des-deux-mandats-d-emmanuel-macron-20261107",
+   "published": "2026-11-07T07:13:54+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Un tournant le 17 octobre, un pic le 5 novembre… Visualisez comment la mobilisation dans les manifestations en France a évolué depuis septembre",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/un-tournant-le-17-octobre-un-pic-le-5-novembre-visualisez-comment-la-mobilisation-dans-les-manifestations-en-france-a-evolue-depuis-septembre_8270384.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-07T07:03:52+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "En direct : nouvelle journée de mobilisation en France pour faire pression sur le gouvernement",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261107-en-direct-nouvelle-journ%C3%A9e-de-mobilisation-en-france-pour-faire-pression-sur-le-gouvernement",
+   "published": "2026-11-07T06:05:34+00:00"
   },
   {
    "city": "paris",
@@ -126,13 +224,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/frontiera-beccaria--la-comandante-maranza-bacdf1a6",
    "published": "2026-11-07T02:00:00+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "ANSA Newsroom | In tenebra età, i giovani, gli scontri a Milano",
-   "outlet": "ANSA",
-   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/06/ansa-newsroom-in-tenebra-eta-i-giovani-gli-scontri-a-milano_81c1ce83-96c5-410a-bdd2-ea1fc819ddb3.html",
-   "published": "2026-11-07T00:11:17+01:00"
   },
   {
    "city": "paris",
@@ -226,39 +317,11 @@
    "published": "2026-11-06T16:45:11+01:00"
   },
   {
-   "city": "paris",
-   "title": "Un orchestre interprète The Hanging Tree, célèbre chanson de Hunger Games, en pleine manifestation à Paris",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/musique/un-orchestre-interprete-the-hanging-tree-celebre-chanson-de-hunger-games-en-pleine-manifestation-a-paris-20261106",
-   "published": "2026-11-06T16:16:08+01:00"
-  },
-  {
    "city": "milano",
    "title": "Blitz contro lo spaccio nei boschi: sequestrate le armi per la guerra fra pusher (compreso un kalashnikov)",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/armi-droga-boschi-yim71nr2",
    "published": "2026-11-06T16:15:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Un «acte VI européen» : sept pays mobilisés contre la vie chère préparent des manifestations coordonnées fin novembre",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/un-acte-vi-europeen-sept-pays-mobilises-contre-la-vie-chere-preparent-des-manifestations-coordonnees-fin-novembre-20261106",
-   "published": "2026-11-06T15:26:18+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "A Pau, deux lycéens interpellés dans l’enceinte de leur établissement après des tirs de mortiers sur des policiers",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/a-pau-deux-lyceens-interpelles-dans-l-enceinte-de-leur-etablissement-apres-des-tirs-de-mortiers-sur-des-policiers_8270945.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-06T15:23:08+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 7 novembre : découvrez le parcours du cortège parisien",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/manifestation-du-7-novembre-quel-sera-le-parcours-du-cortege-parisien-20261106",
-   "published": "2026-11-06T14:46:17+01:00"
   },
   {
    "city": "milano",
@@ -268,67 +331,11 @@
    "published": "2026-11-06T14:18:16+01:00"
   },
   {
-   "city": "paris",
-   "title": "Manifestations du 7 novembre : à Paris, des « gilets jaunes » maintiennent leur appel à un rassemblement place de la Concorde, interdit par la Préfecture de police",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/politique/article/2026/11/06/manifestations-du-7-novembre-a-paris-des-gilets-jaunes-maintiennent-leur-appel-a-un-rassemblement-place-de-la-concorde-interdit-par-la-prefecture-de-police_6807790_823448.html",
-   "published": "2026-11-06T14:02:41+01:00"
-  },
-  {
    "city": "milano",
    "title": "Somma Lombardo, uffici comunali chiusi al sabato. Pioggia di critiche sui social: “Assurdo, chi lavora come fa?”",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/varese/cronaca/somma-lombardo-uffici-comunali-chiusi-sabato-17ac6b14",
    "published": "2026-11-06T12:40:48+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Comment la saga \"Hunger Games\" s'est imposée comme un symbole de la révolte en France",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/comment-la-saga-hunger-games-s-est-imposee-comme-un-symbole-de-la-revolte-en-france_8270327.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-06T12:30:00+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 31 octobre à Paris : plus de 40 stations de métro et RER fermées",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-31-octobre-a-paris-plus-de-40-stations-de-metro-et-rer-fermees-31-10-2026-QCITY6LSG5CCREJN7REQWMJKSU.php",
-   "published": "2026-11-06T12:23:25+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Les agents de la protection judiciaire de la jeunesse sont en grève et se disent épuisés par leur charge de travail",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/les-agents-de-la-protection-judiciaire-de-la-jeunesse-en-greve-et-se-disent-epuises-par-leur-charge-de-travail_8270303.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-06T12:21:59+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "«C’est illégal» : le gouvernement promet des sanctions pour les lycéens qui empêchent l’accès aux salles de classe",
-   "outlet": "Le Figaro",
-   "url": "https://etudiant.lefigaro.fr/article/lycee/c-est-illegal-le-gouvernement-promet-des-sanctions-pour-les-lyceens-qui-empechent-l-acces-aux-salles-de-classe-20261106/",
-   "published": "2026-11-06T12:03:33+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Présidentielle 2027 : «Ce n’est pas mon sujet», rétorque Clémence Guetté à l’exfiltration de Raphaël Glucksmann en manifestation",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-ce-n-est-pas-mon-sujet-retorque-clemence-guette-a-l-exfiltration-de-raphael-glucksmann-en-manifestation-20261106",
-   "published": "2026-11-06T11:42:32+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "‘Nobody can stop them’: Who are Europe’s Black Bloc protesters?",
-   "outlet": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/6/nobody-can-stop-them-who-are-europes-black-bloc-protesters?traffic_source=rss",
-   "published": "2026-11-06T11:09:04+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Deux élèves de 16 ans mis en examen dans l'enquête sur l'incendie du lycée Mandela de Nantes, en marge d'un blocage début octobre",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/deux-adolescents-de-16-ans-mis-en-examen-dans-l-enquete-sur-l-incendie-du-lycee-mandela-de-nantes-en-marge-d-un-blocage_8270480.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-06T10:54:09+01:00"
   },
   {
    "city": "milano",
@@ -553,13 +560,6 @@
    "outlet": "ANSA Lombardia",
    "url": "https://www.ansa.it/lombardia/notizie/2026/11/02/lettera-di-minacce-al-dirigente-della-polizia-ferito-negli-scontri-a-milano_d41450cf-3854-4253-b3f1-7c069ba6eedb.html",
    "published": "2026-11-02T22:14:54+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontri a Milano, revocati domiciliari a 24enne: “Quadro indiziario non più sufficiente per misura”. Lui si era difeso: “Ero la persona sbagliata nel momento sbagliato”",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/scontri-libero-revocati-domiciliari-a5wsng4n",
-   "published": "2026-11-02T19:58:35+00:00"
   }
  ]
 }
