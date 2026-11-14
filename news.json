@@ -1,12 +1,103 @@
 {
- "updatedAt": "2026-11-14T07:54:24+00:00",
+ "updatedAt": "2026-11-14T14:52:16+00:00",
  "items": [
   {
    "city": "paris",
-   "title": "EN DIRECT - Colère sociale : entre 50 et 60 cortèges attendus dans tout le pays pour l’acte V, 70.000 policiers et gendarmes déployés",
+   "title": "Manifestations du 14 novembre : le cortège parisien est arrivé à Bastille, \"la situation sur l'ensemble du territoire national demeure calme et maîtrisée\"",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-14-novembre-suivez-la-journee-de-mobilisation-a-l-appel-de-gilets-jaunes-et-d-organisations-de-jeunesse_8281187.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T15:41:40+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "EN DIRECT - Colère sociale : le cortège parisien s’élance vers la place de la Nation, entre 30.000 et 60.000 personnes attendues dans la capitale",
    "outlet": "Le Figaro",
    "url": "https://www.lefigaro.fr/actualite-france/manifestations-mouvement-social-gilets-jaunes-policiers-corteges-paris-acte-v-20261114",
-   "published": "2026-11-14T08:32:03+01:00"
+   "published": "2026-11-14T14:59:03+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Ça suffit ! » : entre les parents de lycéens pro-blocus et ceux qui veulent la reprise des cours, un impossible dialogue",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/ca-suffit-entre-les-parents-de-lyceens-pro-blocus-et-ceux-qui-veulent-la-reprise-des-cours-un-impossible-dialogue-10-11-2026-7XUWGPZ5NREXVKNIAVDRYEEXOI.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Blocus lycéens : huit maires d’arrondissement demandent des arrêtés périmétriques à Paris pour sécuriser les établissements scolaires",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/blocus-lyceens-huit-maires-darrondissement-demandent-des-arretes-perimetriques-a-paris-pour-securiser-les-etablissements-scolaires-10-11-2026-YVJTE4L77JHN5MUYOF5UIWONPE.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Parfois, c’est vraiment du cross » : à Paris, les deux-roues confrontés aux chaussées brûlées lors des manifestations",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/parfois-cest-vraiment-du-cross-a-paris-les-deux-roues-confrontes-aux-chaussees-brulees-lors-des-manifestations-10-11-2026-KX5NO7KP4NCY5EQV26MOZAADKI.php",
+   "published": "2026-11-14T14:52:16+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Interdictions de manifestations, couvre-feux, parcours hors des centres-villes… Comment les préfets multiplient les mesures administratives en amont des mobilisations",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/interdictions-de-manifestations-couvre-feux-parcours-hors-des-centres-villes-comment-les-prefets-multiplient-les-mesures-administratives-en-amont-des-mobilisations_8274263.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T13:03:26+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Oggi il corteo contro carovita e riarmo: il percorso “alternativo” dopo i disordini del 17-18 ottobre. Un centinaio in piazza",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/corteo-italia-in-piazza-o042adup",
+   "published": "2026-11-14T13:01:08+00:00"
   },
   {
    "city": "paris",
@@ -14,69 +105,6 @@
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-gouvernement-joue-la-strategie-du-pourrissement-deplore-l-union-syndicale-lyceenne_8282162.html#xtor=RSS-3-[lestitres]",
    "published": "2026-11-14T08:10:33+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Ça suffit ! » : entre les parents de lycéens pro-blocus et ceux qui veulent la reprise des cours, un impossible dialogue",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/ca-suffit-entre-les-parents-de-lyceens-pro-blocus-et-ceux-qui-veulent-la-reprise-des-cours-un-impossible-dialogue-10-11-2026-7XUWGPZ5NREXVKNIAVDRYEEXOI.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Blocus lycéens : huit maires d’arrondissement demandent des arrêtés périmétriques à Paris pour sécuriser les établissements scolaires",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/blocus-lyceens-huit-maires-darrondissement-demandent-des-arretes-perimetriques-a-paris-pour-securiser-les-etablissements-scolaires-10-11-2026-YVJTE4L77JHN5MUYOF5UIWONPE.php",
-   "published": "2026-11-14T07:54:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Parfois, c’est vraiment du cross » : à Paris, les deux-roues confrontés aux chaussées brûlées lors des manifestations",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/parfois-cest-vraiment-du-cross-a-paris-les-deux-roues-confrontes-aux-chaussees-brulees-lors-des-manifestations-10-11-2026-KX5NO7KP4NCY5EQV26MOZAADKI.php",
-   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "milano",
@@ -87,10 +115,10 @@
   },
   {
    "city": "paris",
-   "title": "Interdictions de manifestations, couvre-feux, parcours hors des centres-villes… Comment les préfets multiplient les mesures administratives en amont des mobilisations",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/interdictions-de-manifestations-couvre-feux-parcours-hors-des-centres-villes-comment-les-prefets-multiplient-les-mesures-administratives-en-amont-des-mobilisations_8274263.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-14T07:12:24+01:00"
+   "title": "Manifestations du 14 novembre : un samedi de mobilisation dans toute la France, contre la vie chère, pour la protection des enfants ou davantage de moyens pour l’éducation",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/14/mobilisations-sociales-une-cinquantaine-de-corteges-attendus-partout-en-france-pour-cet-acte-v-sur-fond-de-revendications-diverses_6809818_823448.html",
+   "published": "2026-11-14T07:49:22+01:00"
   },
   {
    "city": "paris",
@@ -101,14 +129,7 @@
   },
   {
    "city": "paris",
-   "title": "Manifestations du 14 novembre : suivez la journée de mobilisation à l'appel de gilets jaunes et d'organisations de jeunesse",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-14-novembre-suivez-la-journee-de-mobilisation-a-l-appel-de-gilets-jaunes-et-d-organisations-de-jeunesse_8281187.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-14T07:09:13+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 14 novembre en direct : des revendications diverses en amont de l'\"Acte V\"",
+   "title": "Manifestations du 14 novembre en direct : des revendications variées pour l'acte V du mouvement social",
    "outlet": "France 24",
    "url": "https://www.france24.com/fr/france/20261114-manifestations-du-14-novembre-en-direct-des-revendications-diverses-en-amont-de-l-acte-v",
    "published": "2026-11-14T06:55:23+00:00"
@@ -129,7 +150,7 @@
   },
   {
    "city": "paris",
-   "title": "Mouvement lycéen : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
+   "title": "Mobilisation lycéenne : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
    "outlet": "Le Monde",
    "url": "https://www.lemonde.fr/societe/article/2026/11/14/mouvement-lyceen-la-communication-opaque-du-gouvernement-sur-les-chiffres-des-lycees-perturbes-et-des-interpellations_6809555_3224.html",
    "published": "2026-11-14T05:00:06+01:00"
@@ -192,7 +213,7 @@
   },
   {
    "city": "paris",
-   "title": "Mobilisation du 14 novembre : la Préfecture de police de Paris redoute une manifestation « à forte coloration antipolice »",
+   "title": "Manifestations du 14 novembre : la Préfecture de police de Paris redoute une mobilisation « à forte coloration antipolice »",
    "outlet": "Le Monde",
    "url": "https://www.lemonde.fr/societe/article/2026/11/13/mobilisation-du-14-novembre-la-prefecture-de-police-de-paris-redoute-une-manifestation-a-forte-coloration-anti-police_6809334_3224.html",
    "published": "2026-11-13T15:37:11+01:00"
@@ -322,20 +343,6 @@
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/manifestations-du-7-novembre-deux-chefs-de-file-des-gilets-jaunes-interpelles-a-paris-et-places-en-garde-a-vue-07-11-2026-P3L7CRKJYBHCXEQSIYSWJ4KAPA.php",
    "published": "2026-11-12T23:46:53+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "\"C'est plus jeter de l'huile sur le feu qu'éteindre l'incendie\", juge le syndicat national des lycées et collèges, alors que des enseignants sont accusés de \"complicité\" sur les violences",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/c-est-plus-jeter-de-l-huile-sur-le-feu-qu-eteindre-l-incendie-juge-le-syndicat-national-des-lycees-et-colleges-alors-que-des-enseignants-sont-accuses-de-complicite-sur-les-violences_8280095.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-12T22:49:30+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "\"Il y a un désavantage qui va se faire ensuite pour Parcoursup\" : des lycéens et leurs parents inquiets face aux milliers d'heures de cours perdues",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/les-lyceens-et-leurs-parents-inquiets-face-aux-milliers-d-heures-de-cours-perdues_8279993.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-12T21:20:35+01:00"
   },
   {
    "city": "milano",
@@ -553,13 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/varese/politica/congresso-lega-cassani-ir354aav",
    "published": "2026-11-08T13:48:05+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "L’incubo delle rapine violente. Nasi spaccati e ragazzi in ospedale. Maranza in carcere dopo 6 anni",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/monza-brianza/cronaca/lincubo-delle-rapine-violente-nasi-0b51bcc0",
-   "published": "2026-11-08T04:44:57+00:00"
   }
  ]
 }
