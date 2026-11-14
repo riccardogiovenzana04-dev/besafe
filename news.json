@@ -1,75 +1,145 @@
 {
- "updatedAt": "2026-11-14T01:20:48+00:00",
+ "updatedAt": "2026-11-14T07:54:24+00:00",
  "items": [
   {
    "city": "paris",
-   "title": "Rennes : le plus grand lycée de Bretagne fermé une semaine après des débordements",
+   "title": "EN DIRECT - Colère sociale : entre 50 et 60 cortèges attendus dans tout le pays pour l’acte V, 70.000 policiers et gendarmes déployés",
    "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/rennes-le-plus-grand-lycee-de-bretagne-ferme-une-semaine-apres-des-debordements-20261114",
-   "published": "2026-11-14T01:29:25+01:00"
+   "url": "https://www.lefigaro.fr/actualite-france/manifestations-mouvement-social-gilets-jaunes-policiers-corteges-paris-acte-v-20261114",
+   "published": "2026-11-14T08:32:03+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Le gouvernement \"joue la stratégie du pourrissement\", déplore l'Union syndicale lycéenne",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-gouvernement-joue-la-strategie-du-pourrissement-deplore-l-union-syndicale-lyceenne_8282162.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T08:10:33+01:00"
   },
   {
    "city": "paris",
    "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "« Ça suffit ! » : entre les parents de lycéens pro-blocus et ceux qui veulent la reprise des cours, un impossible dialogue",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ca-suffit-entre-les-parents-de-lyceens-pro-blocus-et-ceux-qui-veulent-la-reprise-des-cours-un-impossible-dialogue-10-11-2026-7XUWGPZ5NREXVKNIAVDRYEEXOI.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "Blocus lycéens : huit maires d’arrondissement demandent des arrêtés périmétriques à Paris pour sécuriser les établissements scolaires",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/blocus-lyceens-huit-maires-darrondissement-demandent-des-arretes-perimetriques-a-paris-pour-securiser-les-etablissements-scolaires-10-11-2026-YVJTE4L77JHN5MUYOF5UIWONPE.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
   },
   {
    "city": "paris",
    "title": "« Parfois, c’est vraiment du cross » : à Paris, les deux-roues confrontés aux chaussées brûlées lors des manifestations",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/parfois-cest-vraiment-du-cross-a-paris-les-deux-roues-confrontes-aux-chaussees-brulees-lors-des-manifestations-10-11-2026-KX5NO7KP4NCY5EQV26MOZAADKI.php",
-   "published": "2026-11-14T01:20:48+00:00"
+   "published": "2026-11-14T07:54:24+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Scontro tra auto nel Milanese, morto un uomo",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/14/scontro-tra-auto-nel-milanese-morto-un-uomo_db6f844a-047f-4006-a155-717fc5331fbf.html",
+   "published": "2026-11-14T07:52:57+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Interdictions de manifestations, couvre-feux, parcours hors des centres-villes… Comment les préfets multiplient les mesures administratives en amont des mobilisations",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/interdictions-de-manifestations-couvre-feux-parcours-hors-des-centres-villes-comment-les-prefets-multiplient-les-mesures-administratives-en-amont-des-mobilisations_8274263.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T07:12:24+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Le ministère de l'Education nationale minimise-t-il le nombre de lycées bloqués ?",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-le-ministere-de-l-education-nationale-minimise-t-il-le-nombre-de-lycees-bloques_8280680.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T07:12:12+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 14 novembre : suivez la journée de mobilisation à l'appel de gilets jaunes et d'organisations de jeunesse",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-14-novembre-suivez-la-journee-de-mobilisation-a-l-appel-de-gilets-jaunes-et-d-organisations-de-jeunesse_8281187.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-14T07:09:13+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 14 novembre en direct : des revendications diverses en amont de l'\"Acte V\"",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261114-manifestations-du-14-novembre-en-direct-des-revendications-diverses-en-amont-de-l-acte-v",
+   "published": "2026-11-14T06:55:23+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Scontro tra auto nel Milanese: un 46enne è morto, una 23enne è ferita",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/incidente-mortale-bareggio-xr92sqot",
+   "published": "2026-11-14T06:49:06+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Travolto e ucciso sul Sempione. Fermato il pirata della strada",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/legnano/cronaca/travolto-e-ucciso-sul-sempione-cdcae0ff",
+   "published": "2026-11-14T05:08:22+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mouvement lycéen : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/14/mouvement-lyceen-la-communication-opaque-du-gouvernement-sur-les-chiffres-des-lycees-perturbes-et-des-interpellations_6809555_3224.html",
+   "published": "2026-11-14T05:00:06+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Rennes : le plus grand lycée de Bretagne fermé une semaine après des débordements",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/rennes-le-plus-grand-lycee-de-bretagne-ferme-une-semaine-apres-des-debordements-20261114",
+   "published": "2026-11-14T01:29:25+01:00"
   },
   {
    "city": "paris",
@@ -84,6 +154,13 @@
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-gouvernement-veut-systematiser-les-sanctions-disciplinaires-contre-les-eleves-impliques-dans-les-blocages-de-lycees_8281724.html#xtor=RSS-3-[lestitres]",
    "published": "2026-11-13T23:54:13+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Quand le ministère annonce 50 lycées bloqués, nous en comptons 150 à 200 qui ne fonctionnent pas normalement » : le gouvernement minimise-t-il les chiffres des blocages ?",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/quand-le-ministere-annonce-50-lycees-bloques-nous-en-comptons-150-a-200-qui-ne-fonctionnent-pas-normalement-le-gouvernement-minimise-t-il-les-chiffres-des-blocages-20261113",
+   "published": "2026-11-13T19:25:58+01:00"
   },
   {
    "city": "paris",
@@ -161,6 +238,13 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/cremona/cronaca/incidente-frontale-sulla-statale-a-calvatone-morta-donna-di-74-anni-u6fcmd5v",
    "published": "2026-11-13T11:55:55+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 14 novembre à Paris : le parcours entre République et Nation autorisé, selon les organisateurs",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/manifestation-du-14-novembre-a-paris-le-parcours-entre-republique-et-nation-autorise-selon-les-organisateurs-20261113",
+   "published": "2026-11-13T10:50:07+01:00"
   },
   {
    "city": "milano",
@@ -261,25 +345,11 @@
    "published": "2026-11-12T19:10:42+01:00"
   },
   {
-   "city": "paris",
-   "title": "Pillages à Paris le week-end du 17 octobre : 800 dossiers de vidéos amateurs transmis à la plateforme mise en place par la préfecture de police",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/pillages-a-paris-le-week-end-du-17-octobre-800-dossiers-de-videos-amateurs-transmis-a-la-plateforme-mise-en-place-par-la-prefecture-de-police_8279804.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-12T18:29:35+01:00"
-  },
-  {
    "city": "milano",
    "title": "Urbanistica Milano, in aula scontro tra la pm e l'imprenditore Bezziccheri",
    "outlet": "ANSA Lombardia",
    "url": "https://www.ansa.it/lombardia/notizie/2026/11/12/urbanistica-milano-in-aula-scontro-tra-la-pm-e-limprenditore-bezziccheri_86479641-b4e1-42d0-8ba3-2a4e142d62c7.html",
    "published": "2026-11-12T17:09:37+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Italy vs France LIVE: UEFA Nations League",
-   "outlet": "Al Jazeera",
-   "url": "https://www.aljazeera.com/sports/liveblog/2026/11/12/italy-vs-france-live-uefa-nations-league?traffic_source=rss",
-   "published": "2026-11-12T16:45:00+00:00"
   },
   {
    "city": "milano",
@@ -294,55 +364,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/processo-park-towers-scontro--bezziccheri-petruzzella-no95xhvu",
    "published": "2026-11-12T13:04:06+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation sociale : des organisations de jeunesse, des « gilets jaunes » et certains syndicats appellent à manifester le 14 novembre, contre la vie chère et « les violences faites aux enfants »",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/12/mobilisation-sociale-la-coordination-des-gilets-jaunes-les-organisations-de-jeunesse-et-certains-syndicats-appelent-a-un-acte-v-samedi_6809098_3224.html",
-   "published": "2026-11-12T12:59:10+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Trombinoscopes saisis à Brest : le procureur réfute toute tentative de « fichage » de lycéens",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/12/trombinoscopes-saisis-a-brest-le-procureur-refute-toute-tentative-de-fichage-de-lyceens_6809093_3224.html",
-   "published": "2026-11-12T12:22:15+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mouvement lycéen : le gouvernement veut une saisine « systématique » de la justice en cas de violences",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/12/mouvement-lyceen-le-gouvernement-veut-une-saisine-systematique-de-la-justice-en-cas-de-violences_6809088_3224.html",
-   "published": "2026-11-12T11:53:16+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Pillages du 17 octobre : des commerces parisiens autorisés à ouvrir le dimanche",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-des-commerces-parisiens-autorises-a-ouvrir-le-dimanche-07-11-2026-UGZW32KV6ZCLBAFAQIOY7GBFLU.php",
-   "published": "2026-11-12T10:06:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 7 novembre : République-Nation, voici le parcours de la mobilisation à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-7-novembre-republique-nation-voici-le-parcours-de-la-mobilisation-a-paris-07-11-2026-34FFRX2WV5D27PBE322RIXWLXQ.php",
-   "published": "2026-11-12T10:06:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 7 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-7-novembre-a-paris-14-stations-de-metro-et-rer-fermees-ce-samedi-07-11-2026-EVK5NCI7GBFLVF3M2CEGO333QE.php",
-   "published": "2026-11-12T10:06:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Victimes récurrentes », « quartier bouclé »… À Paris, des commerçants dénoncent les manifestations à répétition autour de République",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/victimes-recurrentes-quartier-boucle-a-paris-des-commercants-denoncent-les-manifestations-a-repetition-autour-de-republique-06-11-2026-WK3R3GJ6ORAHVB4VS2OFWL34PU.php",
-   "published": "2026-11-12T10:06:28+00:00"
   },
   {
    "city": "milano",
@@ -539,27 +560,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/monza-brianza/cronaca/lincubo-delle-rapine-violente-nasi-0b51bcc0",
    "published": "2026-11-08T04:44:57+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "“Adéss Baasta”: corteo contro il carovita. Studenti, famiglie e associazioni in marcia",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/cremona/cronaca/adess-baasta-corteo-contro-il-7464de30",
-   "published": "2026-11-08T04:34:48+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Bovisio Masciago per un giorno è Roma antica",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/monza-brianza/cronaca/bovisio-masciago-per-un-giorno-3fd917ac",
-   "published": "2026-11-08T04:18:26+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Generazione Z e “maranza”: due rabbie diverse nelle piazze di Milano e delle altre città d’Italia",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/generazione-z-maranza-rivolta-scontri-piazze-milano-17-ottobre-a1ghd86k",
-   "published": "2026-11-08T01:05:00+00:00"
   }
  ]
 }
