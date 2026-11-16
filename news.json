@@ -1,6 +1,104 @@
 {
- "updatedAt": "2026-11-15T22:06:07+00:00",
+ "updatedAt": "2026-11-16T02:10:44+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "« Ils sont arrivés comme une vague » : à Paris, encore des commerces pillés par des bandes en marge de la manifestation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/paris-75011/ils-sont-arrives-comme-une-vague-a-paris-encore-des-commerces-pilles-par-des-bandes-en-marge-de-la-manifestation-15-11-2026-Z4CHIRDF7JHE5NNF6XOF7ABLHE.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 14 novembre à Paris : une centaine de gardes à vue, 38 mineurs concernés",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-une-centaine-de-gardes-a-vue-38-mineurs-concernes-15-11-2026-N5P5BT75PNFM7I24VV6J2BVQHU.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Je n’arrive plus à dormir » : après les pillages du 17 octobre à Paris, la détresse d’Hasen Mia, gérant d’une boutique",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/je-narrive-plus-a-dormir-apres-les-pillages-du-17-octobre-a-paris-la-detresse-dhasen-mia-gerant-dune-boutique-15-11-2026-FTEASKJCQVEH7PK6R6JKZNMVFY.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Villejuif : douze CRS touchés dans un accident sur l’A6B en route vers la manifestation parisienne",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/val-de-marne-94/villejuif-douze-crs-touches-dans-un-accident-sur-la6b-en-route-vers-la-manifestation-parisienne-14-11-2026-BUAFMZIFNBGRVHO675LSMXQGKE.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Ça suffit ! » : entre les parents de lycéens pro-blocus et ceux qui veulent la reprise des cours, un impossible dialogue",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/ca-suffit-entre-les-parents-de-lyceens-pro-blocus-et-ceux-qui-veulent-la-reprise-des-cours-un-impossible-dialogue-10-11-2026-7XUWGPZ5NREXVKNIAVDRYEEXOI.php",
+   "published": "2026-11-16T02:10:44+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Milano, incidente fra treni tra Certosa e Greco: disastro colposo, due vanno a processo",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/milano-incidente-fra-treni-tra-certosa-e-greco-disastro-colposo-due-vanno-a-processo-tguhzczo",
+   "published": "2026-11-16T01:30:00+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Blocages à Paris : la préfecture durcit le ton et interdit les rassemblements autour de certains lycées et universités",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/blocages-a-paris-la-prefecture-durcit-le-ton-et-interdit-les-rassemblements-autour-de-certains-lycees-et-universites-20261115",
+   "published": "2026-11-15T23:58:28+01:00"
+  },
   {
    "city": "paris",
    "title": "Détestés à droite, doublés sur leur gauche, déclassés économiquement : le crépuscule des bobos",
@@ -10,94 +108,10 @@
   },
   {
    "city": "paris",
-   "title": "Blocages à Paris : la préfecture durcit le ton et interdit les rassemblements autour de certains lycées et universités",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/blocages-a-paris-la-prefecture-durcit-le-ton-et-interdit-les-rassemblements-autour-de-certains-lycees-et-universites-20261115",
-   "published": "2026-11-15T22:21:56+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Ils sont arrivés comme une vague » : à Paris, encore des commerces pillés par des bandes en marge de la manifestation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/paris-75011/ils-sont-arrives-comme-une-vague-a-paris-encore-des-commerces-pilles-par-des-bandes-en-marge-de-la-manifestation-15-11-2026-Z4CHIRDF7JHE5NNF6XOF7ABLHE.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 14 novembre à Paris : une centaine de gardes à vue, 38 mineurs concernés",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-une-centaine-de-gardes-a-vue-38-mineurs-concernes-15-11-2026-N5P5BT75PNFM7I24VV6J2BVQHU.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Je n’arrive plus à dormir » : après les pillages du 17 octobre à Paris, la détresse d’Hasen Mia, gérant d’une boutique",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/je-narrive-plus-a-dormir-apres-les-pillages-du-17-octobre-a-paris-la-detresse-dhasen-mia-gerant-dune-boutique-15-11-2026-FTEASKJCQVEH7PK6R6JKZNMVFY.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Villejuif : douze CRS touchés dans un accident sur l’A6B en route vers la manifestation parisienne",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/val-de-marne-94/villejuif-douze-crs-touches-dans-un-accident-sur-la6b-en-route-vers-la-manifestation-parisienne-14-11-2026-BUAFMZIFNBGRVHO675LSMXQGKE.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
-   "published": "2026-11-15T22:06:07+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Ça suffit ! » : entre les parents de lycéens pro-blocus et ceux qui veulent la reprise des cours, un impossible dialogue",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/societe/ca-suffit-entre-les-parents-de-lyceens-pro-blocus-et-ceux-qui-veulent-la-reprise-des-cours-un-impossible-dialogue-10-11-2026-7XUWGPZ5NREXVKNIAVDRYEEXOI.php",
-   "published": "2026-11-15T22:06:07+00:00"
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "outlet": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T22:28:54+00:00"
   },
   {
    "city": "paris",
@@ -105,6 +119,13 @@
    "outlet": "Le Monde",
    "url": "https://www.lemonde.fr/societe/article/2026/11/15/a-paris-les-rassemblements-interdits-de-lundi-a-vendredi-autour-de-certains-lycees-et-universites_6811050_3224.html",
    "published": "2026-11-15T21:45:31+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Les rassemblements autour de certains lycées et universités interdits à Paris",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261115-les-rassemblements-autour-de-certains-lyc%C3%A9es-et-universit%C3%A9s-interdits-%C3%A0-paris",
+   "published": "2026-11-15T20:19:27+00:00"
   },
   {
    "city": "paris",
@@ -373,20 +394,6 @@
    "published": "2026-11-14T01:29:25+01:00"
   },
   {
-   "city": "paris",
-   "title": "« Mais ils font quoi là ? » : l’erreur de coordination entre policiers et gendarmes lors de la manifestation du 5 novembre à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mais-ils-font-quoi-la-lerreur-de-coordination-entre-policiers-et-gendarmes-lors-de-la-manifestation-du-5-novembre-a-paris-09-11-2026-NRVV2YUIKVHV7P7VXASB6MSZ2U.php",
-   "published": "2026-11-14T01:20:48+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Le gouvernement veut systématiser les sanctions disciplinaires contre les élèves impliqués dans les blocages de lycées",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-gouvernement-veut-systematiser-les-sanctions-disciplinaires-contre-les-eleves-impliques-dans-les-blocages-de-lycees_8281724.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-13T23:54:13+01:00"
-  },
-  {
    "city": "milano",
    "title": "Sciopero generale del 20 novembre: in piazza anche la Cgil, oltre a Cub e Sgb. In piazza anche a Milano",
    "outlet": "MilanoToday",
@@ -553,13 +560,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/politica/fondi-sanita-bocciata-mozione-pd.html",
    "published": "2026-11-10T20:47:50+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontro sul nuovo San Siro. Giunta sconfitta sui rischi sanitari, Sala: \"No ripensamenti\"",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/politica/rischi-sanitari-stadio-sala-maggioranza.html",
-   "published": "2026-11-10T14:22:04+01:00"
   }
  ]
 }
