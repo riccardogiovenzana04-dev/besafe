@@ -1,75 +1,110 @@
 {
- "updatedAt": "2026-11-19T08:52:40+00:00",
+ "updatedAt": "2026-11-19T18:03:44+00:00",
  "items": [
   {
    "city": "milano",
-   "title": "Venerdì di sciopero generale, due cortei a Milano: percorsi, orari e chi si ferma",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/sciopero/cortei-20-novembre-percorsi.html",
-   "published": "2026-11-19T09:08:37+01:00"
+   "title": "Sciopero generale, domani a Milano in corteo sindacati e studenti",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/19/sciopero-generale-domani-a-milano-in-corteo-sindacati-e-studenti_1da410e7-e071-4e44-9b49-0e533604026d.html",
+   "published": "2026-11-19T18:08:45+01:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils sont arrivés comme une vague » : à Paris, encore des commerces pillés par des bandes en marge de la manifestation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-75011/ils-sont-arrives-comme-une-vague-a-paris-encore-des-commerces-pilles-par-des-bandes-en-marge-de-la-manifestation-15-11-2026-Z4CHIRDF7JHE5NNF6XOF7ABLHE.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 14 novembre à Paris : une centaine de gardes à vue, 38 mineurs concernés",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-une-centaine-de-gardes-a-vue-38-mineurs-concernes-15-11-2026-N5P5BT75PNFM7I24VV6J2BVQHU.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "« Je n’arrive plus à dormir » : après les pillages du 17 octobre à Paris, la détresse d’Hasen Mia, gérant d’une boutique",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/je-narrive-plus-a-dormir-apres-les-pillages-du-17-octobre-a-paris-la-detresse-dhasen-mia-gerant-dune-boutique-15-11-2026-FTEASKJCQVEH7PK6R6JKZNMVFY.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "Villejuif : douze CRS touchés dans un accident sur l’A6B en route vers la manifestation parisienne",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/val-de-marne-94/villejuif-douze-crs-touches-dans-un-accident-sur-la6b-en-route-vers-la-manifestation-parisienne-14-11-2026-BUAFMZIFNBGRVHO675LSMXQGKE.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
   },
   {
    "city": "paris",
    "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-19T08:52:40+00:00"
+   "published": "2026-11-19T18:03:44+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 21 novembre à Paris : syndicats, jeunes et défenseurs du droit au logement défileront ensemble ; les « gilets jaunes » devraient les rejoindre",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/19/manifestation-a-paris-syndicats-jeunes-et-defenseurs-du-droit-au-logement-defileront-ensemble-samedi-les-gilets-jaunes-devraient-les-rejoindre_6813343_823448.html",
+   "published": "2026-11-19T17:07:19+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Colère des lycéens et étudiants : près de la moitié des Français pointe du doigt le laxisme du gouvernement",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/colere-des-lyceens-et-etudiants-pres-de-la-moitie-des-francais-pointe-du-doigt-le-laxisme-du-gouvernement-20261119",
+   "published": "2026-11-19T17:04:34+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Budget 2027 : manifestation des retraités à Paris contre les mesures sociales et fiscales les visant",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/19/budget-2027-manifestation-des-retraites-a-paris-contre-les-mesures-sociales-et-fiscales-les-visant_6813317_3224.html",
+   "published": "2026-11-19T15:31:50+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "France Assureurs estime à \"plus de 200 millions d'euros\" le coût des dégâts engendrés par les violences urbaines et les pillages des 17 et 18 octobre",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-19T13:40:01+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Venerdì di sciopero generale, due cortei a Milano: percorsi, orari e chi si ferma",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/sciopero/cortei-20-novembre-percorsi.html",
+   "published": "2026-11-19T09:08:37+01:00"
   },
   {
    "city": "paris",
@@ -296,27 +331,6 @@
    "published": "2026-11-16T20:54:31+01:00"
   },
   {
-   "city": "paris",
-   "title": "Présidentielle 2027: Marine Le Pen veut supprimer Parcoursup, le contrôle continu et avancer le bac en mai",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/elections/presidentielles/programmes/presidentielle-2027-marine-le-pen-veut-supprimer-parcoursup-le-controle-continu-et-avancer-le-bac-en-mai-20261116",
-   "published": "2026-11-16T19:08:36+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Grève du 17 novembre : à Paris, la manifestation ira de la place de la Nation à la place d’Italie",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/social/greve-du-17-novembre-a-paris-la-manifestation-ira-de-la-place-de-la-nation-a-la-place-d-italie-20261116",
-   "published": "2026-11-16T18:14:21+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "\"La République, ce n'est pas l'impunité\", déclare le ministre de l'Education, Edouard Geffray, pour la réouverture du lycée Nelson-Mandela à Nantes",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/la-republique-ce-n-est-pas-l-impunite-declare-le-ministre-de-l-education-nationale-edouard-geffray-lors-de-la-reouverture-du-lycee-nelson-mandela-a-nantes_8284928.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-16T16:03:39+01:00"
-  },
-  {
    "city": "milano",
    "title": "Gattullo raddoppia a Porta Lodovica: apre la nuova Bottega e trasforma l'edicola della piazza per Natale",
    "outlet": "MilanoToday",
@@ -329,13 +343,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/politica/tassa-super-ricchi-jqtys09s",
    "published": "2026-11-16T10:33:50+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Crise sociale : Edouard Geffray interpellé par des élèves lors de sa visite au lycée Nelson-Mandela à Nantes qui réouvre après un incendie",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mouvement-lyceen-le-lycee-nelson-mandela-rouvre-ses-portes-a-nantes-six-semaines-apres-l-incendie-dont-il-a-ete-victime_8284130.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-16T10:15:54+01:00"
   },
   {
    "city": "milano",
@@ -497,41 +504,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/saccheggi-minorenni-liberati-2026.html",
    "published": "2026-11-12T19:10:42+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Urbanistica Milano, in aula scontro tra la pm e l'imprenditore Bezziccheri",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/12/urbanistica-milano-in-aula-scontro-tra-la-pm-e-limprenditore-bezziccheri_86479641-b4e1-42d0-8ba3-2a4e142d62c7.html",
-   "published": "2026-11-12T17:09:37+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Trecento vigili del fuoco in corteo a Bergamo: i motivi della protesta e l’incontro con il prefetto",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/bergamo/cronaca/trecento-vigili-del-fuoco-corteo-motivi-protesta-tcxtib0i",
-   "published": "2026-11-12T14:42:48+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Processo Park Towers, scontro tra il costruttore Bezziccheri e la pm Petruzzella: “Noi estratti da un mazzo”. “Dichiarazioni assurde”",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/processo-park-towers-scontro--bezziccheri-petruzzella-no95xhvu",
-   "published": "2026-11-12T13:04:06+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Il corteo di taxi dalla Centrale alla Prefettura: \"Basta abusivi\"",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/il-corteo-di-taxi-dalla-d2484e28",
-   "published": "2026-11-12T09:00:40+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Inchiesta sul gruppo anti-maranza, indagato ex dirigente di Forza Nuova: “Le coltellate? Non si spaventano”",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/le-coltellate-non-mi-spaventano-39926e94",
-   "published": "2026-11-12T08:52:41+00:00"
   }
  ]
 }
