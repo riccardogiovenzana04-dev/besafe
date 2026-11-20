@@ -1,75 +1,96 @@
 {
- "updatedAt": "2026-11-19T18:03:44+00:00",
+ "updatedAt": "2026-11-20T00:38:23+00:00",
  "items": [
   {
    "city": "milano",
-   "title": "Sciopero generale, domani a Milano in corteo sindacati e studenti",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/19/sciopero-generale-domani-a-milano-in-corteo-sindacati-e-studenti_1da410e7-e071-4e44-9b49-0e533604026d.html",
-   "published": "2026-11-19T18:08:45+01:00"
+   "title": "Trasporti a Milano nello sciopero di venerdì 20 novembre: la situazione su linee Atm, Passante e treni",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/sciopero/metro-atm-treni-trenord-orari-20-21-novembre-2026.html",
+   "published": "2026-11-20T04:57:00+01:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils sont arrivés comme une vague » : à Paris, encore des commerces pillés par des bandes en marge de la manifestation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-75011/ils-sont-arrives-comme-une-vague-a-paris-encore-des-commerces-pilles-par-des-bandes-en-marge-de-la-manifestation-15-11-2026-Z4CHIRDF7JHE5NNF6XOF7ABLHE.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 14 novembre à Paris : une centaine de gardes à vue, 38 mineurs concernés",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-une-centaine-de-gardes-a-vue-38-mineurs-concernes-15-11-2026-N5P5BT75PNFM7I24VV6J2BVQHU.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "« Je n’arrive plus à dormir » : après les pillages du 17 octobre à Paris, la détresse d’Hasen Mia, gérant d’une boutique",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/je-narrive-plus-a-dormir-apres-les-pillages-du-17-octobre-a-paris-la-detresse-dhasen-mia-gerant-dune-boutique-15-11-2026-FTEASKJCQVEH7PK6R6JKZNMVFY.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "Villejuif : douze CRS touchés dans un accident sur l’A6B en route vers la manifestation parisienne",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/val-de-marne-94/villejuif-douze-crs-touches-dans-un-accident-sur-la6b-en-route-vers-la-manifestation-parisienne-14-11-2026-BUAFMZIFNBGRVHO675LSMXQGKE.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "paris",
    "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-19T18:03:44+00:00"
+   "published": "2026-11-20T00:38:23+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Professeure d'économie convoquée après un devoir sur le mouvement lycéen : \"Notre collègue n'a fait que son travail\", selon le Snes-FSU",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/professeure-d-economie-convoquee-apres-un-devoir-sur-le-mouvement-lyceen-notre-collegue-n-a-fait-que-son-travail-selon-le-snes-fsu_8290724.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-19T22:17:37+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Une professeure d'économie de Grenoble convoquée le 26 novembre au rectorat \"pour recueillir son point de vue\", après un devoir faisant écho au mouvement lycéen",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/education/une-professeure-d-economie-de-grenoble-convoquee-le-26-novembre-au-rectorat-pour-recueillir-son-point-de-vue-apres-un-devoir-faisant-echo-au-mouvement-lyceen_8290589.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-19T20:21:56+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Sciopero generale, domani a Milano in corteo sindacati e studenti",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/19/sciopero-generale-domani-a-milano-in-corteo-sindacati-e-studenti_1da410e7-e071-4e44-9b49-0e533604026d.html",
+   "published": "2026-11-19T18:08:45+01:00"
   },
   {
    "city": "paris",
@@ -310,25 +331,11 @@
    "published": "2026-11-17T06:57:54+00:00"
   },
   {
-   "city": "paris",
-   "title": "Le procès d’Apple pour obsolescence programmée s’ouvrira en juin 2027 en France",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/pixels/article/2026/11/17/le-proces-d-apple-pour-obsolescence-programmee-s-ouvrira-en-juin-2027_6812904_4408996.html",
-   "published": "2026-11-17T06:00:11+01:00"
-  },
-  {
    "city": "milano",
    "title": "L’onda delle occupazioni in 9 scuole di Milano: “Edifici sicuri, più prof e stop al carovita. Ora il ministro ci deve ascoltare”",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/occupazioni-scuole-licei-motivi-ru54125a",
    "published": "2026-11-17T00:10:00+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Grève dans la fonction publique, perturbations dans les transports, manifestations… A quoi s'attendre pour la mobilisation du 17 novembre ?",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/greves-dans-la-fonction-publique-mouvement-lyceen-manifestations-a-quoi-s-attendre-pour-la-mobilisation-du-17-novembre_8284415.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-16T20:54:31+01:00"
   },
   {
    "city": "milano",
@@ -497,13 +504,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/monza-brianza/cronaca/camion-di-bobine-si-ribalta-c4c082b8",
    "published": "2026-11-13T09:10:26+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Tornano liberi due ragazzini arrestati durante i disordini a Milano",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/saccheggi-minorenni-liberati-2026.html",
-   "published": "2026-11-12T19:10:42+01:00"
   }
  ]
 }
