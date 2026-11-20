@@ -1,61 +1,152 @@
 {
- "updatedAt": "2026-11-20T07:47:50+00:00",
+ "updatedAt": "2026-11-20T16:48:32+00:00",
  "items": [
   {
    "city": "milano",
-   "title": "Per cortei possibili rallentamenti di mezzi pubblici di superficie a Milano",
+   "title": "Il corteo con 20mila studenti arriva in piazza Duomo, 'Milano est à nous'",
    "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/per-cortei-possibili-rallentamenti-di-mezzi-pubblici-di-superfice-a-milano_5c4c282b-6f31-4ca9-a6d4-a593ff62cd8a.html",
-   "published": "2026-11-20T08:30:48+01:00"
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/il-corteo-con-20mila-studenti-arriva-in-piazza-duomo-milano-est-a-nous_74e8ef0b-ed86-43ac-ad46-b3b05531ab4f.html",
+   "published": "2026-11-20T16:50:59+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
+   "published": "2026-11-20T16:48:32+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
+   "published": "2026-11-20T16:48:32+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils sont arrivés comme une vague » : à Paris, encore des commerces pillés par des bandes en marge de la manifestation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-75011/ils-sont-arrives-comme-une-vague-a-paris-encore-des-commerces-pilles-par-des-bandes-en-marge-de-la-manifestation-15-11-2026-Z4CHIRDF7JHE5NNF6XOF7ABLHE.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 14 novembre à Paris : une centaine de gardes à vue, 38 mineurs concernés",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-une-centaine-de-gardes-a-vue-38-mineurs-concernes-15-11-2026-N5P5BT75PNFM7I24VV6J2BVQHU.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "« Je n’arrive plus à dormir » : après les pillages du 17 octobre à Paris, la détresse d’Hasen Mia, gérant d’une boutique",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/je-narrive-plus-a-dormir-apres-les-pillages-du-17-octobre-a-paris-la-detresse-dhasen-mia-gerant-dune-boutique-15-11-2026-FTEASKJCQVEH7PK6R6JKZNMVFY.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
   },
   {
    "city": "paris",
    "title": "Villejuif : douze CRS touchés dans un accident sur l’A6B en route vers la manifestation parisienne",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/val-de-marne-94/villejuif-douze-crs-touches-dans-un-accident-sur-la6b-en-route-vers-la-manifestation-parisienne-14-11-2026-BUAFMZIFNBGRVHO675LSMXQGKE.php",
-   "published": "2026-11-20T07:47:50+00:00"
+   "published": "2026-11-20T16:48:32+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Manifestazione per Cospito davanti a carcere nel 2023, tutti assolti a Milano",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/manifestazione-per-cospito-davanti-a-carcere-nel-2023-tutti-assolti-a-milano_ccc97666-c965-46d5-9aac-74d4a73e4c91.html",
+   "published": "2026-11-20T16:48:31+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Sciopero generale, le piazze da Milano a Napoli. Manifestano anche gli studenti",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/sciopero-generale-le-piazze-da-milano-a-napoli_6e8664c2-d3b8-454f-b25f-4d6839031630.html",
+   "published": "2026-11-20T16:10:45+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Corteo in piazza Leonardo da Vinci, Venerus e Cosmo ospiti della serata",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/corteo-in-piazza-leonardo-da-vinci-venerus-e-cosmo-ospiti-della-serata-arh63oqf",
+   "published": "2026-11-20T16:01:52+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisations lycéennes : « L’éducation au numérique suppose de traiter les adolescents en citoyens »",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/20/mobilisations-lyceennes-l-education-au-numerique-suppose-de-traiter-les-adolescents-en-citoyens_6813638_3232.html",
+   "published": "2026-11-20T14:00:03+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Manifestarono per l’anarchico Alfredo Cospito davanti al carcere di Opera: assolti Davide Memeo e altre cinque persone",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/manifestarono-per-anarchico-alfredo-cospito-carcere-opera-assolti-davide-memeo-e-altre-cinque-persone-mx7jzj3o",
+   "published": "2026-11-20T13:51:32+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Presidio anarchico per Cospito davanti a Opera: cinque assolti, prosciolto il figlio di Giuseppe Memeo",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/presidio-anarchico-cospito-opera-assolti.html",
+   "published": "2026-11-20T13:41:58+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "BaddyDeadpool: The protester blending humour with activism",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/baddydeadpool-the-protester-blending-humour-with-activism?traffic_source=rss",
+   "published": "2026-11-20T12:26:29+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "A Milano studenti e lavoratori sfilano in un unico corteo",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/a-milano-studenti-e-lavoratori-sfilano-in-un-unico-corteo_c9b0905f-8bb7-452a-ad53-f733faff2b22.html",
+   "published": "2026-11-20T11:24:43+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Studenti in piazza a Milano per lo sciopero, 'riprendiamoci il futuro'",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/studenti-in-piazza-a-milano-per-lo-sciopero-riprendiamoci-il-futuro_a2a9d52e-177e-4369-9771-e7cdddb4e8a6.html",
+   "published": "2026-11-20T10:14:48+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Per cortei possibili rallentamenti di mezzi pubblici di superficie a Milano",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/per-cortei-possibili-rallentamenti-di-mezzi-pubblici-di-superfice-a-milano_5c4c282b-6f31-4ca9-a6d4-a593ff62cd8a.html",
+   "published": "2026-11-20T08:30:48+01:00"
   },
   {
    "city": "paris",
@@ -66,7 +157,7 @@
   },
   {
    "city": "milano",
-   "title": "Sciopero generale oggi a Milano: la diretta. Chi si ferma, disagi nei trasporti e cortei di studenti e lavoratori",
+   "title": "Sciopero generale oggi a Milano, cortei conclusi senza disordini. La Cgil: “In piazza 100mila persone”",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/sciopero-diretta-cortei-mezzi-disagi-nxufgfue",
    "published": "2026-11-20T06:59:24+00:00"
@@ -310,46 +401,11 @@
    "published": "2026-11-17T16:17:35+01:00"
   },
   {
-   "city": "paris",
-   "title": "Le parcours de la manifestation du 17 novembre à Paris, entre Nation et place d’Italie",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/17/le-parcours-de-la-manifestation-du-17-novembre-a-paris-entre-nation-et-place-d-italie_6812957_3225.html",
-   "published": "2026-11-17T14:35:20+01:00"
-  },
-  {
    "city": "milano",
    "title": "Un nuovo centro per i poveri in zona Martesana (ed è scontro)",
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/politica/centro-poveri-via-iglesias-polemica-17-novembre.html",
    "published": "2026-11-17T14:05:48+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "L’appel d’élus du Conseil national de la vie lycéenne : « A quoi sert notre mandat si nos travaux ne débouchent sur aucune discussion suivie d’effets ? »",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/idees/article/2026/11/17/l-appel-d-elus-du-conseil-national-de-la-vie-lyceenne-a-quoi-sert-notre-mandat-si-nos-travaux-ne-debouchent-sur-aucune-discussion-suivie-d-effets_6812970_3232.html",
-   "published": "2026-11-17T14:00:00+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Entre traumatisme et « élan de solidarité », les boutiques « geek » de Paris tentent de se relancer après les pillages",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/entre-traumatisme-et-elan-de-solidarite-les-boutiques-geek-de-paris-tentent-de-se-relancer-apres-les-pillages-12-11-2026-MTUISE7TT5CK7POOKTNKNNHPIY.php",
-   "published": "2026-11-17T11:38:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "10 millions d’euros de dégâts, 170 lycées touchés… La région Île-de-France veut durcir les sanctions et couper les aides aux « casseurs »",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/10-millions-deuros-de-degats-170-lycees-touches-la-region-ile-de-france-veut-durcir-les-sanctions-et-couper-les-aides-aux-casseurs-12-11-2026-2V2CTJXSDVHZNIIJ5SF3F2IETU.php",
-   "published": "2026-11-17T11:38:44+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Grève du 17 novembre à Paris : le parcours de la manifestation entre Nation et place d’Italie",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/17/greve-du-17-novembre-a-paris-le-parcours-de-la-manifestation-entre-nation-et-place-d-italie_6812957_3224.html",
-   "published": "2026-11-17T11:32:17+01:00"
   },
   {
    "city": "milano",
@@ -490,41 +546,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/legnano/cronaca/travolto-e-ucciso-sul-sempione-cdcae0ff",
    "published": "2026-11-14T05:08:22+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Sciopero generale del 20 novembre: in piazza anche la Cgil, oltre a Cub e Sgb. In piazza anche a Milano",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/sciopero/generale-20-novembre-2026.html",
-   "published": "2026-11-13T15:15:00+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Incidente frontale sulla Statale a Calvatone, morta donna di 74 anni",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/cremona/cronaca/incidente-frontale-sulla-statale-a-calvatone-morta-donna-di-74-anni-u6fcmd5v",
-   "published": "2026-11-13T11:55:55+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Interventi con sole quattro unità",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/bergamo/cronaca/interventi-con-sole-quattro-unita-a4f196d0",
-   "published": "2026-11-13T09:50:16+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Punto primo intervento. La protesta va avanti: no a ridimensionamenti. Ma i sindaci dove sono?",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/sondrio/cronaca/punto-primo-intervento-la-protesta-ac7611ab",
-   "published": "2026-11-13T09:42:46+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Camion di bobine si ribalta. Auto tagliata in due . Conducente miracolato",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/monza-brianza/cronaca/camion-di-bobine-si-ribalta-c4c082b8",
-   "published": "2026-11-13T09:10:26+00:00"
   }
  ]
 }
