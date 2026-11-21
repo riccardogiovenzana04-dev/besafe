@@ -1,47 +1,89 @@
 {
- "updatedAt": "2026-11-21T03:54:02+00:00",
+ "updatedAt": "2026-11-21T12:17:42+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
+   "published": "2026-11-21T12:17:42+00:00"
+  },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-21T03:54:02+00:00"
+   "published": "2026-11-21T12:17:42+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Tre feriti in un incidente stradale a Milano, grave un 22enne",
+   "outlet": "ANSA Lombardia",
+   "url": "https://www.ansa.it/lombardia/notizie/2026/11/21/tre-feriti-in-un-incidente-stradale-a-milano-grave-un-22enne_fada9349-1370-4cb2-871e-58f783d3277e.html",
+   "published": "2026-11-21T10:08:07+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Terribile schianto tra auto in viale Certosa, auto dilaniata: tre ragazzi feriti, gravissimo 22enne",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/incidente-auto-icx96wfw",
+   "published": "2026-11-21T09:33:28+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations en direct : nouvelle journée de mobilisation pour la jeunesse et contre la vie chère",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261121-en-direct-acte-vi-de-la-mobilisation-pour-la-jeunesse-et-contre-la-vie-ch%C3%A8re",
+   "published": "2026-11-21T08:23:49+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Sixième samedi de manifestations contre la vie chère en France, dans un contexte de baisse de la mobilisation",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/21/sixieme-samedi-de-manifestations-contre-la-vie-chere-en-france-dans-un-contexte-de-baisse-de-la-mobilisation_6813913_3224.html",
+   "published": "2026-11-21T05:30:08+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "I 30mila del corteo di studenti e Cgil. La Generazione Z si prende la piazza",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/i-30mila-del-corteo-di-2c66566a",
+   "published": "2026-11-21T04:38:46+00:00"
   },
   {
    "city": "paris",
@@ -380,27 +422,6 @@
    "published": "2026-11-17T19:09:49+00:00"
   },
   {
-   "city": "paris",
-   "title": "Plus de neuf manifestantes sur dix affirment avoir ressenti des troubles gynécologiques après avoir été exposées au gaz lacrymogène, selon un collectif",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/plus-de-neuf-manifestantes-sur-dix-affirment-avoir-ressenti-des-troubles-gynecologiques-apres-avoir-ete-exposees-au-gaz-lacrymogene-selon-un-collectif_8286335.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-17T18:08:48+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "À Nantes, le fiasco de la réouverture du lycée Nelson Mandela tourne au règlement de comptes politique",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/nantes/a-nantes-le-fiasco-de-la-reouverture-du-lycee-nelson-mandela-tourne-au-reglement-de-comptes-politique-20261117",
-   "published": "2026-11-17T17:10:34+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mouvement social en France : une mobilisation qui tient malgré des chiffres en baisse",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/france/20261117-mouvement-social-en-france-une-mobilisation-qui-tient-malgr%C3%A9-des-chiffres-en-baisse",
-   "published": "2026-11-17T16:51:31+00:00"
-  },
-  {
    "city": "milano",
    "title": "Un nuovo centro per i poveri in zona Martesana (ed è scontro)",
    "outlet": "MilanoToday",
@@ -525,27 +546,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/corteo-italia-in-piazza-o042adup",
    "published": "2026-11-14T13:01:08+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontro tra auto nel Milanese, morto un uomo",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/14/scontro-tra-auto-nel-milanese-morto-un-uomo_db6f844a-047f-4006-a155-717fc5331fbf.html",
-   "published": "2026-11-14T07:52:57+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontro tra auto nel Milanese: un 46enne è morto, una 23enne è ferita",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/incidente-mortale-bareggio-xr92sqot",
-   "published": "2026-11-14T06:49:06+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Travolto e ucciso sul Sempione. Fermato il pirata della strada",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/legnano/cronaca/travolto-e-ucciso-sul-sempione-cdcae0ff",
-   "published": "2026-11-14T05:08:22+00:00"
   }
  ]
 }
