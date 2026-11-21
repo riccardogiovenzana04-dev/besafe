@@ -1,54 +1,124 @@
 {
- "updatedAt": "2026-11-21T12:17:42+00:00",
+ "updatedAt": "2026-11-21T19:40:15+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "Colère sociale : à Paris, le «noyau décidé à battre le pavé» ne cache pas l’essoufflement croissant du mouvement",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/colere-sociale-a-paris-le-noyau-decide-a-battre-le-pave-ne-cache-pas-l-essoufflement-croissant-du-mouvement-20261121",
+   "published": "2026-11-21T20:34:35+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
+   "published": "2026-11-21T19:40:15+00:00"
+  },
   {
    "city": "paris",
    "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-21T12:17:42+00:00"
+   "published": "2026-11-21T19:40:15+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Data center in Lombardia, centinaia in corteo a Milano: \"Stop alla colonizzazione digitale\"",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/protesta-contro-data-center.html",
+   "published": "2026-11-21T18:49:32+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation contre la vie chère : les gilets jaunes fêtent les huit ans de leur mouvement",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/mobilisation-contre-la-vie-chere-les-gilets-jaunes-fetent-les-huit-ans-de-leur-mouvement_8294042.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-21T18:43:59+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "«Ça va être fun, y’a pas de caméra dans la bagnole»: enquête ouverte contre des policiers pour violences et agression sexuelle lors d’une manifestation",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/faits-divers/ca-va-etre-fun-y-a-pas-de-camera-dans-la-bagnole-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-lors-d-une-manifestation-20261121",
+   "published": "2026-11-21T18:42:46+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "In centinaia a Milano in corteo contro i data center",
+   "outlet": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/21/in-centinaia-a-milano-in-corteo-contro-i-data-center_4f28fc6a-25bb-438b-a5be-f1c20d29d9ba.html",
+   "published": "2026-11-21T17:51:01+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestations du 21 novembre : entre 80 000 et 150 000 personnes se sont mobilisées en France",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/21/manifestations-du-21-novembre-le-nombre-de-personnes-mobilisees-en-baisse-dans-l-apres-midi-le-cortege-parisien-est-arrive-place-de-la-nation_6813913_3225.html",
+   "published": "2026-11-21T17:04:58+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Milano, corteo contro i Data center: “Un pericolo per ambiente e salute, si preferisce la legge di mercato”",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/corteo-contro-data-center-dznbscs2",
+   "published": "2026-11-21T16:13:24+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "\"J'ai fait une formation à 250 personnes\" : à Paris, les formations de street medics attirent de plus en plus de militants",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/societe/manifestations/j-ai-fait-une-formation-a-250-personnes-a-paris-les-formations-de-street-medics-attirent-de-plus-en-plus-de-militants_8293769.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-21T15:33:07+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Deux policiers visés par une enquête pour violences sur deux manifestants, eux aussi accusés de coups, pendant la manifestation du 31 octobre à Paris",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/21/deux-policiers-vises-par-une-enquete-pour-violences-sur-deux-manifestants-eux-aussi-accuses-de-coups-pendant-la-manifestation-du-31-octobre-a-paris_6814023_3224.html",
+   "published": "2026-11-21T15:31:20+01:00"
   },
   {
    "city": "milano",
@@ -66,7 +136,7 @@
   },
   {
    "city": "paris",
-   "title": "Manifestations en direct : nouvelle journée de mobilisation pour la jeunesse et contre la vie chère",
+   "title": "En direct : 82 500 personnes ont manifesté en France selon Beauvau, 150 000 d'après la CGT",
    "outlet": "France 24",
    "url": "https://www.france24.com/fr/france/20261121-en-direct-acte-vi-de-la-mobilisation-pour-la-jeunesse-et-contre-la-vie-ch%C3%A8re",
    "published": "2026-11-21T08:23:49+00:00"
@@ -359,20 +429,6 @@
    "published": "2026-11-18T10:41:43+00:00"
   },
   {
-   "city": "paris",
-   "title": "« J’ai annulé 14 représentations » : après un mois de manifestations, des théâtres à la peine",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/culture-loisirs/jai-annule-14-representations-apres-un-mois-de-manifestations-des-theatres-a-la-peine-13-11-2026-KEYYDKR2ZZFYDDFOKQF7ZW5RKE.php",
-   "published": "2026-11-18T10:36:00+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 17 novembre à Paris : l’intersyndicale souhaite un parcours entre Invalides et place d’Italie",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-novembre-a-paris-lintersyndicale-souhaite-un-parcours-entre-invalides-et-place-ditalie-12-11-2026-7JGUDECVOJFH7LLDPH27CK5JCY.php",
-   "published": "2026-11-18T10:36:00+00:00"
-  },
-  {
    "city": "milano",
    "title": "Milano, sabato la marcia silenziosa per le vittime di transfobia: c'è il patrocinio del Comune",
    "outlet": "MilanoToday",
@@ -385,41 +441,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/poliziotto-incidente-1000-miglia-q12dxd9w",
    "published": "2026-11-18T00:15:00+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 17 novembre : la CGT a recensé plus de 500 000 manifestants en France et le ministère de l'Intérieur 146 000",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-et-manifestations-du-17-novembre-suivez-la-journee-de-mobilisation_8285927.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-17T23:57:32+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "EN DIRECT - Grève du 17 novembre : 146.000 manifestants en France d’après le ministère de l’Intérieur, plus de 500.000 selon la CGT",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-toutes-les-organisations-appellent-a-se-mobiliser-massivement-ce-mardi-pour-transformer-l-essai-20261117",
-   "published": "2026-11-17T20:31:02+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "\"Fractures françaises\" : jusqu'où ?",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261117-fractures-fran%C3%A7aises-jusqu-o%C3%B9",
-   "published": "2026-11-17T19:20:47+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "«On vit le moment politique le plus important de toutes nos vies» : une nouvelle journée de mobilisation sans heurts mais une colère tenace",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/on-vit-le-moment-politique-le-plus-important-de-toutes-nos-vies-une-nouvelle-journee-de-mobilisation-sans-heurts-mais-une-colere-tenace-20261117",
-   "published": "2026-11-17T19:20:09+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "More than 100,000 take part in France pay protests",
-   "outlet": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/17/more-than-100000-take-part-in-france-pay-protests?traffic_source=rss",
-   "published": "2026-11-17T19:09:49+00:00"
   },
   {
    "city": "milano",
@@ -525,27 +546,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/varese/cronaca/ex-isotta-controdeduzioni-kewps5i3",
    "published": "2026-11-15T01:39:00+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontri, maxi blitz della Digos anche a Milano: 50 perquisizioni, in casa di un minorenne un machete e dieci coltelli",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/perquisizioni-scontri-ottobre-2026.html",
-   "published": "2026-11-14T16:24:35+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "A Milano poche centinaia per il nuovo corteo di 'Italia in piazza'",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/14/a-milano-poche-centinaia-per-il-nuovo-corteo-di-italia-in-piazza_e92976d0-1519-4e90-9278-ae276c20b4b6.html",
-   "published": "2026-11-14T16:21:45+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Oggi il corteo contro carovita e riarmo: il percorso “alternativo” dopo i disordini del 17-18 ottobre. Un centinaio in piazza",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/corteo-italia-in-piazza-o042adup",
-   "published": "2026-11-14T13:01:08+00:00"
   }
  ]
 }
