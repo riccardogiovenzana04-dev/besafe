@@ -1,75 +1,96 @@
 {
- "updatedAt": "2026-11-21T23:56:33+00:00",
+ "updatedAt": "2026-11-22T06:21:50+00:00",
  "items": [
   {
    "city": "paris",
-   "title": "Colère sociale : à Paris, le «noyau décidé à battre le pavé» ne cache pas l’essoufflement croissant du mouvement",
+   "title": "Colère sociale : 82.500 manifestants dans les cortèges en France samedi et 144 interpellations, selon le ministère de l’Intérieur",
    "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/colere-sociale-a-paris-le-noyau-decide-a-battre-le-pave-ne-cache-pas-l-essoufflement-croissant-du-mouvement-20261121",
-   "published": "2026-11-22T00:17:35+01:00"
+   "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-laurent-nunez-appelle-les-prefets-a-la-vigilance-20261121",
+   "published": "2026-11-22T07:16:47+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Scandale de triche à l’IA en Corée du Sud : sous pression, le ministre de l’éducation démissionne",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/international/article/2026/11/22/scandale-de-triche-a-l-ia-en-coree-du-sud-sous-pression-le-ministre-de-l-education-demissionne_6814190_3210.html",
+   "published": "2026-11-22T06:55:03+01:00"
   },
   {
    "city": "paris",
    "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 17 novembre : retrouvez le parcours à Paris, au départ de la place de la Nation",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-17-octobre-retrouvez-le-parcours-a-paris-au-depart-de-la-place-de-la-nation-16-11-2026-54YJRCNX7FG45LW35J4PUXY5TQ.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
    "title": "Paris : une enfant de 12 ans interpellée en marge de la manifestation du 14 novembre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/paris-une-enfant-de-12-ans-interpellee-en-marge-de-la-manifestation-du-14-novembre-16-11-2026-AKKDTPZC3VDLTDDMT6WOWJB5AE.php",
-   "published": "2026-11-21T23:56:33+00:00"
+   "published": "2026-11-22T06:21:50+00:00"
   },
   {
    "city": "paris",
-   "title": "EN DIRECT - Colère sociale : 82.500 manifestants dans les cortèges en France ce samedi et 144 interpellations, selon le ministère de l’Intérieur",
+   "title": "Mobilisations lycéennes : les déchirements des parents, à la fois inquiets, fiers, en soutien ou en colère",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/22/mouvement-lyceen-inquiets-fiers-en-soutien-ou-en-colere-les-dechirements-des-parents-d-eleves-touches-par-la-mobilisation_6814146_3224.html",
+   "published": "2026-11-22T05:55:02+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Clashes erupt across France in another night of protest",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/clashes-erupt-across-france-in-another-night-of-protest?traffic_source=rss",
+   "published": "2026-11-22T00:37:32+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Colère sociale : à Paris, le «noyau décidé à battre le pavé» ne cache pas l’essoufflement croissant du mouvement",
    "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-laurent-nunez-appelle-les-prefets-a-la-vigilance-20261121",
-   "published": "2026-11-21T22:12:27+01:00"
+   "url": "https://www.lefigaro.fr/actualite-france/colere-sociale-a-paris-le-noyau-decide-a-battre-le-pave-ne-cache-pas-l-essoufflement-croissant-du-mouvement-20261121",
+   "published": "2026-11-22T00:17:35+01:00"
   },
   {
    "city": "paris",
@@ -394,32 +415,11 @@
    "published": "2026-11-19T15:31:50+01:00"
   },
   {
-   "city": "paris",
-   "title": "France Assureurs estime à \"plus de 200 millions d'euros\" le coût des dégâts engendrés par les violences urbaines et les pillages des 17 et 18 octobre",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-19T13:40:01+01:00"
-  },
-  {
    "city": "milano",
    "title": "Venerdì di sciopero generale, due cortei a Milano: percorsi, orari e chi si ferma",
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/sciopero/cortei-20-novembre-percorsi.html",
    "published": "2026-11-19T09:08:37+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestation du 14 novembre à Paris : 30 000 à 60 000 personnes attendues pour un parcours entre République et Nation",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/manifestation-du-14-novembre-a-paris-30-000-a-60-000-personnes-attendues-pour-un-parcours-entre-republique-et-nation-13-11-2026-G6U6VAUGOVE7ZLU4WUO4JTO3OY.php",
-   "published": "2026-11-19T08:52:40+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "«Il y a un vrai traumatisme» : un mois après les violences du 17 octobre, les commerçants parisiens tentent de se reconstruire",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/conso/il-y-a-un-vrai-traumatisme-un-mois-apres-les-violences-du-17-octobre-les-commercants-parisiens-tentent-de-se-reconstruire-20261119",
-   "published": "2026-11-19T08:30:00+01:00"
   },
   {
    "city": "milano",
@@ -490,62 +490,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/politica/elezioni-comunali-2027/confronto-sardone-majorino-burgio-tel-aviv.html",
    "published": "2026-11-15T07:56:15+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "\"Sala non si è visto al nostro presidio. Così siamo venuti noi in Comune\"",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/sala-non-si-e-visto-f8c38933",
-   "published": "2026-11-15T05:51:51+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scattano le perquisizioni della Digos. E i social sotto la lente della Procura",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/scattano-le-perquisizioni-della-digos-ef0431f6",
-   "published": "2026-11-15T05:30:23+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Città in stato d’allerta. Ma i duemila del corteo marciano da ‘pacifisti’",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/citta-in-stato-dallerta-ma-ae8219af",
-   "published": "2026-11-15T05:20:49+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Carovita: è mobilitazione: \"Pensioni da rivalutare\"",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/varese/cronaca/carovita-e-mobilitazione-pensioni-da-e0af880c",
-   "published": "2026-11-15T04:55:49+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Violenza sulle donne: pure gli uomini in corteo",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/varese/cronaca/violenza-sulle-donne-pure-gli-dee87f4c",
-   "published": "2026-11-15T04:47:39+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Stop ai data center. Il movimento allarga i confini. La protesta approda a Milano",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/legnano/cronaca/stop-ai-data-center-il-813f664f",
-   "published": "2026-11-15T04:27:37+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scontro tra vetture nel cuore della notte. Muore uomo di 46 anni",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/legnano/cronaca/scontro-tra-vetture-nel-cuore-1ad2f7da",
-   "published": "2026-11-15T04:24:55+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "L’ex Isotta è ancora motivo di scontro: maggioranza e opposizione litigano su verde e viabilità",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/varese/cronaca/ex-isotta-controdeduzioni-kewps5i3",
-   "published": "2026-11-15T01:39:00+00:00"
   }
  ]
 }
