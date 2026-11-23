@@ -1,47 +1,75 @@
 {
- "updatedAt": "2026-11-23T01:31:32+00:00",
+ "updatedAt": "2026-11-23T09:49:49+00:00",
  "items": [
+  {
+   "city": "milano",
+   "title": "Occupato il liceo Berchet di Milano: \"Non vogliamo essere l'ultima ruota del carro\"",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/liceo-berchet-occupato-2026.html",
+   "published": "2026-11-23T09:52:32+01:00"
+  },
   {
    "city": "paris",
    "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
   },
   {
    "city": "paris",
    "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-23T01:31:32+00:00"
+   "published": "2026-11-23T09:49:49+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Who is behind the recent street protests in France?",
+   "outlet": "BBC News",
+   "url": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-23T09:25:52+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Mattinata di passione sulle tangenziali a Milano: incidente (anche) sulla Ovest tra San Siro e Cusago, 5 km di coda",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/incidente-stradale/tangenziale-ovest-coda-oggi-23-novembre-2026.html",
+   "published": "2026-11-23T08:13:08+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+   "outlet": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-23T06:01:31+00:00"
   },
   {
    "city": "paris",
@@ -408,20 +436,6 @@
    "published": "2026-11-19T18:08:45+01:00"
   },
   {
-   "city": "paris",
-   "title": "Manifestation du 21 novembre à Paris : syndicats, jeunes et défenseurs du droit au logement défileront ensemble ; les « gilets jaunes » devraient les rejoindre",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/politique/article/2026/11/19/manifestation-a-paris-syndicats-jeunes-et-defenseurs-du-droit-au-logement-defileront-ensemble-samedi-les-gilets-jaunes-devraient-les-rejoindre_6813343_823448.html",
-   "published": "2026-11-19T17:07:19+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Colère des lycéens et étudiants : près de la moitié des Français pointe du doigt le laxisme du gouvernement",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/actualite-france/colere-des-lyceens-et-etudiants-pres-de-la-moitie-des-francais-pointe-du-doigt-le-laxisme-du-gouvernement-20261119",
-   "published": "2026-11-19T17:04:34+01:00"
-  },
-  {
    "city": "milano",
    "title": "Venerdì di sciopero generale, due cortei a Milano: percorsi, orari e chi si ferma",
    "outlet": "MilanoToday",
@@ -476,13 +490,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/politica/tassa-super-ricchi-jqtys09s",
    "published": "2026-11-16T10:33:50+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Scuole occupate a Milano, dopo il Parini tocca a Volta, Bottoni, Agnesi e Molinari: le ragioni della protesta",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/licei-occupati-parini-volta-agnesi-bottoni-oggi.html",
-   "published": "2026-11-16T09:10:02+01:00"
   }
  ]
 }
