@@ -1,61 +1,117 @@
 {
- "updatedAt": "2026-11-24T05:51:36+00:00",
+ "updatedAt": "2026-11-24T17:12:51+00:00",
  "items": [
   {
    "city": "paris",
-   "title": "Mouvement lycéen : la délicate et précaire reprise des cours dans les établissements les plus mobilisés",
+   "title": "Alcool : l’expérimentation en hausse chez les collégiens et les lycéens, les autres usages régressent, y compris chez les adultes",
    "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/24/mouvement-lyceen-la-delicate-et-precaire-reprise-des-cours-dans-les-etablissements-les-plus-mobilises_6814703_3224.html",
-   "published": "2026-11-24T06:00:13+01:00"
+   "url": "https://www.lemonde.fr/societe/article/2026/11/24/alcool-l-experimentation-en-hausse-chez-les-collegiens-et-les-lyceens-les-autres-usages-regressent-y-compris-chez-les-adultes_6814822_3224.html",
+   "published": "2026-11-24T18:00:00+01:00"
   },
   {
    "city": "paris",
-   "title": "Mobilisation du 21 novembre à Paris : un CRS accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
+   "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
+   "published": "2026-11-24T17:12:51+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : 16 stations de métro et RER fermées ce samedi",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/manifestation-du-21-novembre-a-paris-16-stations-de-metro-et-rer-fermees-ce-samedi-20-11-2026-IKEVD6NMPNDB5KZZB7AHRME65M.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "Manifestation du 21 novembre à Paris : un parcours République-Nation pour l’acte 6 contre la vie chère",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/manifestation-du-21-novembre-a-paris-un-parcours-republique-nation-pour-lacte-6-contre-la-vie-chere-20-11-2026-P7C5G4Q7K5DORGLGPKCRPI4IFE.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "« Ils nous ont confondus avec des casseurs » : une commerçante frappée par erreur par des CRS porte plainte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/societe/ils-nous-ont-confondus-avec-des-casseurs-une-commercante-frappee-par-erreur-par-des-crs-porte-plainte-20-11-2026-PMVEIGEF6RCWPDKH5F7L52I624.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
   },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre : un étudiant en informatique de Villejuif écroué après avoir revendu des produits de luxe",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/pillages-du-17-octobre-un-etudiant-en-informatique-ecroue-apres-avoir-vendu-sur-vinted-des-produits-de-luxe-voles-18-11-2026-ATP5Y3NIPZD27N54R3UZ3FPZIA.php",
-   "published": "2026-11-24T05:51:36+00:00"
+   "published": "2026-11-24T17:12:51+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Élèves politisés de milieux favorisés, personnels «empathiques», soutien de LFI… Un rapport dresse le portrait des perturbateurs de lycées",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/eleves-politises-de-milieux-favorises-personnels-empathiques-soutien-de-lfi-un-rapport-dresse-le-portrait-des-perturbateurs-de-lycees-20261124",
+   "published": "2026-11-24T16:08:32+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Islam politico: scontro tra Sala e Sardone sull’evento leghista in programma il 12 dicembre, il giorno di piazza Fontana",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/politica/islam-politico-scontro-sala-sardone-hw376rvc",
+   "published": "2026-11-24T13:58:34+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Youssef Siher torna a parlare sui social: “Resistenza fino alla liberazione, la repressione non ci ferma”",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/youssef-siher-torna-a-parlare-social-resistenza-fino-alla-liberazione-h88gwbct",
+   "published": "2026-11-24T13:31:58+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Corteo Ramelli 2019: la procura generale di Milano fa ricorso in Cassazione contro l'assoluzione di 23 militanti",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/procura-generale-ricorso-assoluzione-saluti-romani-ramelli-2019.html",
+   "published": "2026-11-24T12:39:08+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Saluti romani al corteo per Sergio Ramelli, la Procura Generale ricorre in Cassazione contro l’assoluzione di 23 militanti dell’estrema destra",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/saluti-romani-sergio-ramelli-ricorso-assoluzioni-eb374zzu",
+   "published": "2026-11-24T11:06:25+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mort de Nahel Merzouk : la justice ordonne un procès pour meurtre à l'encontre du policier",
+   "outlet": "France 24",
+   "url": "https://www.france24.com/fr/france/20261124-mort-nahel-merzouk-justice-ordonne-proc%C3%A8s-pour-meurtre-policier",
+   "published": "2026-11-24T08:27:33+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mouvement lycéen : la délicate et précaire reprise des cours dans les établissements les plus mobilisés",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/24/mouvement-lyceen-la-delicate-et-precaire-reprise-des-cours-dans-les-etablissements-les-plus-mobilises_6814703_3224.html",
+   "published": "2026-11-24T06:00:13+01:00"
   },
   {
    "city": "milano",
@@ -387,32 +443,11 @@
    "published": "2026-11-20T08:30:48+01:00"
   },
   {
-   "city": "paris",
-   "title": "« Il faut garder espoir et avancer » : après les pillages à Paris, Nadia, bijoutière, remonte la pente avec courage",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/il-faut-garder-espoir-et-avancer-apres-les-pillages-a-paris-nadia-bijoutiere-remonte-la-pente-avec-courage-14-11-2026-UTAYF6MJBBAMZNGJGVIBBTPCW4.php",
-   "published": "2026-11-20T07:47:50+00:00"
-  },
-  {
    "city": "milano",
    "title": "Sciopero generale oggi a Milano, cortei conclusi senza disordini. La Cgil: “In piazza 100mila persone”",
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/sciopero-diretta-cortei-mezzi-disagi-nxufgfue",
    "published": "2026-11-20T06:59:24+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mouvement lycéen : l’impossible débat sur le « maintien de l’ordre à la française »",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/20/mouvement-lyceen-l-impossible-debat-sur-le-maintien-de-l-ordre-a-la-francaise_6813554_3224.html",
-   "published": "2026-11-20T05:26:27+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "INFO CELLULE INVESTIGATION DE RADIO FRANCE. Médicaments, alcool et drogue retrouvés dans le corps de Christophe M., manifestant mort à Paris le 17 octobre",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/enquetes-franceinfo/info-cellule-investigation-de-radio-france-medicaments-alcool-et-drogue-retrouves-dans-le-corps-de-christophe-m-manifestant-mort-a-paris-le-17-octobre_8288645.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-20T05:00:02+01:00"
   },
   {
    "city": "milano",
@@ -427,13 +462,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/sciopero/corteo-treni-oggi-diretta-aggiornamenti-20-novembre-2026.html",
    "published": "2026-11-20T04:56:00+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "« 379 commerces touchés » : à Paris Centre, le bilan des pillages du 17 et 18 octobre a triplé",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/379-commerces-touches-a-paris-centre-le-bilan-des-pillages-du-17-et-18-octobre-a-triple-13-11-2026-YYJ4BCC7YREE5BAE343V2IGSHA.php",
-   "published": "2026-11-20T00:38:23+00:00"
   },
   {
    "city": "milano",
@@ -469,13 +497,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/poliziotto-incidente-1000-miglia-q12dxd9w",
    "published": "2026-11-18T00:15:00+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Un nuovo centro per i poveri in zona Martesana (ed è scontro)",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/politica/centro-poveri-via-iglesias-polemica-17-novembre.html",
-   "published": "2026-11-17T14:05:48+01:00"
   }
  ]
 }
