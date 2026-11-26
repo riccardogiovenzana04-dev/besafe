@@ -1,6 +1,69 @@
 {
- "updatedAt": "2026-11-26T12:01:50+00:00",
+ "updatedAt": "2026-11-26T21:34:58+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "Pillages du 17 octobre à Paris : « Je comprends les commerçants mais on ne peut pas multiplier à l’envi les policiers », assure le préfet de police",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-a-paris-je-comprends-les-commercants-mais-on-ne-peut-pas-multiplier-a-lenvi-les-policiers-assure-le-prefet-de-police-26-11-2026-2RIIPUV47ZHT5ANJFTS2FXPVDM.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "17 octobre à Paris : un adolescent de 15 ans blessé par balle en marge de la manifestation, une enquête ouverte pour tentative de meurtre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-adolescent-de-15-ans-blesse-par-balle-en-marge-de-la-manifestation-une-enquete-ouverte-pour-tentative-de-meurtre-24-11-2026-5KXKPRTIGRCZRBKLLW3TE27CMU.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
+   "published": "2026-11-26T21:34:58+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "A Paris, des lycéens et étudiants toujours mobilisés qui récusent tout « retour à la normale »",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/campus/article/2026/11/26/a-paris-des-lyceens-et-etudiants-toujours-mobilises-qui-recusent-tout-retour-a-la-normale_6815594_4401467.html",
+   "published": "2026-11-26T20:09:13+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Un mouvement social ne se réduit pas à ses “débouchés” »",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/26/un-mouvement-social-ne-se-reduit-pas-a-ses-debouches_6815562_3232.html",
+   "published": "2026-11-26T17:00:22+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Au lycée Maurice-Ravel, portraits des parents face au blocage : « Je suis d’accord sur le fond, pas forcément sur la forme »",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/26/au-lycee-maurice-ravel-portraits-des-parents-face-au-blocus-je-suis-d-accord-sur-le-fond-pas-forcement-sur-la-forme_6815561_3224.html",
+   "published": "2026-11-26T17:00:03+01:00"
+  },
   {
    "city": "paris",
    "title": "\"Pas question\" : le ministre de l’Enseignement supérieur refuse un aménagement des partiels et appelle à \"cesser\" les blocages \"immédiatement\"",
@@ -14,41 +77,6 @@
    "outlet": "franceinfo",
    "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/blocage-du-lycee-mandela-de-nantes-un-barrage-filtrant-installe-par-les-eleves-des-policiers-sont-sur-place-3456173.html#xtor=RSS-3-[lestitres]",
    "published": "2026-11-26T12:03:16+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "17 octobre à Paris : un adolescent de 15 ans blessé par balle en marge de la manifestation, une enquête ouverte pour tentative de meurtre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-adolescent-de-15-ans-blesse-par-balle-en-marge-de-la-manifestation-une-enquete-ouverte-pour-tentative-de-meurtre-24-11-2026-5KXKPRTIGRCZRBKLLW3TE27CMU.php",
-   "published": "2026-11-26T12:01:50+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
-   "published": "2026-11-26T12:01:50+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
-   "published": "2026-11-26T12:01:50+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
-   "published": "2026-11-26T12:01:50+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Chants antiflics, violences, impression de « trahir »… Comment les enfants de policiers vivent le mouvement lycéen",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/faits-divers/chants-antiflics-violences-impression-de-trahir-comment-les-enfants-de-policiers-vivent-le-mouvement-lyceen-21-11-2026-IF245GJHXJB57GXXPYUWKDWAKM.php",
-   "published": "2026-11-26T12:01:50+00:00"
   },
   {
    "city": "paris",
@@ -415,20 +443,6 @@
    "published": "2026-11-21T16:13:24+00:00"
   },
   {
-   "city": "paris",
-   "title": "\"J'ai fait une formation à 250 personnes\" : à Paris, les formations de street medics attirent de plus en plus de militants",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/j-ai-fait-une-formation-a-250-personnes-a-paris-les-formations-de-street-medics-attirent-de-plus-en-plus-de-militants_8293769.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-21T15:33:07+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Deux policiers visés par une enquête pour violences sur deux manifestants, eux aussi accusés de coups, pendant la manifestation du 31 octobre à Paris",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/21/deux-policiers-vises-par-une-enquete-pour-violences-sur-deux-manifestants-eux-aussi-accuses-de-coups-pendant-la-manifestation-du-31-octobre-a-paris_6814023_3224.html",
-   "published": "2026-11-21T15:31:20+01:00"
-  },
-  {
    "city": "milano",
    "title": "Tre feriti in un incidente stradale a Milano, grave un 22enne",
    "outlet": "ANSA Lombardia",
@@ -441,20 +455,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/incidente-auto-icx96wfw",
    "published": "2026-11-21T09:33:28+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Syndicats, jeunesse et gilets jaunes un peu moins mobilisés pour le sixième samedi de manifestation",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/france/20261121-en-direct-acte-vi-de-la-mobilisation-pour-la-jeunesse-et-contre-la-vie-ch%C3%A8re",
-   "published": "2026-11-21T08:23:49+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Entre 80 000 et 150 000 personnes mobilisées pour un sixième samedi de manifestations en France",
-   "outlet": "France 24",
-   "url": "https://www.france24.com/fr/france/20261121-sixi%C3%A8me-samedi-de-manifestation-contre-la-vie-ch%C3%A8re-premier-round-contre-les-violences-sexistes",
-   "published": "2026-11-21T06:16:30+00:00"
   },
   {
    "city": "milano",
@@ -546,13 +546,6 @@
    "outlet": "MilanoToday",
    "url": "https://www.milanotoday.it/cronaca/sciopero/corteo-treni-oggi-diretta-aggiornamenti-20-novembre-2026.html",
    "published": "2026-11-20T04:56:00+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Sciopero generale, domani a Milano in corteo sindacati e studenti",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/19/sciopero-generale-domani-a-milano-in-corteo-sindacati-e-studenti_1da410e7-e071-4e44-9b49-0e533604026d.html",
-   "published": "2026-11-19T18:08:45+01:00"
   }
  ]
 }
