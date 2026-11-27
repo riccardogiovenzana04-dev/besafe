@@ -1,40 +1,89 @@
 {
- "updatedAt": "2026-11-27T03:47:55+00:00",
+ "updatedAt": "2026-11-27T13:35:43+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "Paris : un sapin de Noël a pris feu sur la place du Panthéon en marge d’une manifestation étudiante",
+   "outlet": "Le Figaro",
+   "url": "https://www.lefigaro.fr/actualite-france/paris-un-sapin-de-noel-a-pris-feu-sur-la-place-du-pantheon-en-marge-d-une-manifestation-etudiante-20261127",
+   "published": "2026-11-27T14:12:10+01:00"
+  },
   {
    "city": "paris",
    "title": "Pillages du 17 octobre à Paris : « Je comprends les commerçants mais on ne peut pas multiplier à l’envi les policiers », assure le préfet de police",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-a-paris-je-comprends-les-commercants-mais-on-ne-peut-pas-multiplier-a-lenvi-les-policiers-assure-le-prefet-de-police-26-11-2026-2RIIPUV47ZHT5ANJFTS2FXPVDM.php",
-   "published": "2026-11-27T03:47:55+00:00"
+   "published": "2026-11-27T13:35:43+00:00"
   },
   {
    "city": "paris",
    "title": "17 octobre à Paris : un adolescent de 15 ans blessé par balle en marge de la manifestation, une enquête ouverte pour tentative de meurtre",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-adolescent-de-15-ans-blesse-par-balle-en-marge-de-la-manifestation-une-enquete-ouverte-pour-tentative-de-meurtre-24-11-2026-5KXKPRTIGRCZRBKLLW3TE27CMU.php",
-   "published": "2026-11-27T03:47:55+00:00"
+   "published": "2026-11-27T13:35:43+00:00"
   },
   {
    "city": "paris",
    "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
-   "published": "2026-11-27T03:47:55+00:00"
+   "published": "2026-11-27T13:35:43+00:00"
   },
   {
    "city": "paris",
    "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
-   "published": "2026-11-27T03:47:55+00:00"
+   "published": "2026-11-27T13:35:43+00:00"
   },
   {
    "city": "paris",
    "title": "Insultes, interrogatoire violent… Enquête ouverte contre des policiers pour violences et agression sexuelle en marge d’une manifestation à Paris",
    "outlet": "Le Parisien",
    "url": "https://www.leparisien.fr/faits-divers/insultes-interrogatoire-violent-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-en-marge-dune-manifestation-a-paris-21-11-2026-6IAAEEN2A5GY7M5KNJFZS7KXC4.php",
-   "published": "2026-11-27T03:47:55+00:00"
+   "published": "2026-11-27T13:35:43+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Rissa con trenta persone alle porte di Milano: chiuso un bar per cinque giorni",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/cronaca/saronno-rissa-bar-chiuso-cinque-giorni-questore-varese.html",
+   "published": "2026-11-27T12:59:36+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "La suspension de l'usage des grenades assourdissantes prolongée et étendue à toutes les manifestations",
+   "outlet": "franceinfo",
+   "url": "https://www.franceinfo.fr/faits-divers/police/la-suspension-de-l-usage-des-grenades-assourdissantes-prolongee-et-etendue-a-toutes-les-manifestations_8302995.html#xtor=RSS-3-[lestitres]",
+   "published": "2026-11-27T12:32:28+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Sicurezza a Milano: i 500 militari aggiuntivi restano in città fino a fine 2027",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/politica/militari-fine-2027.html",
+   "published": "2026-11-27T08:33:34+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Louis Degos, bâtonnier de Paris : « L’Etat a oublié un principe essentiel de droit : la juste mesure »",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/27/louis-degos-batonnier-de-paris-l-etat-a-oublie-un-principe-essentiel-de-droit-la-juste-mesure_6815791_3224.html",
+   "published": "2026-11-27T05:15:05+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "La crostatina vince sui cracker. È scontro sulla merenda a scuola: \"Ai bambini va dato cibo sano\"",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/la-crostatina-vince-sui-cracker-32b7ab38",
+   "published": "2026-11-27T05:03:15+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Dagli scontri di piazza al porta a porta. De Simone e la rete con i cittadini: \"Adesso siamo punti di riferimento\"",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/dagli-scontri-di-piazza-al-75b6c80f",
+   "published": "2026-11-27T04:17:13+00:00"
   },
   {
    "city": "paris",
@@ -408,32 +457,11 @@
    "published": "2026-11-21T18:49:32+01:00"
   },
   {
-   "city": "paris",
-   "title": "Mobilisation contre la vie chère : les gilets jaunes fêtent les huit ans de leur mouvement",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/mobilisation-contre-la-vie-chere-les-gilets-jaunes-fetent-les-huit-ans-de-leur-mouvement_8294042.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-21T18:43:59+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "«Ça va être fun, y’a pas de caméra dans la bagnole»: enquête ouverte contre des policiers pour violences et agression sexuelle lors d’une manifestation",
-   "outlet": "Le Figaro",
-   "url": "https://www.lefigaro.fr/faits-divers/ca-va-etre-fun-y-a-pas-de-camera-dans-la-bagnole-enquete-ouverte-contre-des-policiers-pour-violences-et-agression-sexuelle-lors-d-une-manifestation-20261121",
-   "published": "2026-11-21T18:42:46+01:00"
-  },
-  {
    "city": "milano",
    "title": "In centinaia a Milano in corteo contro i data center",
    "outlet": "ANSA",
    "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/21/in-centinaia-a-milano-in-corteo-contro-i-data-center_4f28fc6a-25bb-438b-a5be-f1c20d29d9ba.html",
    "published": "2026-11-21T17:51:01+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Manifestations du 21 novembre : entre 80 000 et 150 000 personnes se sont mobilisées en France",
-   "outlet": "Le Monde",
-   "url": "https://www.lemonde.fr/societe/article/2026/11/21/manifestations-du-21-novembre-le-nombre-de-personnes-mobilisees-en-baisse-dans-l-apres-midi-le-cortege-parisien-est-arrive-place-de-la-nation_6813913_3225.html",
-   "published": "2026-11-21T17:04:58+01:00"
   },
   {
    "city": "milano",
@@ -497,55 +525,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/manifestarono-per-anarchico-alfredo-cospito-carcere-opera-assolti-davide-memeo-e-altre-cinque-persone-mx7jzj3o",
    "published": "2026-11-20T13:51:32+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Presidio anarchico per Cospito davanti a Opera: cinque assolti, prosciolto il figlio di Giuseppe Memeo",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/presidio-anarchico-cospito-opera-assolti.html",
-   "published": "2026-11-20T13:41:58+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "A Milano studenti e lavoratori sfilano in un unico corteo",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/a-milano-studenti-e-lavoratori-sfilano-in-un-unico-corteo_c9b0905f-8bb7-452a-ad53-f733faff2b22.html",
-   "published": "2026-11-20T11:24:43+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Studenti in piazza a Milano per lo sciopero, 'riprendiamoci il futuro'",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/studenti-in-piazza-a-milano-per-lo-sciopero-riprendiamoci-il-futuro_a2a9d52e-177e-4369-9771-e7cdddb4e8a6.html",
-   "published": "2026-11-20T10:14:48+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Per cortei possibili rallentamenti di mezzi pubblici di superficie a Milano",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/per-cortei-possibili-rallentamenti-di-mezzi-pubblici-di-superfice-a-milano_5c4c282b-6f31-4ca9-a6d4-a593ff62cd8a.html",
-   "published": "2026-11-20T08:30:48+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Sciopero generale oggi a Milano, cortei conclusi senza disordini. La Cgil: “In piazza 100mila persone”",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/sciopero-diretta-cortei-mezzi-disagi-nxufgfue",
-   "published": "2026-11-20T06:59:24+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Trasporti a Milano nello sciopero di venerdì 20 novembre: la situazione su linee Atm, Passante e treni",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/sciopero/metro-atm-treni-trenord-orari-20-21-novembre-2026.html",
-   "published": "2026-11-20T04:57:00+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Sciopero generale venerdì 20 novembre a Milano: cortei in centro, mezzi deviati e stop ai treni. La diretta",
-   "outlet": "MilanoToday",
-   "url": "https://www.milanotoday.it/cronaca/sciopero/corteo-treni-oggi-diretta-aggiornamenti-20-novembre-2026.html",
-   "published": "2026-11-20T04:56:00+01:00"
   }
  ]
 }
