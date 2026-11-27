@@ -1,6 +1,55 @@
 {
- "updatedAt": "2026-11-27T13:35:43+00:00",
+ "updatedAt": "2026-11-27T22:21:26+00:00",
  "items": [
+  {
+   "city": "paris",
+   "title": "Pillages du 17 octobre à Paris : « Je comprends les commerçants mais on ne peut pas multiplier à l’envi les policiers », assure le préfet de police",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-a-paris-je-comprends-les-commercants-mais-on-ne-peut-pas-multiplier-a-lenvi-les-policiers-assure-le-prefet-de-police-26-11-2026-2RIIPUV47ZHT5ANJFTS2FXPVDM.php",
+   "published": "2026-11-27T22:21:26+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "17 octobre à Paris : un adolescent de 15 ans blessé par balle en marge de la manifestation, une enquête ouverte pour tentative de meurtre",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-adolescent-de-15-ans-blesse-par-balle-en-marge-de-la-manifestation-une-enquete-ouverte-pour-tentative-de-meurtre-24-11-2026-5KXKPRTIGRCZRBKLLW3TE27CMU.php",
+   "published": "2026-11-27T22:21:26+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
+   "published": "2026-11-27T22:21:26+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
+   "outlet": "Le Parisien",
+   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
+   "published": "2026-11-27T22:21:26+00:00"
+  },
+  {
+   "city": "milano",
+   "title": "Milano, i 500 militari fino alla fine del 2027? L’ipotesi fa discutere. Sala: “Assurdo, è un autoritarismo che grida vendetta”",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/500-militari-fine-2027-gzzhvalx",
+   "published": "2026-11-27T18:23:02+00:00"
+  },
+  {
+   "city": "paris",
+   "title": "Manifestation du 28 novembre contre les violences faites aux femmes : à Paris, les associations féministes défileront dans deux cortèges distincts",
+   "outlet": "Le Monde",
+   "url": "https://www.lemonde.fr/societe/article/2026/11/27/lutte-contre-les-violences-faites-aux-femmes-les-associations-feministes-defileront-dans-deux-corteges-distincts-le-28-novembre-a-paris_6815914_3224.html",
+   "published": "2026-11-27T18:21:10+01:00"
+  },
+  {
+   "city": "milano",
+   "title": "Scontro in Regione Lombardia per il documentario israeliano su Gaza: Sentinelli, Anpi e Cgil in presidio",
+   "outlet": "MilanoToday",
+   "url": "https://www.milanotoday.it/attualita/documentario-naza-israele-regione-lombardia-presidio.html",
+   "published": "2026-11-27T17:00:08+01:00"
+  },
   {
    "city": "paris",
    "title": "Paris : un sapin de Noël a pris feu sur la place du Panthéon en marge d’une manifestation étudiante",
@@ -9,32 +58,11 @@
    "published": "2026-11-27T14:12:10+01:00"
   },
   {
-   "city": "paris",
-   "title": "Pillages du 17 octobre à Paris : « Je comprends les commerçants mais on ne peut pas multiplier à l’envi les policiers », assure le préfet de police",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/pillages-du-17-octobre-a-paris-je-comprends-les-commercants-mais-on-ne-peut-pas-multiplier-a-lenvi-les-policiers-assure-le-prefet-de-police-26-11-2026-2RIIPUV47ZHT5ANJFTS2FXPVDM.php",
-   "published": "2026-11-27T13:35:43+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "17 octobre à Paris : un adolescent de 15 ans blessé par balle en marge de la manifestation, une enquête ouverte pour tentative de meurtre",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/17-octobre-a-paris-un-adolescent-de-15-ans-blesse-par-balle-en-marge-de-la-manifestation-une-enquete-ouverte-pour-tentative-de-meurtre-24-11-2026-5KXKPRTIGRCZRBKLLW3TE27CMU.php",
-   "published": "2026-11-27T13:35:43+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "« Casseur-payeur » dans les lycées : la Ligue des droits de l’Homme attaque en justice Valérie Pécresse et la région Île-de-France",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/casseur-payeur-dans-les-lycees-la-ligue-des-droits-de-lhomme-attaque-en-justice-valerie-pecresse-et-la-region-ile-de-france-24-11-2026-F3AMVVOKQVEMJIXIUJ5F4IHQ2A.php",
-   "published": "2026-11-27T13:35:43+00:00"
-  },
-  {
-   "city": "paris",
-   "title": "Mobilisation du 21 novembre à Paris : un policier accusé d’avoir mis un coup de casque à un manifestant, une enquête IGPN ouverte",
-   "outlet": "Le Parisien",
-   "url": "https://www.leparisien.fr/paris-75/mobilisation-du-21-novembre-a-paris-un-crs-accuse-davoir-mis-un-coup-de-casque-a-un-manifestant-une-enquete-igpn-ouverte-23-11-2026-APNIW4RKKVAOVAKQ62Z4SCJK7Y.php",
-   "published": "2026-11-27T13:35:43+00:00"
+   "city": "milano",
+   "title": "Minacce di morte alla gip Tiziana Landoni: “Ti uccideremo”. Presidio fisso sotto casa del magistrato che ha scarcerato Youssef Siher",
+   "outlet": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/minacce-di-morte-gip-tiziana-landoni-youssef-siher-cba5wxyw",
+   "published": "2026-11-27T13:57:23+00:00"
   },
   {
    "city": "paris",
@@ -56,6 +84,13 @@
    "outlet": "franceinfo",
    "url": "https://www.franceinfo.fr/faits-divers/police/la-suspension-de-l-usage-des-grenades-assourdissantes-prolongee-et-etendue-a-toutes-les-manifestations_8302995.html#xtor=RSS-3-[lestitres]",
    "published": "2026-11-27T12:32:28+01:00"
+  },
+  {
+   "city": "paris",
+   "title": "Clashes mar European games as Macron condemns violence",
+   "outlet": "BBC News",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-27T10:24:24+00:00"
   },
   {
    "city": "milano",
@@ -436,20 +471,6 @@
    "published": "2026-11-22T00:17:35+01:00"
   },
   {
-   "city": "paris",
-   "title": "Mobilisation du 21 novembre : le ministère de l'Intérieur annonce 144 interpellations en France, selon un bilan provisoire à 18 heures",
-   "outlet": "franceinfo",
-   "url": "https://www.franceinfo.fr/societe/manifestations/direct-mobilisation-du-21-novembre-syndicats-et-gilets-jaunes-appellent-a-manifester-pour-la-jeunesse-et-contre-la-vie-chere-pour-le-sixieme-samedi-d-affilee_8293460.html#xtor=RSS-3-[lestitres]",
-   "published": "2026-11-21T21:01:04+01:00"
-  },
-  {
-   "city": "paris",
-   "title": "Thousands protest across Europe over living costs and housing",
-   "outlet": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
-   "published": "2026-11-21T20:47:50+00:00"
-  },
-  {
    "city": "milano",
    "title": "Data center in Lombardia, centinaia in corteo a Milano: \"Stop alla colonizzazione digitale\"",
    "outlet": "MilanoToday",
@@ -490,41 +511,6 @@
    "outlet": "Il Giorno",
    "url": "https://www.ilgiorno.it/milano/cronaca/i-30mila-del-corteo-di-2c66566a",
    "published": "2026-11-21T04:38:46+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Il corteo con 20mila studenti arriva in piazza Duomo, 'Milano est à nous'",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/il-corteo-con-20mila-studenti-arriva-in-piazza-duomo-milano-est-a-nous_74e8ef0b-ed86-43ac-ad46-b3b05531ab4f.html",
-   "published": "2026-11-20T16:50:59+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Manifestazione per Cospito davanti a carcere nel 2023, tutti assolti a Milano",
-   "outlet": "ANSA Lombardia",
-   "url": "https://www.ansa.it/lombardia/notizie/2026/11/20/manifestazione-per-cospito-davanti-a-carcere-nel-2023-tutti-assolti-a-milano_ccc97666-c965-46d5-9aac-74d4a73e4c91.html",
-   "published": "2026-11-20T16:48:31+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Sciopero generale, le piazze da Milano a Napoli. Manifestano anche gli studenti",
-   "outlet": "ANSA",
-   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/sciopero-generale-le-piazze-da-milano-a-napoli_6e8664c2-d3b8-454f-b25f-4d6839031630.html",
-   "published": "2026-11-20T16:10:45+01:00"
-  },
-  {
-   "city": "milano",
-   "title": "Corteo in piazza Leonardo da Vinci, Venerus e Cosmo ospiti della serata",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/corteo-in-piazza-leonardo-da-vinci-venerus-e-cosmo-ospiti-della-serata-arh63oqf",
-   "published": "2026-11-20T16:01:52+00:00"
-  },
-  {
-   "city": "milano",
-   "title": "Manifestarono per l’anarchico Alfredo Cospito davanti al carcere di Opera: assolti Davide Memeo e altre cinque persone",
-   "outlet": "Il Giorno",
-   "url": "https://www.ilgiorno.it/milano/cronaca/manifestarono-per-anarchico-alfredo-cospito-carcere-opera-assolti-davide-memeo-e-altre-cinque-persone-mx7jzj3o",
-   "published": "2026-11-20T13:51:32+00:00"
   }
  ]
 }
